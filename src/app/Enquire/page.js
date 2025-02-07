@@ -1,12 +1,12 @@
 "use client"
 
-import { useRef, useState } from "react";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
 import emailjs from "@emailjs/browser";
 import "./style.css";
-import Notify from "simple-notify";
+// import Notify from "simple-notify";
 import Image from "next/image";
+import { useRef, useState } from "react";
 
 const Enquire = () => {
   const [phoneNumber, setPhoneNumber] = useState("+91");
@@ -14,19 +14,6 @@ const Enquire = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const form_one = e.target;
-
-    const formData = new FormData(form_one);
-
-    const formObject = Object.fromEntries(formData.entries());
-
-    const {
-      property_location,
-      first_name,
-      last_name,
-      email_address,
-      phone_number,
-    } = formObject;
     console.log("phoneNumber.length()", phoneNumber.length);
     if (phoneNumber.length < 13) {
       return;
@@ -43,44 +30,44 @@ const Enquire = () => {
       .then(
         () => {
           console.log("SUCCESS!");
-          new Notify({
-            status: "success",
-            title: "SUCCESS",
-            text: "Succefully recieved details",
-            effect: "fade",
-            speed: 300,
-            customClass: null,
-            customIcon: null,
-            showIcon: true,
-            showCloseButton: true,
-            autoclose: true,
-            autotimeout: 3000,
-            gap: 20,
-            distance: 20,
-            type: "outline",
-            position: "right top",
-          });
+          // new Notify({
+          //   status: "success",
+          //   title: "SUCCESS",
+          //   text: "Succefully recieved details",
+          //   effect: "fade",
+          //   speed: 300,
+          //   customClass: null,
+          //   customIcon: null,
+          //   showIcon: true,
+          //   showCloseButton: true,
+          //   autoclose: true,
+          //   autotimeout: 3000,
+          //   gap: 20,
+          //   distance: 20,
+          //   type: "outline",
+          //   position: "right top",
+          // });
           // setIsInputModalOpen(false)
         },
         (error) => {
           console.log("FAILED...");
-          new Notify({
-            status: "error",
-            title: "ERROR",
-            text: "Error while recieving details",
-            effect: "fade",
-            speed: 300,
-            customClass: null,
-            customIcon: null,
-            showIcon: true,
-            showCloseButton: true,
-            autoclose: true,
-            autotimeout: 3000,
-            gap: 20,
-            distance: 20,
-            type: "outline",
-            position: "right top",
-          });
+          // new Notify({
+          //   status: "error",
+          //   title: "ERROR",
+          //   text: "Error while recieving details",
+          //   effect: "fade",
+          //   speed: 300,
+          //   customClass: null,
+          //   customIcon: null,
+          //   showIcon: true,
+          //   showCloseButton: true,
+          //   autoclose: true,
+          //   autotimeout: 3000,
+          //   gap: 20,
+          //   distance: 20,
+          //   type: "outline",
+          //   position: "right top",
+          // });
         }
       );
   };
