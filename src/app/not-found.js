@@ -1,12 +1,10 @@
 "use client";
-import "./notfound.css"
+import Link from "next/link";
+import "./notfound.css";
 
 const NotFound = () => {
   return (
     <div className="not-found-conatiner">
-      <div className="background">
-        <div className="ground"></div>
-      </div>
       <div className="container">
         <div className="left-section">
           <div className="inner-content">
@@ -14,6 +12,22 @@ const NotFound = () => {
             <p className="subheading">
               Looks like the page you were looking for is no longer here.
             </p>
+            {/* <Link href="/">Go Back</Link> */}
+            <Link href="/" className="not-found-button mt-10">
+              <svg
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M5 13c0-5.088 2.903-9.436 7-11.182C16.097 3.564 19 7.912 19 13c0 .823-.076 1.626-.22 2.403l1.94 1.832a.5.5 0 0 1 .095.603l-2.495 4.575a.5.5 0 0 1-.793.114l-2.234-2.234a1 1 0 0 0-.707-.293H9.414a1 1 0 0 0-.707.293l-2.234 2.234a.5.5 0 0 1-.793-.114l-2.495-4.575a.5.5 0 0 1 .095-.603l1.94-1.832C5.077 14.626 5 13.823 5 13zm1.476 6.696l.817-.817A3 3 0 0 1 9.414 18h5.172a3 3 0 0 1 2.121.879l.817.817.982-1.8-1.1-1.04a2 2 0 0 1-.593-1.82c.124-.664.187-1.345.187-2.036 0-3.87-1.995-7.3-5-8.96C8.995 5.7 7 9.13 7 13c0 .691.063 1.372.187 2.037a2 2 0 0 1-.593 1.82l-1.1 1.039.982 1.8zM12 13a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+              <span>Go Back to Vedam Homes</span>
+            </Link>
           </div>
         </div>
         <div className="right-section">
@@ -56,7 +70,12 @@ const NotFound = () => {
           c0-1.534,1.244-2.778,2.778-2.778h13.889c1.534,0,2.778,1.244,2.778,2.778V93.75z"
               />
 
-              <circle className="lamp-light" cx="119.676" cy="44.22" r="40.51" />
+              <circle
+                className="lamp-light"
+                cx="119.676"
+                cy="44.22"
+                r="40.51"
+              />
               <path
                 className="lamp-details"
                 d="M149.306,71.528c0,3.242-13.37,13.889-29.861,13.889S89.583,75.232,89.583,71.528c0-4.166,13.369-13.889,29.861-13.889
@@ -70,18 +89,21 @@ const NotFound = () => {
                 r="65"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0%" style={{ stopColor: "#FFFFFF", stopOpacity: 1 }}/>
+                <stop
+                  offset="0%"
+                  style={{ stopColor: "#FFFFFF", stopOpacity: 1 }}
+                />
                 <stop
                   offset="50%"
-                //   style="stop-color:#EDEDED; stop-opacity: 0.5"
+                  //   style="stop-color:#EDEDED; stop-opacity: 0.5"
                   style={{ stopColor: "#EDEDED", stopOpacity: 0.5 }}
-                  >
+                >
                   <animate
                     attributeName="stop-opacity"
                     values="0.0; 0.5; 0.0"
                     dur="5000ms"
                     repeatCount="indefinite"
-                    ></animate>
+                  ></animate>
                 </stop>
                 <stop
                   offset="100%"
