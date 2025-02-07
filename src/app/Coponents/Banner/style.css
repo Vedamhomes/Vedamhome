@@ -1,0 +1,26 @@
+.banner_modal {
+  padding: 0;
+  /* font-family:; */
+
+  .ant-modal-content {
+    padding: 0;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .ant-modal-content {
+    width: 75%;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 640px) {
+    .banner_modal {
+        top: 5%;
+    }
+  .ant-modal-content {
+    width: 75%;
+    margin-left: 10%;
+  }
+
+}
