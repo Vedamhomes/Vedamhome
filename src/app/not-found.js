@@ -70,21 +70,22 @@ const NotFound = () => {
                 r="65"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop offset="0%" style="stop-color:#FFFFFF; stop-opacity: 1" />
+                <stop offset="0%" style={{ stopColor: "#FFFFFF", stopOpacity: 1 }}/>
                 <stop
                   offset="50%"
-                  style="stop-color:#EDEDED; stop-opacity: 0.5"
-                >
+                //   style="stop-color:#EDEDED; stop-opacity: 0.5"
+                  style={{ stopColor: "#EDEDED", stopOpacity: 0.5 }}
+                  >
                   <animate
                     attributeName="stop-opacity"
                     values="0.0; 0.5; 0.0"
                     dur="5000ms"
                     repeatCount="indefinite"
-                  ></animate>
+                    ></animate>
                 </stop>
                 <stop
                   offset="100%"
-                  style="stop-color:#EDEDED; stop-opacity: 0"
+                  style={{ stopColor: "#EDEDED", stopOpacity: 0 }}
                 />
               </radialGradient>
               <circle
