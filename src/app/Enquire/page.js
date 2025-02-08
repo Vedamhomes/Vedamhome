@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
@@ -277,13 +277,12 @@ const Enquire = () => {
               About Us
             </h1>
             <p className="font-normal text-base leading-6 text-[#7a6e66] ">
-              For fifteen years, a unique appetite has fueled the creation of
-              extraordinary living spaces. Born from a desire for something
-              more, these exceptional thinkers and builders have dedicated their
-              lives to redefining the concept of quality. Discover our journey,
-              our ambitious plans for the future, and our unwavering vision.
-              Join us in shaping a legacy of innovation and excellence. Be a
-              part of our story, be a part of something big.
+              Our vision is to be recognized as the leading provider of luxury
+              residences, setting the benchmark for quality, innovation, and
+              customer satisfaction. We are committed to continuous improvement
+              and exceeding the evolving needs of our discerning clientele. Join
+              us in shaping a legacy of innovation and excellence. Be a part of
+              our story, be a part of something big.
             </p>
           </div>
           <div className="w-full lg:w-8/12 ">
@@ -304,8 +303,7 @@ const Enquire = () => {
             </h1>
             <p className="font-normal text-base leading-6 text-[#7a6e66] ">
               Vedam Home : A decade of shaping Gurugram's skyline with expertise
-              and innovation. Pioneering innovative living solutions, elevating
-              living standards with visionary design and impeccable
+              and innovation. At Vedam Homes, we are driven by a passion for creating exceptional living spaces that redefine luxury.
               craftsmanship.
             </p>
           </div>

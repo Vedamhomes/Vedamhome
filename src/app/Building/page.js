@@ -35,9 +35,9 @@ const Building = () => {
             leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[28px] 
             word-spacing-[-0.22em]"
             >
-              Our commitment to innovation and efficiency is evident in our
-              rapidly rising towers, a testament to our ability to deliver
-              projects on time.
+              Central Park Flower Valley offers a limited collection of luxury
+              floors and penthouses in the heart of Gurgaon. Experience
+              unparalleled luxury and convenience in this prestigious address.
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300 mt-4">
               {/* Explore Vedam Homes luxury */}
@@ -65,14 +65,15 @@ const Building = () => {
       <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 buildingAnimationRight">
         <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 text-end md:text-left">
           <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
-            Soaring High: Vedam Remarkable Growth
+            Central Park Flower Valley
+            {/* : Vedam Remarkable Growth */}
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
             <h2 className="text-gray-600">
-              Vedam home has achieved a staggering 91% growth in 2023,
-              solidifying our position as a leading force in the luxury real
-              estate market. As we continue to expand our brand equity, the
-              future looks exceptionally bright.
+              These meticulously designed residences feature spacious layouts,
+              premium finishes, and breathtaking views, creating an oasis of
+              tranquility amidst the bustling city. As we continue to expand our
+              brand equity, the future looks exceptionally bright.
             </h2>
           </div>
         </div>
@@ -115,8 +116,9 @@ const Building = () => {
             </h1>
             <p className="text-base leading-6 mt-4 text-center text-gray-600">
               Get inspired by our curated selection of luxiwood interiors. We
-              hope get inspired to have luxiwood interior yourself. You’ll find
-              tips here where you can buy a lot of cool furniture.
+              hope get inspired to have luxiwood interior yourself.We can
+              provide you with detailed information about pricing, availability,
+              and floor plans.
             </p>
             <button
               aria-label="view catalogue"
@@ -214,12 +216,12 @@ const Building = () => {
           </div>
           <div className="xl:w-4/6 md:w-1/2 w-full h-[450px] relative xl:pl-48">
             {/* <div className="w-full h-full relative"> */}
-              <Image
-                src={flowerBookImage}
-                alt="Purple flowers on a book"
-                fill
-                className="mt-8 sm:mt-0 object-contain"
-              />
+            <Image
+              src={flowerBookImage}
+              alt="Purple flowers on a book"
+              fill
+              className="mt-8 sm:mt-0 object-contain"
+            />
             {/* </div> */}
           </div>
         </div>

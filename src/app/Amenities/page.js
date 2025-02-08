@@ -31,15 +31,13 @@ const Amenities = () => {
             </div>
             <div className="xl:mt-6 mt-4">
               <p className="tracking-wide text-justify font-normal leading-6 text-[#7a6e66]">
-                You don’t have to live in a VEDAM Penthouse to enjoy the
-                limitless view from the top. All residents have open-air and
-                indoor access to the stunning panorama of Bellevue and beyond
-                from the 20th floor rooftop. The SkyClub at VEDAM, a private
-                parlor with full kitchen, fireplace and double-height ceilings
-                opens out onto the landscaped SkyDeck at VEDAM with Flame Grill
-                Stations—the first of its kind in downtown Bellevue. Also
-                available to residents are the reservable Altitude Dining Room
-                and Summit Room.
+                At Vedam Homes, we believe that luxury living extends beyond the
+                walls of your home. That's why we offer a curated selection of
+                world-class amenities designed to enhance your lifestyle and
+                provide unparalleled comfort and convenience. Our amenities are
+                designed to cater to every aspect of your life, from wellness
+                and recreation to community and entertainment.We look forward to
+                welcoming you to Central Park Flower Valley.
               </p>
             </div>
           </div>

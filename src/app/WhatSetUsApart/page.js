@@ -1,16 +1,15 @@
-"use client"
+"use client";
 
-import { useState } from "react";
 import "./style.css";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
+import Image from "next/image";
+import SITTING_LOUNGE_VIEW_IMAGE from "@/images/SITTING_LOUNGE_VIEW.jpg";
+import ELEVEN_IMAGE from "@/images/11.jpg";
+import bulding_outside_2_IMAGE from "@/images/bulding_outside_2.jpg";
+import BALCONY_VIEW_IMAGE from "@/images/BALCONY_VIEW.jpg";
 
 const WhatSetUsApart = () => {
-  const [open, setOpen] = useState(true);
-  const [open2, setOpen2] = useState(false);
-  const [open3, setOpen3] = useState(false);
-  const [open4, setOpen4] = useState(false);
-  const [open5, setOpen5] = useState(false);
   return (
     <div className="bg-[#F5F0E9]">
       <Navbar />
@@ -25,340 +24,180 @@ const WhatSetUsApart = () => {
             </h1> */}
             <p
               className="font-sans uppercase text-center text-[#7a6e66] tracking-[0.2em] 
-            leading-[1.8] w-[90%] max-w-[1100px] font-light text-[28px] 
+            leading-[1.8] w-[90%] max-w-[1100px] font-normal text-[28px] 
             word-spacing-[-0.20em]"
             >
               {/* Vedam Homes isn't just building homes; we're building trust,
               fostering communities, and creating legacies. We invite you to
               experience the Vedam difference. */}
-              <span className="font-normal">In</span> the competitive real estate landscape, Vedam Homes
-              distinguishes itself not just by the structures we build, but by
-              the enduring relationships we cultivate. Our foundation is built
-              upon five core pillars:
+              <span className="font-semibold">In</span> the competitive real
+              estate landscape, Vedam Homes distinguishes itself not just by the
+              structures we build, but by the enduring relationships we
+              cultivate. Our foundation is built upon five core pillars:
             </p>
           </div>
         </div>
       </div>
 
-      <div className=" lg:container lg:mx-auto lg:py-8 md:py-6 md:px-6 py-4 px-4">
-        {/* <div className=" lg:mt-12 bg-gray-100 md:mt-10 mt-8 lg:py-7 lg:px-6 md:p-6 py-6 px-4 lg:w-8/12 w-full mx-auto ">
-          <div className=" flex justify-between md:flex-row flex-col ">
-            <div className=" md:mb-0 mb-8 md:text-left text-center">
-              <p className=" font-normal text-sm leading-5 text-gray-600 md:w-8/12 md:ml-0 w-11/12 mx-auto">
-                Vedam Homes isn't just building homes; we're building trust,
-                fostering communities, and creating legacies. We invite you to
-                experience the Vedam difference.
-              </p>
-            </div>
+      <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
+        <Image
+          src={SITTING_LOUNGE_VIEW_IMAGE}
+          alt="Sample"
+          height={300}
+          width={300}
+          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+        />
+        <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 text-end md:text-left">
+          {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
+            Unwavering Credibility
+          </h1> */}
+          <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
+            Unwavering<span className="font-normal italic"> Credibility</span>
+          </h1>
+          <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
+            <h2 className="text-gray-600">
+              Our reputation is our most valuable asset. We've earned the trust
+              of our clients through years of transparent dealings, consistent
+              delivery of exceptional quality, and an unwavering commitment to
+              fulfilling our promises. We believe in open communication, honest
+              practices, and building relationships based on mutual respect and
+              integrity. This steadfast dedication to credibility permeates
+              every aspect of our business, from the initial consultation to the
+              final handover and beyond. With Vedam Homes, you can be confident
+              that you are partnering with a company that values integrity above
+              all else.
+            </h2>
           </div>
-        </div> */}
-        <div className="lg:w-9/12 w-full mx-auto">
-          {/* <!-- Question 1 --> */}
-          <hr className=" w-full lg:mt-10 md:mt-12 md:mb-8 my-8" />
-
-          <div className="w-full md:px-6  ">
-            <div
-              id="mainHeading"
-              className="flex justify-between items-center w-full"
-            >
-              <div className=" ">
-                <p className="flex justify-center items-center font-medium text-base leading-6 md:leading-4 text-gray-800">
-                  {" "}
-                  <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-bold text-gray-800">
-                    1.
-                  </span>{" "}
-                  {/* Unwavering Credibility: */}
-                  <h3 className="focus:outline-none font-normal md:text-3xl text-2xl leading-tight text-gray-800">
-                    Unwavering Credibility:
-                </h3>
-                </p>
-              </div>
-              <button
-                aria-label="toggler"
-                className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
-                onClick={() => setOpen(!open)}
-              >
-                <svg
-                  className={"transform " + (open ? "rotate-180" : "rotate-0")}
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 9L12 15L18 9"
-                    stroke="black"
-                    strokeWidth="1.33333"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <div
-              id="menu"
-              className={"mt-6 w-full " + (open ? "block" : "hidden")}
-            >
-              <p className="text-base leading-6 text-gray-600 font-normal">
-                Credibility isn't built overnight; it's earned through
-                consistent dedication to transparency, integrity, and delivering
-                on our promises. At Vedam Homes , we understand that a home is a
-                significant investment, both financially and emotionally. We
-                earn our clients' trust by maintaining open communication,
-                adhering to agreed-upon timelines, and upholding the highest
-                standards of professionalism in all our dealings. Our track
-                record speaks for itself, demonstrating our commitment to
-                excellence and client satisfaction.
-              </p>
-            </div>
-          </div>
-
-          {/* <!-- Question 2 --> */}
-
-          <hr className=" w-full lg:mt-10 my-8" />
-
-          <div className="w-full md:px-6 ">
-            <div
-              id="mainHeading"
-              className="flex justify-between items-center w-full"
-            >
-              <div className="">
-                <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
-                  {" "}
-                  <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-bold text-gray-800">
-                    2.
-                  </span>{" "}
-                  {/* Synergistic Teamwork: */}
-                  <h3 className="focus:outline-none font-normal md:text-3xl text-2xl leading-tight text-gray-800">
-                  Synergistic Teamwork:
-                </h3>
-                </p>
-              </div>
-              <button
-                aria-label="toggler"
-                className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
-                onClick={() => setOpen2(!open2)}
-              >
-                <svg
-                  className={"transform " + (open2 ? "rotate-180" : "rotate-0")}
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 9L12 15L18 9"
-                    stroke="black"
-                    strokeWidth="1.33333"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <div
-              id="menu"
-              className={"mt-6 w-full " + (open2 ? "block" : "hidden")}
-            >
-              <p className="text-base leading-6 text-gray-600 font-normal">
-                Behind every exceptional Vedam home is a team of dedicated
-                experts working in perfect harmony. We believe in the power of
-                collaboration, bringing together the finest contractors,
-                interior designers, architects, and civil engineers. This
-                multidisciplinary approach ensures that every aspect of your
-                home, from the structural integrity to the aesthetic appeal, is
-                meticulously planned and flawlessly executed. We foster a
-                culture of mutual respect and open communication, ensuring that
-                every member of the team is aligned with our vision of creating
-                exceptional living spaces.
-              </p>
-            </div>
-          </div>
-
-          {/* <!-- Question 3 --> */}
-
-          <hr className=" w-full lg:mt-10 my-8" />
-
-          <div className="w-full md:px-6 ">
-            <div
-              id="mainHeading"
-              className="flex justify-between items-center w-full"
-            >
-              <div className="">
-                <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
-                  {" "}
-                  <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-bold text-gray-800">
-                    3.
-                  </span>
-                  {/* A Sense of Ownership: */}
-                  <h3 className="focus:outline-none font-normal md:text-3xl text-2xl leading-tight text-gray-800">
-                  A Sense of Ownership:
-                </h3>
-                </p>
-              </div>
-              <button
-                aria-label="toggler"
-                className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
-                onClick={() => setOpen3(!open3)}
-              >
-                <svg
-                  className={"transform " + (open ? "rotate-180" : "rotate-0")}
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 9L12 15L18 9"
-                    stroke="black"
-                    strokeWidth="1.33333"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <div
-              id="menu"
-              className={"mt-6 w-full " + (open3 ? "block" : "hidden")}
-            >
-              <p className="text-base leading-6 text-gray-600 font-normal">
-                At Vedam Homes , we don't just build houses; we craft homes. We
-                instill a sense of ownership in every member of our team, from
-                the ground level to the management, so that each project is
-                treated with the utmost care and attention to detail. This sense
-                of ownership translates into superior quality construction,
-                meticulous craftsmanship, and a relentless pursuit of
-                perfection. We take pride in every home we build, as if it were
-                our own.
-              </p>
-            </div>
-          </div>
-
-          {/* <!-- Question 4 --> */}
-
-          <hr className=" w-full lg:mt-10 my-8" />
-
-          <div className="w-full md:px-6  ">
-            <div
-              id="mainHeading"
-              className="flex justify-between items-center w-full"
-            >
-              <div className="">
-                <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
-                  {" "}
-                  <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-bold text-gray-800">
-                    4.
-                  </span>
-                  {/* Deep-Rooted Belief: */}
-                  <h3 className="focus:outline-none font-normal md:text-3xl text-2xl leading-tight text-gray-800">
-                  Deep-Rooted Belief:
-                </h3>
-                </p>
-              </div>
-              <button
-                aria-label="toggler"
-                className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
-                onClick={() => setOpen4(!open4)}
-              >
-                <svg
-                  className={"transform " + (open4 ? "rotate-180" : "rotate-0")}
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 9L12 15L18 9"
-                    stroke="black"
-                    strokeWidth="1.33333"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <div
-              id="menu"
-              className={"mt-6 w-full " + (open4 ? "block" : "hidden")}
-            >
-              <p className="text-base leading-6 text-gray-600 font-normal">
-                Our belief in the potential of every project fuels our passion
-                and drives us to exceed expectations. We believe in the power of
-                innovative design, sustainable practices, and creating
-                communities that thrive. This belief is the driving force behind
-                our commitment to continuous improvement, pushing the boundaries
-                of what's possible in real estate development. We don't just
-                build homes; we build legacies.
-              </p>
-            </div>
-          </div>
-
-          {/* <!-- Question 5 --> */}
-
-          <hr className=" w-full lg:mt-10 my-8" />
-
-          <div className="w-full md:px-6 ">
-            <div
-              id="mainHeading"
-              className="flex justify-between items-center w-full"
-            >
-              <div className="">
-                <p className="flex justify-center items-center font-medium text-base leading-6 lg:leading-4 text-gray-800">
-                  {" "}
-                  <span className="  lg:mr-6 mr-4 lg:text-2xl md:text-xl text-lg leading-6 md:leading-5 lg:leading-4 font-bold text-gray-800">
-                    5.
-                  </span>
-                  {/* Uncompromising Ethics: */}
-                  <h3 className="focus:outline-none font-normal md:text-3xl text-2xl leading-tight text-gray-800">
-                  Uncompromising Ethics:
-                </h3>
-                </p>
-              </div>
-              <button
-                aria-label="toggler"
-                className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800"
-                onClick={() => setOpen5(!open5)}
-              >
-                <svg
-                  className={"transform " + (open5 ? "rotate-180" : "rotate-0")}
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M6 9L12 15L18 9"
-                    stroke="black"
-                    strokeWidth="1.33333"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </button>
-            </div>
-            <div
-              id="menu"
-              className={"mt-6 w-full " + (open5 ? "block" : "hidden")}
-            >
-              <p className="text-base leading-6 text-gray-600 font-normal">
-                Ethical conduct is the cornerstone of our business. We adhere to
-                the highest ethical standards in all our operations, ensuring
-                fairness, transparency, and integrity in every interaction. We
-                believe in building long-term relationships based on trust and
-                mutual respect. Our commitment to ethics extends to our dealings
-                with clients, partners, and the communities we serve.
-              </p>
-            </div>
-          </div>
-
-          <hr className=" w-full lg:mt-10 my-8" />
         </div>
+      </div>
+
+      <div className="lg:px-20 md:px-6 px-4 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
+        <div className="lg:flex items-center justify-between">
+          <div className="flex flex-col items-center lg:w-1/3 mt-4">
+            <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
+              Synergistic<span className="font-normal italic"> Teamwork</span>
+            </h1>
+            <p className="text-base leading-6 mt-4 text-center text-gray-600">
+              The creation of a truly exceptional home requires a symphony of
+              talents working in perfect harmony. At Vedam Homes, we foster a
+              culture of synergistic teamwork, where architects, designers,
+              engineers, and craftsmen collaborate seamlessly to bring our
+              vision to life. This collaborative approach ensures that every
+              detail is meticulously considered, every challenge is expertly
+              addressed, and the final result is a masterpiece of design and
+              craftsmanship. Our team's collective expertise and shared passion
+              for excellence are the driving forces behind our success.
+            </p>
+          </div>
+          <Image
+            src={SITTING_LOUNGE_VIEW_IMAGE}
+            height={300}
+            width={300}
+            alt="Sample"
+            className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+          />
+        </div>
+      </div>
+
+      <div
+        className="py-4 sm:py:14 md:py:20 2xl:px-0 lg:px-12 sm:px-4 2xl:mx-auto setUsApartAnimationRight"
+        // style={{ height: 1000 }}
+      >
+        <div className="md:flex items-center justify-between w-full sm:px-8 px-4">
+          <div className="flex flex-col items-center xl:w-1/3 md:w-1/2 w-full">
+            <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
+              A Sense of<span className="font-normal italic"> Ownership </span>
+            </h1>
+            <p
+              role="contentinfo"
+              className="focus:outline-none leading-6 mt-4 sm:mt-8 text-gray-600 2xl:pr-24 xl:pr-0 sm:pr-12 text-center"
+            >
+              At Vedam Homes, we don't just build houses; we create homes. And
+              that sense of ownership extends to every member of our team. From
+              the initial design concepts to the final finishing touches, each
+              individual takes pride in their contribution, treating every
+              project as if it were their own. This sense of ownership
+              translates into an unparalleled level of care and attention to
+              detail, ensuring that every Vedam home is crafted with the utmost
+              precision and passion. It's this dedication to excellence that
+              truly distinguishes a Vedam home.
+            </p>
+          </div>
+          <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48">
+            <div className="w-full">
+              <Image
+                src={ELEVEN_IMAGE}
+                height={300}
+                width={300}
+                alt="Purple flowers on a book"
+                className="w-full mt-8 sm:mt-0 "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
+        <Image
+          src={BALCONY_VIEW_IMAGE}
+          alt="Sample"
+          height={300}
+          width={300}
+          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+        />
+        <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 text-end md:text-left">
+          {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
+            Deep-Rooted Belief
+          </h1> */}
+          <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
+            Deep-Rooted<span className="font-normal italic"> Belief</span>
+          </h1>
+          <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
+            <h2 className="text-gray-600">
+              Our belief in the power of thoughtful design and exceptional
+              craftsmanship is at the heart of everything we do. We believe that
+              a home should be more than just a place to live; it should be an
+              expression of your unique style, a sanctuary where you can truly
+              be yourself, and a legacy for generations to come. This
+              deep-rooted belief drives us to push the boundaries of innovation,
+              to seek out the finest materials, and to employ the most skilled
+              craftsmen. It's this unwavering belief that allows us to create
+              homes that are not only beautiful but also truly exceptional.
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
+        <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 text-end md:text-left">
+          {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
+            Uncompromising Ethics
+          </h1> */}
+          <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
+            Uncompromising<span className="font-normal italic"> Ethics</span>
+          </h1>
+          <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
+            <h2 className="text-gray-600">
+              Our commitment to ethical practices is non-negotiable. We adhere
+              to the highest standards of professionalism, integrity, and
+              transparency in all our dealings. We believe in building long-term
+              relationships with our clients, partners, and communities based on
+              trust and mutual respect. Our unwavering commitment to ethical
+              conduct is the cornerstone of our reputation and a fundamental
+              principle that guides every decision we make. With Vedam Homes,
+              you can be assured that you are partnering with a company that
+              operates with the utmost integrity and adheres to the highest
+              ethical standards.
+            </h2>
+          </div>
+        </div>
+        <Image
+          src={bulding_outside_2_IMAGE}
+          alt="Sample"
+          height={300}
+          width={300}
+          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+        />
       </div>
 
       <Footer />

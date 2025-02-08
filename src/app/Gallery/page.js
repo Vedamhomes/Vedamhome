@@ -4,7 +4,7 @@ import Footer from "../Coponents/footer/footer";
 import GalleryCarousel from "../Coponents/GalleryCarousel/gallerycarousel";
 import Link from "next/link";
 import Image from "next/image";
-import gallerySubscribeImage from "@/images/gallery-subscribe.png"
+import gallerySubscribeImage from "@/images/gallery-subscribe.png";
 
 const Gallery = () => {
   return (
@@ -15,11 +15,13 @@ const Gallery = () => {
         <div className="px-4 md:px-6 lg:px-20 2xl:mx-auto 2xl:container  lg:py-16 md:py-12  py-9 w-auto">
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold leading-9 text-center text-[#7a6e66]">
-              Welcome to Veda homes
+              A Glimpse of Exquisite Living
             </h1>
             <p className="tracking-wide text-center font-normal leading-6 text-[#7a6e66] text-[1.25rem] mt-4 lg:w-1/2 md:w-10/12 w-11/12">
-              The team at B+H Architects planned every layout to give residents
-              an intimate connection with Bellevue’s nature-rich landscape
+              Explore our portfolio of exceptional residential projects, each
+              designed to offer a unique and luxurious living experience. From
+              elegant apartments to sprawling penthouses, we have a home to suit
+              every discerning taste.
             </p>
           </div>
           <div className="lg:flex items-stretch md:mt-12 mt-8 pl-4 sm:pl-0">

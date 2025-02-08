@@ -9,11 +9,11 @@ import Footer from "./Coponents/footer/footer";
 // import VideoPlayer from 'react-video-js-player';
 import Image from "next/image";
 import Link from "next/link";
-import buildingImage from "@/images/1.jpeg"
-import amenitiesImage from "@/images/4.jpeg"
-import amenitiesImage1 from "@/images/3.jpeg"
-import gardenImage from "@/images/12.jpg"
-import mainRoom from "@/images/5.jpeg"
+import buildingImage from "@/images/1.jpeg";
+import amenitiesImage from "@/images/4.jpeg";
+import amenitiesImage1 from "@/images/3.jpeg";
+import gardenImage from "@/images/12.jpg";
+import mainRoom from "@/images/5.jpeg";
 
 const Home = () => {
   const [isBannerOpn, setIsBannerOpn] = useState(true);
@@ -44,15 +44,14 @@ const Home = () => {
 
           {/* Text Section */}
           <div className="md:w-1/2 md:px-14 sm:px-12 px-4 py-4 text-center md:text-left animationLeft">
-            <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
-              Building
-            </h2>
-            <p className="tracking-[0.25em] font-normal uppercase text-[#7a6e66] md:text-xl leading-7 mb-8">
-              Each property in our portfolio is a testament to luxury and
-              sophistication. Our exclusive properties offer unparalleled
-              elegance and the finest amenities. The views from inside each
-              residence make a spectacular focal point and backdrop—day or
-              night, sun, clouds, or stars.
+            <p className="text-2xl md:text-3xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
+              Welcome to Vedam Homes
+            </p>
+            <p className="tracking-[0.25em] font-normal uppercase text-[#7a6e66] md:text-lg leading-7 mb-8">
+              Vedam Homes crafts exceptional living spaces that embody
+              sophistication, comfort, and prestige. Our meticulously designed
+              residences offer an unparalleled lifestyle in prime locations,
+              setting a new standard for luxury living.
             </p>
             <Link href="/Building">
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
@@ -79,11 +78,10 @@ const Home = () => {
               Amenities
             </h2>
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
-              Our plans include creating luxurious residential communities on
-              approximately 4 million square feet of the land. The remaining
-              area will be transformed into a dynamic commercial and retail hub,
-              strategically situated in the most desirable locations within
-              Haryana and Delhi NCR.
+              We understand that the location of your home is just as important
+              as its design. That's why we carefully choose prime locations for
+              our projects, offering residents convenient access to essential
+              amenities, vibrant communities, and a thriving urban landscape.
             </p>
             <Link href="/Amenities">
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
@@ -98,7 +96,6 @@ const Home = () => {
               alt="Image"
               width={500} // Specify width (needed for optimization)
               height={300} // Specify height (needed for optimization)
-              
               className="w-full h-auto object-cover rounded-lg"
             />
           </div>
@@ -111,7 +108,6 @@ const Home = () => {
           alt="Image"
           width={500} // Specify width (needed for optimization)
           height={300} // Specify height (needed for optimization)
-          
           className="ml-auto mr-auto"
         />
       </div>
@@ -124,10 +120,10 @@ const Home = () => {
               The Choice of the Discerning
             </h2>
             <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
-              Trusted by discerning high-net-worth individuals, Veadm homes has
-              earned a reputation for excellence. Our client testimonials are a
-              reflection of the trust and confidence placed in us to create
-              exceptional living spaces.
+              Explore our portfolio of exceptional projects and discover the
+              Vedam Homes difference. Experience the epitome of luxury living,
+              where every detail is meticulously crafted and every moment is
+              cherished.
             </p>
             <Link href="/Gallery">
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
@@ -139,11 +135,7 @@ const Home = () => {
       </div>
 
       <div className="container mx-auto py-4 mb-4 flex box-border mt-6 animationRight">
-        <Image
-          src={mainRoom}
-          alt="Image"
-          className="ml-auto mr-auto"
-        />
+        <Image src={mainRoom} alt="Image" className="ml-auto mr-auto" />
       </div>
 
       <Footer />

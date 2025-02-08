@@ -6,12 +6,12 @@
   .animationLeft {
     animation: scrollfromLeft linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 35%;
   }
   .animationRight {
     animation: scrollfromRight linear;
     animation-timeline: view();
-    animation-range: entry 0% cover 40%;
+    animation-range: entry 0% cover 35%;
   }
   
   @keyframes scroll {
