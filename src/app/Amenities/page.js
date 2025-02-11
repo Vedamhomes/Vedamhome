@@ -1,11 +1,11 @@
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
-import GalleryCarousel from "../Coponents/GalleryCarousel/gallerycarousel";
 import "./style.css";
 import Image from "next/image";
 import topView from "@/images/amenities-1.jpg";
 import builingImage from "@/images/7.jpeg";
 import builing2Image from "@/images/1.jpeg";
+import Slider from "../Coponents/Slider/slider";
 
 const Amenities = () => {
   return (
@@ -107,7 +107,7 @@ const Amenities = () => {
         </div>
       </div>
 
-      {/* <GalleryCarousel /> */}
+      <Slider />
 
       <Footer />
     </div>

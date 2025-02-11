@@ -1,10 +1,10 @@
 import "./styles.css";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
-import GalleryCarousel from "../Coponents/GalleryCarousel/gallerycarousel";
 import Link from "next/link";
 import Image from "next/image";
 import gallerySubscribeImage from "@/images/gallery-subscribe.png";
+import Slider from "../Coponents/Slider/slider";
 
 const Gallery = () => {
   return (
@@ -181,7 +181,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <GalleryCarousel />
+      <Slider />
 
       <div className="xl:flex items-center 2xl:mx-40 2xl:container py-16 sm:mx-20 galleryAnimation">
         <div className="lg:p-24 sm:p-9 md:p-16 p-4 2xl:w-8/12 xl:w-11/12 w-full custom_box_shadow">

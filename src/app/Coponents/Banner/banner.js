@@ -3,6 +3,8 @@ import { Modal, Splitter } from "antd";
 import Image from "next/image";
 import Link from "next/link";
 import bannerImage from "../../../../public/husky_2.png"
+import bannerImage1 from "../../../../public/main_page_1.jpg"
+import bannerImag2 from '@/images/bannerImag2.png'
 
 const Banner = (props) => {
   const { isBannerOpn, setIsBannerOpn } = props;
@@ -52,7 +54,7 @@ const Banner = (props) => {
       {/* Right Section */}
       <div className="w-full lg:w-1/2 h-[38vh] sm:h-[45vh]  md:h-auto">
         <Image
-          src={bannerImage}
+          src={bannerImage1}
           alt="bag"
           width={500}   // Specify width (needed for optimization)
           height={300}  // Specify height (needed for optimization)
