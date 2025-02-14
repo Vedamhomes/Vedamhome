@@ -7,6 +7,7 @@ import "./style.css";
 // import Notify from "simple-notify";
 import Image from "next/image";
 import { useRef, useState } from "react";
+import SITTING_LOUNGE_VIEW_IMAGE from "@/images/SITTING_LOUNGE_VIEW.jpg"
 
 const Enquire = () => {
   const [phoneNumber, setPhoneNumber] = useState("+91");
@@ -50,7 +51,7 @@ const Enquire = () => {
           // setIsInputModalOpen(false)
         },
         (error) => {
-          console.log("FAILED...");
+          console.log("FAILED...", error);
           // new Notify({
           //   status: "error",
           //   title: "ERROR",
@@ -101,36 +102,20 @@ const Enquire = () => {
     <div className="bg-[#f5f0e9]">
       <Navbar />
 
-      <div className="">
         <div className="container mx-auto py-2 md:py-6 lg:py-8">
           <div className="relative mx-4">
             <Image
-              src="https://i.ibb.co/q5k5j57/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
+              src={SITTING_LOUNGE_VIEW_IMAGE}
               alt="A work table with house plants"
-              height={300}
-              width={300}
-              className="w-full h-full hidden lg:block"
+              height={500}
+              width={800}
+              className="w-full h-full "
             />
-            <Image
-              src="https://i.ibb.co/94jQFsV/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
-              alt="A work table with house plants"
-              height={300}
-              width={300}
-              className="hidden sm:block lg:hidden w-full h-full"
-            />
-            <Image
-              src="https://i.ibb.co/cJz8LZ2/bench-accounting-nvzv-OPQW0gc-unsplash-1-1.png"
-              alt="A work table with house plants"
-              height={300}
-              width={300}
-              className="sm:hidden w-full h-full"
-            />
-
             <div className="absolute z-2 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-800 sm:w-8/12">
                 Minimalist Furniture Design
               </h1>
-              <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12">
+              <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12 tracking-wide">
                 The Pinnacle Of Opulence 3&4 BHK Ultra Luxury Apartments Price
                 Starts ₹ 3.36* Cr Onwards
               </p>
@@ -139,7 +124,6 @@ const Enquire = () => {
             {/* <button className="absolute bottom-0 sm:hidden dark:bg-white dark:text-gray-800 bg-gray-800 py-4 text-base font-medium text-white mt-8 flex justify-center items-center w-full focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-gray-700">Explore</button> */}
           </div>
         </div>
-      </div>
 
       <div className="mt-8 py-4 lg:py-8  relative">
         {/* <Image
@@ -197,7 +181,7 @@ const Enquire = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full lg:w-1/2   xl:pt-10 lg:pl-24">
+            <form ref={form} onSubmit={handleSubmit} className="w-full lg:w-1/2 xl:pt-10 lg:pl-24">
               <div className="flex flex-col items-start xl:justify-start 2xl:justify-end xl:px-0 px-4">
                 <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-indigo-700">
                   Let’s Talk
@@ -265,7 +249,7 @@ const Enquire = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
