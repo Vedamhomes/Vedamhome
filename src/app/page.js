@@ -14,12 +14,16 @@ import amenitiesImage from "@/images/4.jpeg";
 import amenitiesImage1 from "@/images/3.jpeg";
 import gardenImage from "@/images/12.jpg";
 import mainRoom from "@/images/5.jpeg";
+import UserInputModal from "./Coponents/UserInputModal/userInputModal";
+import { ToastContainer } from "react-toastify";
 
 const Home = () => {
-  const [isBannerOpn, setIsBannerOpn] = useState(true);
+  const [isBannerOpn, setIsBannerOpn] = useState(false);
+  const [isOverlayOpn, setIsOverlayOpn] = useState(true);
 
   return (
-    <div className="bg-[#f5f0e9]">
+    <div className="bg-[#f5f0e9]" suppressHydrationWarning={true}>
+      <ToastContainer />
       <Navbar />
       <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
         <video
@@ -139,8 +143,8 @@ const Home = () => {
       </div>
 
       <Footer />
-      {/* <Overlay isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} /> */}
-      <Banner isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} />
+      <Banner isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} setIsOverlayOpn={setIsOverlayOpn} />
+      <UserInputModal isOverlayOpn={isOverlayOpn} setIsOverlayOpn={setIsOverlayOpn} />
     </div>
   );
 };
