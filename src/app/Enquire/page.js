@@ -113,8 +113,9 @@ const Enquire = () => {
             />
             <div className="absolute z-2 top-0 left-0 mx-4 sm:mx-0 mt-36 sm:mt-0 sm:py-20 md:py-28 lg:py-20 xl:py-28 sm:pl-14 flex flex-col sm:justify-start items-start">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-semibold text-gray-800 sm:w-8/12">
-                Minimalist Furniture Design
+                Crafted Luxury
               </h1>
+              <h3 className="text-xl sm:text-lg lg:text-lg font-semibold text-gray-800 sm:w-8/12">Designed to feel like home</h3>
               <p className="text-base leading-normal text-gray-800 mt-4 sm:mt-5 sm:w-5/12 tracking-wide">
                 The Pinnacle Of Opulence 3&4 BHK Ultra Luxury Apartments Price
                 Starts ₹ 3.36* Cr Onwards
@@ -133,24 +134,24 @@ const Enquire = () => {
         /> */}
         <div className="xl:mx-auto xl:container  relative ">
           <div className="flex flex-wrap sm:px-12 px-4">
-            <div className="w-full relative lg:w-1/2 xl:mt-10 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0 ">
+            <div className="w-full relative lg:w-1/2 mb-10 2xl:pr-24 2xl:pl-0 xl:pl-12 pl-0 ">
               {/* <Image
                 src="https://cdn.tuk.dev/assets/templates/radian/Back_Image.png"
                 className="h-full w-full xl:w-1/2 absolute inset-0 bg-cover bg-center xl:hidden"
                 alt="map"
               /> */}
-              <div className="w-full flex flex-col items-start  xl:justify-start  relative z-5 xl:px-0 px-4 xl:py-0 py-4">
+              <div className="w-full flex flex-col items-start  xl:justify-start  relative z-5 xl:px-0 px-4">
                 <div className="w-full 2xl:pl-48 xl:pt-1">
-                  <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-gray-800">
+                  <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-wider text-gray-800">
                     We’re Here
                   </h1>
                   <div className="w-full md:w-10/12 mt-3">
-                    <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">
+                    {/* <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">
                       We believe digital innovation is at the heart of every
                       business success
-                    </h2>
+                    </h2> */}
                     <div className="mt-4 md:mt-8">
-                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
+                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold underline">
                         Address
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
@@ -159,18 +160,18 @@ const Enquire = () => {
                       </h2>
                     </div>
                     <div className="mt-4 md:mt-8">
-                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
+                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold underline">
                         Contact
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +91 9871534959 (Phone)
+                        +91 9871534959 
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
-                        +91 9871534959 (Cell)
+                        +91 7838239239
                       </h2>
                     </div>
                     <div className="mt-4 md:mt-8">
-                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold">
+                      <h2 className="text-sm md:text-base text-indigo-700 font-semibold underline">
                         Email
                       </h2>
                       <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider mt-2">
@@ -181,15 +182,15 @@ const Enquire = () => {
                 </div>
               </div>
             </div>
-            <form ref={form} onSubmit={handleSubmit} className="w-full lg:w-1/2 xl:pt-10 lg:pl-24">
+            <form ref={form} onSubmit={handleSubmit} className="w-full lg:w-1/2">
               <div className="flex flex-col items-start xl:justify-start 2xl:justify-end xl:px-0 px-4">
-                <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold tracking-wider text-indigo-700">
-                  Let’s Talk
+                <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold tracking-wider text-gray-800">
+                  Connect with us
                 </h1>
                 <div className="w-full 2xl:w-8/12 mt-3">
-                  <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">
+                  {/* <h2 className="text-gray-800 text-base md:text-lg leading-8 tracking-wider">
                     For enquiries, please email us using the form below
-                  </h2>
+                  </h2> */}
                   <div className="mt-4 md:mt-8">
                     <p className="text-gray-800 text-base font-medium">
                       Full Name
@@ -200,7 +201,7 @@ const Enquire = () => {
                       id="first_name"
                       name="first_name"
                       required
-                      placeholder="Justin Timberlake"
+                      // placeholder=""
                     />
                   </div>
                   <div className="mt-4 md:mt-8">
@@ -212,7 +213,7 @@ const Enquire = () => {
                       type="tel"
                       id="phone_number"
                       name="phone_number"
-                      placeholder="Phone number"
+                      // placeholder="Phone number"
                       value={phoneNumber}
                       onChange={handleChange}
                       required
@@ -228,7 +229,7 @@ const Enquire = () => {
                       id="email_address"
                       name="email_address"
                       required
-                      placeholder="example@mail.com"
+                      placeholder="abc@mail.com"
                     />
                   </div>
                   <div className="mt-4 md:mt-8">
@@ -244,7 +245,7 @@ const Enquire = () => {
                   </div>
                   <div className="py-5">
                     <button className="py-3 md:py-5 px-5 md:px-10 bg-gray-900 text-white hover:opacity-90 ease-in duration-150 text-sm md:text-lg tracking-wider font-semibold">
-                      Send
+                      Submit
                     </button>
                   </div>
                 </div>
@@ -254,7 +255,7 @@ const Enquire = () => {
         </div>
       </div>
 
-      <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-24 md:py-12 md:px-16 py-9 px-8">
+      {/* <div className="2xl:container 2xl:mx-auto lg:py-16 lg:px-24 md:py-12 md:px-16 py-9 px-8">
         <div className="flex flex-col lg:flex-row justify-between gap-8 enquireAnimationLeft">
           <div className="w-full lg:w-5/12 flex flex-col justify-center">
             <h1 className="lg:text-4xl font-bold text-4xl leading-9 text-[#7a6e66] pb-4">
@@ -372,7 +373,7 @@ const Enquire = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </div>

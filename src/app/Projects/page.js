@@ -10,7 +10,7 @@ import kitchenRoomImage from "@/images/3.jpeg";
 import secondRoomImage from "@/images/10.jpeg";
 import flowerBookImage from "@/images/11.jpg";
 
-const Building = () => {
+const Projects = () => {
   return (
     <div className="bg-[#F5F0E9]">
       <Navbar />
@@ -18,7 +18,7 @@ const Building = () => {
         <Image
           // className="h-calc(100vh - 1.2*30vh) sm:h-[calc(100vh-20vh)] md:h-[calc(100vh-10vh)] "
           src="https://maribellevue.wpengine.com/wp-content/uploads/Dreamlife_Mira2_Cam2_Exterior_Lake_Final-1.jpg"
-          alt="building"
+          alt="building Projects"
           fill
         />
       </div>
@@ -124,7 +124,7 @@ const Building = () => {
               aria-label="view catalogue"
               className="focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none mt-6 md:mt-8 text-base font-semibold leading-none text-gray-800 flex items-center hover:underline"
             >
-              <Link href="/Gallery">View Catalogue</Link>
+              <Link href="/Projects">View Catalogue</Link>
               <svg
                 className="ml-2 mt-1"
                 width="12"
@@ -307,4 +307,4 @@ const Building = () => {
   );
 };
 
-export default Building;
+export default Projects;

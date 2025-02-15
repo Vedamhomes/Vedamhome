@@ -77,7 +77,7 @@ const Home = () => {
               residence make a spectacular focal point and backdrop—day or
               night, sun, clouds, or stars.
             </p>
-            <Link href="/Building" >
+            <Link href="/Projects" >
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
                 Explore
               </button>
@@ -138,7 +138,7 @@ const Home = () => {
               reflection of the trust and confidence placed in us to create
               exceptional living spaces.
             </p>
-            <Link href="/Gallery" >
+            <Link href="/Projects" >
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
                 Explore
               </button>

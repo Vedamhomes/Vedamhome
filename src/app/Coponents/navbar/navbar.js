@@ -21,17 +21,17 @@ const Navbar = () => {
           <div className="z-11111 mx-auto flex justify-between items-center">
             {/* Logo and Company Name */}
             <Link href="/" className="relative flex items-center h-10 w-32" >
-              <Image className="h-10 w-32" src={VedamLogo} fill alt="Vedam homes logo" />
+              <Image className="h-10 w-32 object-scale-down" src={VedamLogo} fill alt="Vedam homes logo" />
             </Link>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center  space-x-8">
               <Link
-                href="/Building"
+                href="/Projects"
                 
                 className="text-gray-600 hover:text-blue-500"
               >
-                Building
+                Projects
               </Link>
               <Link
                 href="/Amenities"
@@ -39,13 +39,6 @@ const Navbar = () => {
                 className="text-gray-600 hover:text-blue-500"
               >
                 Amenities
-              </Link>
-              <Link
-                href="/Gallery"
-                
-                className="text-gray-600 hover:text-blue-500"
-              >
-                Gallery
               </Link>
               <Link
                 href="/WhatSetUsApart"
@@ -97,11 +90,11 @@ const Navbar = () => {
               onMouseLeave={() => setIsOpen(false)}
             >
               <Link
-                href="/Building"
+                href="/Projects"
                 
                 className="z-99 block px-4 py-2 text-gray-600 hover:font-bold hover:text-md transition-all duration-200"
               >
-                Building
+                Projects
               </Link>
               <Link
                 href="/Amenities"
@@ -109,13 +102,6 @@ const Navbar = () => {
                 className="z-99 block px-4 py-2 text-gray-600 hover:bg-gray-100"
               >
                 Amenities
-              </Link>
-              <Link
-                href="/Gallery"
-                
-                className="z-99 block px-4 py-2 text-gray-600 hover:bg-gray-100"
-              >
-                Gallery
               </Link>
               <Link
                 href="/WhatSetUsApart"
@@ -157,11 +143,11 @@ const Navbar = () => {
               <ul className="flex flex-col items-center justify-between min-h-[250px]">
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
-                    href="/Building"
+                    href="/Projects"
                     
                     className="block px-4 py-2 text-gray-600 uppercase  hover:font-bold hover:bg-gray-100"
                   >
-                    Building
+                    Projects
                     <FontAwesomeIcon className="ml-8" icon={faBuilding} /> 
                   </Link>
                 </li>
@@ -173,16 +159,6 @@ const Navbar = () => {
                   >
                     Amenities
                     <FontAwesomeIcon className="ml-8" icon={faLaptopFile} />
-                  </Link>
-                </li>
-                <li className="border-b border-gray-400 my-8 uppercase">
-                  <Link
-                    href="/Gallery"
-                    
-                    className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
-                  >
-                    Gallery
-                    <FontAwesomeIcon icon={faVault} className="ml-8" />
                   </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">

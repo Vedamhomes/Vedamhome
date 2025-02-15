@@ -53,7 +53,7 @@ const Home = () => {
               residences offer an unparalleled lifestyle in prime locations,
               setting a new standard for luxury living.
             </p>
-            <Link href="/Building">
+            <Link href="/Projects">
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
                 Explore
               </button>
@@ -125,7 +125,7 @@ const Home = () => {
               where every detail is meticulously crafted and every moment is
               cherished.
             </p>
-            <Link href="/Gallery">
+            <Link href="/Projects">
               <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
                 Explore
               </button>
