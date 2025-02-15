@@ -18,8 +18,8 @@ import UserInputModal from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
 
 const Home = () => {
-  const [isBannerOpn, setIsBannerOpn] = useState(false);
-  const [isOverlayOpn, setIsOverlayOpn] = useState(true);
+  const [isBannerOpn, setIsBannerOpn] = useState(true);
+  const [isOverlayOpn, setIsOverlayOpn] = useState(false);
 
   return (
     <div className="bg-[#f5f0e9]" suppressHydrationWarning={true}>
