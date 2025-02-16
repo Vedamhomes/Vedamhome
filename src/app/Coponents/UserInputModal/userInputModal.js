@@ -21,11 +21,11 @@ const UserInputModal = (props) => {
     }
     emailjs
       .sendForm(
-        process.env.REACT_APP_EMAILJS_SERVICE_ID,
-        process.env.REACT_APP_EMAILJS_TEMPLATE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
         form.current,
         {
-          publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY,
+          publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY,
         }
       )
       .then(
@@ -44,6 +44,7 @@ const UserInputModal = (props) => {
             setIsOverlayOpn(false)
         },
         (error) => {
+          console.log('error',error)
           toast.warn('🦄 We encountered an error. Please try again in a few moments.', {
             position: "top-right",
             autoClose: 5000,
