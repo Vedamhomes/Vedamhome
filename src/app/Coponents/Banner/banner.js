@@ -1,10 +1,7 @@
 import "./style.css";
-import { Modal, Splitter } from "antd";
+import { Modal } from "antd";
 import Image from "next/image";
-import Link from "next/link";
-import bannerImage from "../../../../public/husky_2.png";
 import bannerImage1 from "../../../../public/main_page_1.jpg";
-import bannerImag2 from "@/images/bannerImag2.png";
 
 const Banner = (props) => {
   const { isBannerOpn, setIsBannerOpn, setIsOverlayOpn } = props;
@@ -34,15 +31,15 @@ const Banner = (props) => {
 
             <div className="px-6 xl:px-0 h-full flex flex-col justify-center items-center overflow-hidden">
               <div className="flex justify-center items-center flex-col">
-                <h1 className="font-visby font-thin text-[12px] sm:text-[14px] tracking-[0.2em] uppercase text-[#7a6e66] text-center">
+                <h1 className="font-visby font-thin text-[22px] sm:text-[24px] tracking-[0.2em] uppercase text-[#7a6e66] text-center">
                   Exciting News
                 </h1>
                 <div className="mt-4">
-                  <p className="font-hues font-thin text-[24px] sm:text-[32px] uppercase text-[#7a6e66] text-center mb-0 tracking-[0.1em] [text-stroke:0.5px_#7a6e66]">
+                  <p className="font-hues font-light text-[24px] sm:text-[32px] uppercase text-[#7a6e66] text-center mb-0 tracking-[0.1em] [text-stroke:0.5px_#7a6e66]">
                     Vedam homes luxury floors are open for booking now.
                   </p>
                 </div>
-                <div className="mt-8 flex justify-center items-center w-full">
+                {/* <div className="mt-8 flex justify-center items-center w-full">
                   <button
                     onClick={() => {
                       setIsOverlayOpn(true);
@@ -52,7 +49,7 @@ const Banner = (props) => {
                   >
                     BOOK A TOUR
                   </button>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
