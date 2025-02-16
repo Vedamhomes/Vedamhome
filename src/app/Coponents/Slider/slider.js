@@ -20,9 +20,10 @@ import KITCHEN_8 from '@/images/KITCHEN_8.jpg';
 
 const Slider = () => {
   return (
-    <div className="mx-auto px-6 flex justify-center animationRight">
+    <div className="px-6 flex justify-center animationRight">
       {/* <div className="2xl:px-20 px-6 py-12 w-full lg:w-9/10"> */}
         <Swiper
+          slidesPerView={'auto'}
           navigation
           pagination={{
             clickable: true,
@@ -35,9 +36,8 @@ const Slider = () => {
           spaceBetween={30}
           grabCursor={true}
           modules={[Autoplay, Navigation, Pagination]}
-          onSwiper={(swiper) => console.log(swiper)}
         //   className="h-96 w-full rounded-lg"
-        className="relative block h-[55vh] sm:h-[68vh] md:h-[77vh] lg:h[85vh]"
+        className="relative h-[26vh] sm:h-[68vh] md:h-[77vh] lg:h[85vh]"
         >
           <SwiperSlide key={0}>
             <div className="flex h-full w-full items-center justify-center">
