@@ -93,7 +93,7 @@ const UserInputModal = (props) => {
   };
 
   return (
-    <div suppressHydrationWarning={true} className="modal_container_box_1" >
+    // <div suppressHydrationWarning={true} className="modal_container_box_1" >
     <Modal
       // classNames={{
       //   overlay: 'modal_container',
@@ -110,12 +110,12 @@ const UserInputModal = (props) => {
       <div className="inquire_container_form">
         <div className="inquire_container_form_heading">
           <h2 className="inquire_container_form_heading_text">
-            * All fields are mandatory
+            * Crafted Luxury Designed to feel like home
           </h2>
         </div>
 
         <form ref={form} className="input_form" onSubmit={handleSubmit}>
-          <div className="form_input_container">
+          {/* <div className="form_input_container">
             <label className="form_input_label" htmlFor="property_location">Property Location</label>
             <select
               name="property_location"
@@ -125,14 +125,14 @@ const UserInputModal = (props) => {
               title="* Property Location"
             >
               <option value="">Select Property Location</option>
-             { /*  <option data-ref="faridabad" data-belong="" value="faridabad">
-                Faridabad
-              </option> */}
+            //   <option data-ref="faridabad" data-belong="" value="faridabad">
+            //     Faridabad
+            //  </option> 
               <option data-ref="gurugram" data-belong="" value="gurugram">
                 Gurugram
               </option>
             </select>
-          </div>
+          </div> */}
 
           <div className="form_input_container">
             <label className="form_input_label" htmlFor="first_name">First Name</label>
@@ -193,7 +193,7 @@ const UserInputModal = (props) => {
         </form>
       </div>
     </Modal>
-    </div>
+    // </div>
   );
 };
 
