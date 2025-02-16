@@ -222,7 +222,7 @@ const Gallery = () => {
                 placeholder="Enter your email address here"
               />
             </div>
-            <Link href="/Enquire">
+            <Link href="/Projects">
               <button className="focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 hover:bg-black text-base font-medium leading-none text-white py-4 px-6 bg-gray-800 sm:ml-2 sm:w-auto w-full sm:mt-0 mt-4">
                 Subscribe
               </button>

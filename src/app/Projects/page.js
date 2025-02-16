@@ -46,7 +46,7 @@ const Projects = () => {
             </p>
             <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300 mt-4">
               {/* Explore Vedam Homes luxury */}
-              <Link href="/Enquire">Explore</Link>
+              <Link href="/Amenities">Explore</Link>
             </button>
           </div>
           {/* <div className="px-4 lg:px-0">
@@ -268,7 +268,7 @@ const Projects = () => {
                 find tips here where you can buy a lot of cool
                 furniture,decorations, plants, etc.
               </p>
-              <Link href="/Enquire">
+              <Link href="/Amenities">
                 <button className="dark:bg-white dark:hover:bg-gray-400 dark:hover:text-gray-100 dark:text-gray-800 sm:w-auto w-full mt-8 text-base justify-between focus:ring-2 focus:ring-offset-2 focus:ring-gray-700 focus:outline-none hover:bg-gray-700 font-medium leading-none text-white py-4 px-8 bg-gray-800 flex items-center">
                   Explore
                   <div className="ml-2 mt-0.5">
