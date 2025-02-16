@@ -4,7 +4,10 @@ import "./style.css";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
 import Image from "next/image";
-import SITTING_LOUNGE_VIEW_IMAGE from "@/images/SITTING_LOUNGE_VIEW.jpg";
+import syneregtic_team_image from "@/images/syneregtic_team.jpg";
+import unwavering_cred_image from "@/images/unwavering_cred.jpg";
+import deep_belief_image from "@/images/deep_belief.jpg";
+import uncompromising_ethic_image from "@/images/uncompromising_ethic.jpg";
 import ELEVEN_IMAGE from "@/images/11.jpg";
 import bulding_outside_2_IMAGE from "@/images/bulding_outside_2.jpg";
 import BALCONY_VIEW_IMAGE from "@/images/BALCONY_VIEW.jpg";
@@ -44,7 +47,7 @@ const WhatSetUsApart = () => {
 
       <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
         <Image
-          src={SITTING_LOUNGE_VIEW_IMAGE}
+          src={unwavering_cred_image}
           alt="Sample"
           height={300}
           width={300}
@@ -58,7 +61,7 @@ const WhatSetUsApart = () => {
             Unwavering<span className="font-normal italic"> Credibility</span>
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
-            <h2 className="text-gray-600">
+            <h2 className="text-gray-600 text-justify">
               Our reputation is our most valuable asset. We've earned the trust
               of our clients through years of transparent dealings, consistent
               delivery of exceptional quality, and an unwavering commitment to
@@ -74,13 +77,12 @@ const WhatSetUsApart = () => {
         </div>
       </div>
 
-      <div className="lg:px-20 md:px-6 px-4 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
-        <div className="lg:flex items-center justify-between">
-          <div className="flex flex-col items-center lg:w-1/3 mt-4">
+      <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 lg:px-16 md:px-6 px-6 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
+          <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pr-12 pl-0 pr-0 text-end md:text-left">
             <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
               Synergistic<span className="font-normal italic"> Teamwork</span>
             </h1>
-            <p className="text-base leading-6 mt-4 text-center text-gray-600">
+            <p className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6 leading-6 mt-4 text-justify text-gray-600">
               The creation of a truly exceptional home requires a symphony of
               talents working in perfect harmony. At Vedam Homes, we foster a
               culture of synergistic teamwork, where architects, designers,
@@ -93,27 +95,35 @@ const WhatSetUsApart = () => {
             </p>
           </div>
           <Image
-            src={SITTING_LOUNGE_VIEW_IMAGE}
+            src={syneregtic_team_image}
             height={300}
             width={300}
             alt="Sample"
             className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
           />
         </div>
-      </div>
 
       <div
-        className="py-4 sm:py:14 md:py:20 2xl:px-0 lg:px-12 sm:px-4 2xl:mx-auto setUsApartAnimationRight"
+        className="py-4  px-4 sm:py:14 md:py:20 2xl:px-0 lg:px-12 sm:px-4 2xl:mx-auto setUsApartAnimationRight"
         // style={{ height: 1000 }}
       >
-        <div className="md:flex items-center justify-between w-full sm:px-8 px-4">
-          <div className="flex flex-col items-center xl:w-1/3 md:w-1/2 w-full">
+        <div className="md:flex gap-8 items-center justify-between w-full ">
+        <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48">
+              <Image
+                src={ELEVEN_IMAGE}
+                height={300}
+                width={300}
+                alt="Purple flowers on a book"
+                className="w-full mt-8 sm:mt-0 "
+              />
+          </div>
+          <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 pl-0 pr-0 text-end md:text-left">
             <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
               A Sense of<span className="font-normal italic"> Ownership </span>
             </h1>
             <p
               role="contentinfo"
-              className="focus:outline-none leading-6 mt-4 sm:mt-8 text-gray-600 2xl:pr-24 xl:pr-0 sm:pr-12 text-center"
+              className="focus:outline-none leading-6 mt-4 sm:mt-8 text-gray-600 2xl:pr-24 xl:pr-0 sm:pr-12 text-justify"
             >
               At Vedam Homes, we don't just build houses; we create homes. And
               that sense of ownership extends to every member of our team. From
@@ -126,28 +136,10 @@ const WhatSetUsApart = () => {
               truly distinguishes a Vedam home.
             </p>
           </div>
-          <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48">
-            <div className="w-full">
-              <Image
-                src={ELEVEN_IMAGE}
-                height={300}
-                width={300}
-                alt="Purple flowers on a book"
-                className="w-full mt-8 sm:mt-0 "
-              />
-            </div>
-          </div>
         </div>
       </div>
 
-      <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
-        <Image
-          src={BALCONY_VIEW_IMAGE}
-          alt="Sample"
-          height={300}
-          width={300}
-          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
-        />
+      <div className="flex flex-col-reverse md:flex-row mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
         <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 text-end md:text-left">
           {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
             Deep-Rooted Belief
@@ -156,7 +148,7 @@ const WhatSetUsApart = () => {
             Deep-Rooted<span className="font-normal italic"> Belief</span>
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
-            <h2 className="text-gray-600">
+            <h2 className="text-gray-600 text-justify">
               Our belief in the power of thoughtful design and exceptional
               craftsmanship is at the heart of everything we do. We believe that
               a home should be more than just a place to live; it should be an
@@ -169,9 +161,23 @@ const WhatSetUsApart = () => {
             </h2>
           </div>
         </div>
+        <Image
+          src={deep_belief_image}
+          alt="Sample"
+          height={300}
+          width={300}
+          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+        />
       </div>
 
       <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
+      <Image
+          src={uncompromising_ethic_image}
+          alt="Sample"
+          height={300}
+          width={300}
+          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+        />
         <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 text-end md:text-left">
           {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
             Uncompromising Ethics
@@ -180,7 +186,7 @@ const WhatSetUsApart = () => {
             Uncompromising<span className="font-normal italic"> Ethics</span>
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
-            <h2 className="text-gray-600">
+            <h2 className="text-gray-600 text-justify">
               Our commitment to ethical practices is non-negotiable. We adhere
               to the highest standards of professionalism, integrity, and
               transparency in all our dealings. We believe in building long-term
@@ -194,13 +200,6 @@ const WhatSetUsApart = () => {
             </h2>
           </div>
         </div>
-        <Image
-          src={bulding_outside_2_IMAGE}
-          alt="Sample"
-          height={300}
-          width={300}
-          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
-        />
       </div>
 
       <Footer />
