@@ -16,6 +16,7 @@ import gardenImage from "@/images/12.jpg";
 import mainRoom from "@/images/5.jpeg";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
+import Slider from "./Coponents/Slider/slider";
 
 const Home = () => {
   const [isBannerOpn, setIsBannerOpn] = useState(true);
@@ -139,9 +140,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container mx-auto py-4 mb-4 flex box-border mt-6 animationRight">
-        <Image src={mainRoom} alt="Image" className="ml-auto mr-auto" />
-      </div>
+      <Slider />
 
       <Footer />
       <Banner isBannerOpn={isBannerOpn} setIsBannerOpn={setIsBannerOpn} setIsOverlayOpn={setIsOverlayOpn} />
