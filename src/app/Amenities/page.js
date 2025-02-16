@@ -1,3 +1,5 @@
+"use client";
+
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
 import "./style.css";
@@ -6,11 +8,14 @@ import topView from "@/images/amenities-1.jpg";
 import builingImage from "@/images/7.jpeg";
 import builing2Image from "@/images/1.jpeg";
 import Slider from "../Coponents/Slider/slider";
+import UserInputModal from "../Coponents/UserInputModal/userInputModal";
+import { useState } from "react";
 
 const Amenities = () => {
+  const [isOverlayOpn, setIsOverlayOpn] = useState(false);
   return (
     <div className="bg-[#f5f0e9]">
-      <Navbar />
+      <Navbar setIsOverlayOpn={setIsOverlayOpn}/>
 
       <div className="mx-auto pb -4 sm:py-8 sm:px-6 md:px-16 amenityAnimation">
         <div className="flex flex-col lg:flex-row justify-center items-center 2xl:space-x-40 xl:space-x-34 lg:space-x-12 space-y-8 lg:space-y-0">
@@ -110,6 +115,7 @@ const Amenities = () => {
       <Slider />
 
       <Footer />
+      <UserInputModal isOverlayOpn={isOverlayOpn} setIsOverlayOpn={setIsOverlayOpn} />
     </div>
   );
 };

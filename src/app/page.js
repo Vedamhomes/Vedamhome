@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <div className="bg-[#f5f0e9]" suppressHydrationWarning={true}>
       <ToastContainer />
-      <Navbar />
+      <Navbar setIsOverlayOpn={setIsOverlayOpn}/>
       <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
         <video
           playsInline

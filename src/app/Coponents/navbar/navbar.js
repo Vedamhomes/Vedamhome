@@ -10,7 +10,8 @@ import { faLaptopFile, faPersonChalkboard, faVault } from "@fortawesome/free-sol
 import VedamLogo from "@/images/vedam-homes-logo-2.png"
 import Image from "next/image";
 
-const Navbar = () => {
+const Navbar = (props) => {
+  const { setIsOverlayOpn } = props;
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -47,13 +48,13 @@ const Navbar = () => {
               >
                 What Set Us Apart
               </Link>
-              <Link
-                href="/Enquire"
-                
-                className="text-white bg-blue-500 px-4 py-2 rounded-md hover:bg-blue-600"
+              <div
+                // href="/Enquire"
+                onClick={() => setIsOverlayOpn(true)}
+                className="text-white bg-blue-500 px-4 py-2 rounded-md hover:bg-blue-600 cursor-grab"
               >
                 Enquire
-              </Link>
+              </div>
             </div>
 
             {/* Mobile Menu Button */}
@@ -110,13 +111,13 @@ const Navbar = () => {
               >
                 What Set Us Apart
               </Link>
-              <Link
-                href="/Enquire"
-                
-                className="z-99 block px-4 py-2 text-white bg-blue-500 rounded-md hover:bg-blue-600"
+              <div
+                // href="/Enquire"
+                onClick={() => setIsOverlayOpn(true)}
+                className="z-99 block px-4 py-2 text-white bg-blue-500 rounded-md cursor-grab hover:bg-blue-600"
               >
                 Enquire
-              </Link>
+              </div>
             </div>
           )}
 
@@ -172,14 +173,14 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
-                  <Link
-                    href="/Enquire"
-                    
-                    className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+                  <div
+                    // href="/Enquire"
+                    onClick={() => setIsOverlayOpn(true)}
+                    className="block px-4 py-2 text-gray-600 cursor-grab hover:bg-gray-100"
                   >
                     Enquire
                     <FontAwesomeIcon className="ml-8" icon={faPersonChalkboard} />
-                  </Link>
+                  </div>
                 </li>
               </ul>
             </div>

@@ -8,11 +8,14 @@ import SITTING_LOUNGE_VIEW_IMAGE from "@/images/SITTING_LOUNGE_VIEW.jpg";
 import ELEVEN_IMAGE from "@/images/11.jpg";
 import bulding_outside_2_IMAGE from "@/images/bulding_outside_2.jpg";
 import BALCONY_VIEW_IMAGE from "@/images/BALCONY_VIEW.jpg";
+import UserInputModal from "../Coponents/UserInputModal/userInputModal";
+import { useState } from "react";
 
 const WhatSetUsApart = () => {
+  const [isOverlayOpn, setIsOverlayOpn] = useState(false);
   return (
     <div className="bg-[#F5F0E9]">
-      <Navbar />
+      <Navbar setIsOverlayOpn={setIsOverlayOpn}/>
 
       <div className="py-8 setUsApartAnimationLeft">
         <div className=" mx-auto px-2 flex flex-col md:flex-row items-center justify-center">
@@ -201,6 +204,7 @@ const WhatSetUsApart = () => {
       </div>
 
       <Footer />
+      <UserInputModal isOverlayOpn={isOverlayOpn} setIsOverlayOpn={setIsOverlayOpn} />
     </div>
   );
 };

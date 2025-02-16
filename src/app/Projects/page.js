@@ -1,3 +1,5 @@
+"use client";
+
 import "./style.css";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
@@ -9,11 +11,14 @@ import firstRoomImage from "@/images/5.jpeg";
 import kitchenRoomImage from "@/images/3.jpeg";
 import secondRoomImage from "@/images/10.jpeg";
 import flowerBookImage from "@/images/11.jpg";
+import UserInputModal from "../Coponents/UserInputModal/userInputModal";
+import { useState } from "react";
 
 const Projects = () => {
+  const [isOverlayOpn, setIsOverlayOpn] = useState(false);
   return (
     <div className="bg-[#F5F0E9]">
-      <Navbar />
+      <Navbar setIsOverlayOpn={setIsOverlayOpn} />
       <div className="relative flex flex-col justify-center h-calc(100vh - 1.2*30vh) sm:h-[calc(100vh-20vh)] md:h-[calc(100vh-10vh)] ">
         <Image
           // className="h-calc(100vh - 1.2*30vh) sm:h-[calc(100vh-20vh)] md:h-[calc(100vh-10vh)] "
@@ -303,6 +308,7 @@ const Projects = () => {
       </div>
 
       <Footer />
+      <UserInputModal isOverlayOpn={isOverlayOpn} setIsOverlayOpn={setIsOverlayOpn} />
     </div>
   );
 };
