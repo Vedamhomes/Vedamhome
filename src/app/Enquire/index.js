@@ -15,7 +15,7 @@ const Enquire = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("phoneNumber.length()", phoneNumber.length);
+    // console.log("phoneNumber.length()", phoneNumber.length);
     if (phoneNumber.length < 13) {
       return;
     }
@@ -51,7 +51,7 @@ const Enquire = () => {
           // setIsInputModalOpen(false)
         },
         (error) => {
-          console.log("FAILED...", error);
+          console.log("FAILED...");
           // new Notify({
           //   status: "error",
           //   title: "ERROR",
@@ -77,7 +77,6 @@ const Enquire = () => {
   };
   const handleChange = (event) => {
     const value = event.target.value;
-    console.log("value", value);
 
     let formattedValue = value;
 
