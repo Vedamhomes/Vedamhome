@@ -15,3 +15,11 @@
     justify-content: space-evenly;
     align-items: center;
   }
+  .close_icon{
+
+    .ant-drawer-header{
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }

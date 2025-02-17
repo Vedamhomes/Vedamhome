@@ -1,8 +1,21 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images: {
-      domains: ["maribellevue.wpengine.com", "i.ibb.co"], // ✅ Add your domain here
-    },
-  };
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "maribellevue.wpengine.com",
+      },
+      {
+        protocol: "https",
+        hostname: "i.ibb.co",
+      },
+      {
+        protocol: "https",
+        hostname: "gw.alipayobjects.com",
+      },
+    ],
+  },
+};
 
 export default nextConfig;

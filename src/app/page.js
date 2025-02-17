@@ -49,11 +49,11 @@ const Home = () => {
           </div>
 
           {/* Text Section */}
-          <div className="md:w-1/2 md:px-14 sm:px-12 px-4 py-4 text-center md:text-left animationLeft">
+          <div className="md:w-1/2 sm:pl-12 px-4 py-4 text-center md:text-left animationLeft">
             <p className="text-2xl md:text-3xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Welcome to Vedam Homes
             </p>
-            <p className="tracking-[0.25em] font-normal uppercase text-[#7a6e66] md:text-lg leading-7 mb-8">
+            <p className="tracking-[0.25em] text-base font-normal text-[#7a6e66] leading-7 mb-8">
               Vedam Homes crafts exceptional living spaces that embody
               sophistication, comfort, and prestige. Our meticulously designed
               residences offer an unparalleled lifestyle in prime locations,
@@ -68,7 +68,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border mt-6">
+      <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border my-6">
         <Image
           src={amenitiesImage}
           alt="Vedam homes amenities image"
@@ -76,14 +76,14 @@ const Home = () => {
         />
       </div>
 
-      <div className="md:px-16 md:py-12 py-8 pl-0 animationLeft">
+      <div className="md:pr-16 md:py-12 py-8 pl-0 animationLeft">
         <div className="mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           {/* Text Section */}
           <div className="md:w-1/2 md:px-12 text-center md:text-left mb-8 sm:mb-2">
-            <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               Amenities
             </h2>
-            <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
+            <p className="tracking-[0.25em] text-base font-normal text-[#7a6e66] leading-7 mb-8">
               We understand that the location of your home is just as important
               as its design. That's why we carefully choose prime locations for
               our projects, offering residents convenient access to essential
@@ -122,10 +122,10 @@ const Home = () => {
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
           {/* Text Section */}
           <div className="md:w-1/2 text-center md:text-left">
-            <h2 className="text-3xl md:text-4xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
+            <h2 className="text-2xl md:text-3xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               The Choice of the Discerning
             </h2>
-            <p className="text-base md:text-xl leading-7 text-gray-600 mb-8">
+            <p className="tracking-[0.25em] font-normal text-base text-[#7a6e66] leading-7 mb-8">
               Explore our portfolio of exceptional projects and discover the
               Vedam Homes difference. Experience the epitome of luxury living,
               where every detail is meticulously crafted and every moment is

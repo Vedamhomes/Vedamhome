@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import "./style.css";
-import { Affix } from "antd";
+import { Affix, Drawer } from "antd";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBuilding, faHandshake } from "@fortawesome/free-regular-svg-icons";
@@ -85,72 +85,18 @@ const Navbar = (props) => {
                   strokeLinejoin="round"
                   strokeWidth={2}
                   d={
-                    isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+                    isOpen ? "" : "M4 6h16M4 12h16M4 18h16"
                   }
                 />
               </svg>
             </div>
           </div>
 
-          {/* Mobile Menu */}
-          {false && (
-            <div
-              className="z-99 hover:z-100 absolute right-0 mt-2 bg-[#f5f0e9] shadow-lg rounded-md py-2 w-40"
-              onMouseEnter={() => setIsOpen(true)}
-              onMouseLeave={() => setIsOpen(false)}
-            >
-              <Link
-                href="/Projects"
-                className="z-99 block px-4 py-2 text-gray-600 hover:font-bold hover:text-md transition-all duration-200"
-              >
-                Projects
-              </Link>
-              <Link
-                href="/Amenities"
-                className="z-99 block px-4 py-2 text-gray-600 hover:bg-gray-100"
-              >
-                Amenities
-              </Link>
-              <Link
-                href="/WhatSetUsApart"
-                className="z-99 block px-4 py-2 text-gray-600 hover:bg-gray-100"
-              >
-                What Set Us Apart
-              </Link>
-              <div
-                // href="/Enquire"
-                onClick={() => {
-                  setIsOverlayOpn(true);
-                  setIsOpen(false);
-                }}
-                className="z-99 block px-4 py-2 text-white bg-blue-500 rounded-md cursor-grab hover:bg-blue-600"
-              >
-                Enquire
-              </div>
-            </div>
-          )}
 
           {/*  New Mobile menu */}
           {isOpen && (
-            <div className={isOpen ? "showMenuNav" : "hideMenuNav"}>
-              <div
-                className="absolute top-0 right-0 px-8 py-8 bg-[#F5F0E9]"
-                onClick={() => setIsOpen(false)}
-              >
-                <svg
-                  className="h-8 w-8 text-gray-600"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                >
-                  <line x1="18" y1="6" x2="6" y2="18" />
-                  <line x1="6" y1="6" x2="18" y2="18" />
-                </svg>
-              </div>
-              <ul className="flex flex-col items-center justify-between min-h-[250px]">
+            <Drawer open={isOpen} size='default' maskClosable width={300} closeIcon={true} closable={true} onClose={() => setIsOpen(false)}  className={`close_icon ${isOpen ? "showMenuNav" : "hideMenuNav"}`}>
+              <ul className="flex flex-col items-center justify-between ">
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/Projects"
@@ -195,7 +141,7 @@ const Navbar = (props) => {
                   </div>
                 </li>
               </ul>
-            </div>
+            </Drawer >
           )}
         </div>
       </div>

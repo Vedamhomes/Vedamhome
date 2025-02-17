@@ -9,8 +9,6 @@ import unwavering_cred_image from "@/images/unwavering_cred.jpg";
 import deep_belief_image from "@/images/deep_belief.jpg";
 import uncompromising_ethic_image from "@/images/uncompromising_ethic.jpg";
 import ELEVEN_IMAGE from "@/images/11.jpg";
-import bulding_outside_2_IMAGE from "@/images/bulding_outside_2.jpg";
-import BALCONY_VIEW_IMAGE from "@/images/BALCONY_VIEW.jpg";
 import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import { useState } from "react";
 
@@ -20,23 +18,17 @@ const WhatSetUsApart = () => {
     <div className="bg-[#F5F0E9]">
       <Navbar setIsOverlayOpn={setIsOverlayOpn}/>
 
-      <div className="py-8 setUsApartAnimationLeft">
-        <div className=" mx-auto px-2 flex flex-col md:flex-row items-center justify-center">
-          {/* Text Section */}
+      
+      <div className="py-12 buildingAnimationLeft">
+        <div className=" mx-auto px-6 flex flex-col md:flex-row items-center justify-center"> 
           <div className="flex items-center flex-col px-4 text-center">
-            {/* <h1 className="focus:outline-none font-bold md:text-5xl text-3xl leading-tight text-gray-800 mb-4">
-              Experience the
-              <span className="font-normal"> Vedam difference </span>
-            </h1> */}
+           
             <p
               className="font-sans uppercase text-center text-[#7a6e66] tracking-[0.2em] 
-            leading-[1.8] w-[90%] max-w-[1100px] font-normal text-[28px] 
-            word-spacing-[-0.20em]"
+            leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[28px] 
+            word-spacing-[-0.22em]"
             >
-              {/* Vedam Homes isn't just building homes; we're building trust,
-              fostering communities, and creating legacies. We invite you to
-              experience the Vedam difference. */}
-              <span className="font-semibold">In</span> the competitive real
+              In the competitive real
               estate landscape, Vedam Homes distinguishes itself not just by the
               structures we build, but by the enduring relationships we
               cultivate. Our foundation is built upon five core pillars:
@@ -44,6 +36,8 @@ const WhatSetUsApart = () => {
           </div>
         </div>
       </div>
+
+
 
       <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-center gap-8 setUsApartAnimationRight">
         <Image
@@ -57,11 +51,11 @@ const WhatSetUsApart = () => {
           {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
             Unwavering Credibility
           </h1> */}
-          <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
-            Unwavering<span className="font-normal italic"> Credibility</span>
+          <h1 className="focus:outline-none md:w-120 font-normal md:text-4xl text-3xl leading-tight text-[#7a6e66]">
+            Unwavering Credibility
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
-            <h2 className="text-gray-600 text-justify">
+            <h2 className="text-[#7a6e66] text-sm text-justify">
               Our reputation is our most valuable asset. We've earned the trust
               of our clients through years of transparent dealings, consistent
               delivery of exceptional quality, and an unwavering commitment to
@@ -79,10 +73,10 @@ const WhatSetUsApart = () => {
 
       <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-8 lg:px-16 md:px-6 px-6 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
           <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pr-12 pl-0 pr-0 text-end md:text-left">
-            <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
-              Synergistic<span className="font-normal italic"> Teamwork</span>
+            <h1 className="focus:outline-none md:w-120 font-bold md:text-4xl text-3xl leading-tight text-[#7a6e66]">
+              Synergistic Teamwork
             </h1>
-            <p className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6 leading-6 mt-4 text-justify text-gray-600">
+            <p className="f-f-r text-sm pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6 leading-6 mt-4 text-justify text-[#7a6e66]">
               The creation of a truly exceptional home requires a symphony of
               talents working in perfect harmony. At Vedam Homes, we foster a
               culture of synergistic teamwork, where architects, designers,
@@ -118,12 +112,12 @@ const WhatSetUsApart = () => {
               />
           </div>
           <div className="text-color flex justify-center flex-col w-4/4 md:w-1/2  pt-4 lg:pt-2 xl:pt-10 md:pl-8 pl-0 pr-0 text-end md:text-left">
-            <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
-              A Sense of<span className="font-normal italic"> Ownership </span>
+            <h1 className="focus:outline-none md:w-120 font-bold md:text-4xl text-3xl leading-tight text-[#7a6e66]">
+              Sense of Ownership
             </h1>
             <p
               role="contentinfo"
-              className="focus:outline-none leading-6 mt-4 sm:mt-8 text-gray-600 2xl:pr-24 xl:pr-0 sm:pr-12 text-justify"
+              className="focus:outline-none text-sm  leading-6 mt-4 sm:mt-8 text-[#7a6e66] 2xl:pr-24 xl:pr-0 sm:pr-12 text-justify"
             >
               At Vedam Homes, we don't just build houses; we create homes. And
               that sense of ownership extends to every member of our team. From
@@ -144,11 +138,11 @@ const WhatSetUsApart = () => {
           {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
             Deep-Rooted Belief
           </h1> */}
-          <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
-            Deep-Rooted<span className="font-normal italic"> Belief</span>
+          <h1 className="focus:outline-none md:w-120 font-bold md:text-4xl text-3xl leading-tight text-[#7a6e66]">
+            Deep-Rooted Belief
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
-            <h2 className="text-gray-600 text-justify">
+            <h2 className="text-[#7a6e66] text-sm text-justify">
               Our belief in the power of thoughtful design and exceptional
               craftsmanship is at the heart of everything we do. We believe that
               a home should be more than just a place to live; it should be an
@@ -182,11 +176,11 @@ const WhatSetUsApart = () => {
           {/* <h1 className="text-4xl md:text-4xl lg:text-4xl w-11/12 lg:w-11/12 xl:w-full xl:text-4xl text-gray-900 font-extrabold f-f-l">
             Uncompromising Ethics
           </h1> */}
-          <h1 className="focus:outline-none md:w-60 font-bold md:text-4xl text-3xl leading-tight text-gray-800">
-            Uncompromising<span className="font-normal italic"> Ethics</span>
+          <h1 className="focus:outline-none font-bold md:text-4xl text-3xl leading-tight text-[#7a6e66]">
+            Uncompromising Ethics
           </h1>
           <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
-            <h2 className="text-gray-600 text-justify">
+            <h2 className="text-[#7a6e66] text-sm text-justify">
               Our commitment to ethical practices is non-negotiable. We adhere
               to the highest standards of professionalism, integrity, and
               transparency in all our dealings. We believe in building long-term

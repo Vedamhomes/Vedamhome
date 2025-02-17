@@ -1,0 +1,13 @@
+.scroll_deatil_container {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+/* Styles for even elements */
+.scroll_deatil_container:nth-child(even) {
+    /* color: black; */
+}
+
+/* Styles for odd elements */
+.scroll_deatil_container:nth-child(odd) {
+    /* color: red; */
+}
