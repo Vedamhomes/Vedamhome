@@ -2,6 +2,7 @@ import "./style.css";
 import { Modal } from "antd";
 import Image from "next/image";
 import bannerImage1 from "../../../../public/main_page_1.jpg";
+import { motion } from "framer-motion";
 
 const Banner = (props) => {
   const { isBannerOpn, setIsBannerOpn, setIsOverlayOpn } = props;
@@ -29,29 +30,25 @@ const Banner = (props) => {
               </button>
             </div>
 
-            <div className="px-6 xl:px-0 h-full flex flex-col justify-center items-center overflow-hidden">
-              <div className="flex justify-center items-center flex-col">
-                <h1 className="font-[Hues] font-thin text-[22px] tracking-[0.2em] uppercase text-[#634730] text-center">
-                  Exciting News
-                </h1>
-                <div className="mt-4">
-                  <p className="font-sans font-light text-[24px] uppercase text-[#634730] text-center mb-0 tracking-[0.1em] [text-stroke:0.5px_#7a6e66]">
-                    Vedam homes luxury floors are open for booking now.
-                  </p>
-                </div>
-                {/* <div className="mt-8 flex justify-center items-center w-full">
-                  <button
-                    onClick={() => {
-                      setIsOverlayOpn(true);
-                      setIsBannerOpn(false);
-                    }}
-                    className="border border-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 sm:w-80 w-full hover:bg-black text-base font-medium leading-4 bg-gray-800 py-3 sm:py-4 text-white"
-                  >
-                    BOOK A TOUR
-                  </button>
-                </div> */}
-              </div>
-            </div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8, y: 30 }}
+              animate={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              className="flex justify-center items-center flex-col text-center px-4 sm:px-6"
+            >
+              <h1 className="font-[Hues] font-thin text-[16px] mt-4 sm:mt-0 sm:text-[22px] tracking-[0.2em] uppercase text-[#634730]">
+                Exciting News
+              </h1>
+
+              <motion.p
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 0.8 }}
+                className="sm:mt-4 font-sans font-light text-[16px] sm:text-[24px] uppercase text-[#634730] tracking-[0.1em] leading-relaxed max-w-xs sm:max-w-lg border border-[#7a6e66] px-4 sm:px-6 py-3 sm:py-4 rounded-lg shadow-md bg-white/50 backdrop-blur-sm"
+              >
+                Vedam Homes luxury floors are open for booking now.
+              </motion.p>
+            </motion.div>
           </div>
 
           {/* Right Section */}
