@@ -35,22 +35,22 @@ const Navbar = (props) => {
             </Link>
 
             {/* Desktop Menu */}
-            <div className="hidden md:flex items-center  space-x-8">
+            <div className="hidden md:flex items-center uppercase space-x-8">
               <Link
                 href="/Projects"
-                className="text-gray-600 hover:text-blue-500"
+                className="text-[#634730] hover:text-blue-500"
               >
                 Projects
               </Link>
               <Link
                 href="/Amenities"
-                className="text-gray-600 hover:text-blue-500"
+                className="text-[#634730] hover:text-blue-500"
               >
                 Amenities
               </Link>
               <Link
                 href="/WhatSetUsApart"
-                className="text-gray-600 hover:text-blue-500"
+                className="text-[#634730] hover:text-blue-500"
               >
                 What Set Us Apart
               </Link>
@@ -60,7 +60,7 @@ const Navbar = (props) => {
                   setIsOverlayOpn(true);
                   setIsOpen(false);
                 }}
-                className="text-white bg-blue-500 px-4 py-2 rounded-md hover:bg-blue-600 cursor-grab"
+                className="px-4 py-2 bg-[#987218] text-white rounded-md hover:bg-[#6a5b4d] cursor-grab"
               >
                 Enquire
               </div>
@@ -100,7 +100,7 @@ const Navbar = (props) => {
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/Projects"
-                    className="block px-4 py-2 text-gray-600 uppercase  hover:font-bold hover:bg-gray-100"
+                    className="block px-4 py-2 text-[#634730] uppercase  hover:font-bold hover:bg-gray-100"
                   >
                     Projects
                     <FontAwesomeIcon className="ml-8" icon={faBuilding} />
@@ -109,7 +109,7 @@ const Navbar = (props) => {
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/Amenities"
-                    className="block px-4 py-2 text-gray-600 hover:bg-gray-100 "
+                    className="block px-4 py-2 text-[#634730] hover:bg-gray-100 "
                   >
                     Amenities
                     <FontAwesomeIcon className="ml-8" icon={faLaptopFile} />
@@ -118,7 +118,7 @@ const Navbar = (props) => {
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/WhatSetUsApart"
-                    className="block px-4 py-2 text-gray-600 hover:bg-gray-100"
+                    className="block px-4 py-2 text-[#634730] hover:bg-gray-100"
                   >
                     What Set Us Apart
                     <FontAwesomeIcon icon={faHandshake} className="ml-8" />
@@ -131,7 +131,7 @@ const Navbar = (props) => {
                       setIsOverlayOpn(true);
                       setIsOpen(false);
                     }}
-                    className="block px-4 py-2 text-gray-600 cursor-grab hover:bg-gray-100"
+                    className="block px-4 py-2 text-[#634730] cursor-grab hover:bg-gray-100"
                   >
                     Enquire
                     <FontAwesomeIcon

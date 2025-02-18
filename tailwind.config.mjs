@@ -13,6 +13,7 @@ export default {
       },
       boxShadow: {
         'custom-shadow': '0px 3px 8px rgba(0, 0, 0, 0.24)',
+        'project-custom': 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
       },
     },
   },
