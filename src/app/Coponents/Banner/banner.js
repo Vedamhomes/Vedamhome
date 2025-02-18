@@ -19,7 +19,7 @@ const Banner = (props) => {
       <div className="xl:mx-auto xl:container">
         <div className="bg-[#f5f0e9] flex flex-col-reverse md:flex-row items-center lg:space-x-6">
           {/* Left Section */}
-          <div className="w-full lg:w-1/2 lg:pl-12 lg:pr-24 h-[40vh] sm:h-[50vh] md:h-auto">
+          <div className="w-full lg:w-1/2 lg:pl-12 h-[40vh] sm:h-[50vh] md:h-auto">
             <div className="absolute top-2 right-2 lg:top-0 lg:left-0">
               <button
                 onClick={() => setIsBannerOpn(false)}
@@ -31,11 +31,11 @@ const Banner = (props) => {
 
             <div className="px-6 xl:px-0 h-full flex flex-col justify-center items-center overflow-hidden">
               <div className="flex justify-center items-center flex-col">
-                <h1 className="font-visby font-thin text-[22px] sm:text-[24px] tracking-[0.2em] uppercase text-[#7a6e66] text-center">
+                <h1 className="font-[Hues] font-thin text-[22px] tracking-[0.2em] uppercase text-[#634730] text-center">
                   Exciting News
                 </h1>
                 <div className="mt-4">
-                  <p className="font-hues font-light text-[24px] sm:text-[32px] uppercase text-[#7a6e66] text-center mb-0 tracking-[0.1em] [text-stroke:0.5px_#7a6e66]">
+                  <p className="font-sans font-light text-[24px] uppercase text-[#634730] text-center mb-0 tracking-[0.1em] [text-stroke:0.5px_#7a6e66]">
                     Vedam homes luxury floors are open for booking now.
                   </p>
                 </div>
@@ -61,7 +61,7 @@ const Banner = (props) => {
               alt="bag"
               width={500} // Specify width (needed for optimization)
               height={300} // Specify height (needed for optimization)
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-center "
             />
           </div>
         </div>
