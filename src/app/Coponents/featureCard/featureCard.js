@@ -72,46 +72,55 @@ const FeatureList = ({ title, description, images }) => {
   return (
     <motion.div
       ref={ref}
-      //   initial="offscreen"
       whileInView="onscreen"
-      //   initial={{ opacity: 0, y: 100, scale: 0.9, rotateX: -15 }}
       initial={{ visibility: "hidden" }}
       animate={{
         opacity: isInView ? 1 : 0.5,
         y: isInView ? 20 : 100,
-        scale: inView ? 1.45 : 0.75,
+        scale: isInView ? 1 : 0.9,
         rotateX: isInView ? 0 : -15,
-        visibility: inView ? "visible" : "hidden",
-        translateY: 1,
+        visibility: isInView ? "visible" : "hidden",
       }}
-      style={{ y: 100 }}
       viewport={{ amount: 0.8 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
       whileHover={{
-          scale: 1.35,
-          transition: { duration: 0.3 },
-        }}
-        variants={cardVariants}
-        className="relative max-w-3xl w-[60%] md:w-[100%] my-20 mx-auto bg-[#F5F0E9] shadow-project-custom rounded-xl p-4 pb-12 flex flex-col md:flex-row perspective-1000"
+        scale: 1.05,
+        transition: { duration: 0.3 },
+      }}
+      variants={cardVariants}
+      className="relative max-w-5xl w-[100%] my-20 mx-auto bg-[#fff9f0] shadow-project-custom rounded-xl p-6 pb-12 flex flex-col md:flex-row items-start"
     >
-      {/* Content */}
-      <div className="md:w-1/3">
-        <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem]  font-bold uppercase">{title}</h2>
-        <p className="font-sans text-[16px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-base font-light mb-8">
+      {/* Text Section */}
+      <div className="md:w-1/3 flex flex-col justify-start">
+        <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-bold uppercase">
+          {title}
+        </h2>
+        <p className="font-sans text-[16px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-base font-light mb-8">
           {description}
         </p>
       </div>
-      {/* Images */}
-      <div className="mt-4 md:mt-0 w-[100%] md:w-2/3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 overflow-hidden">
+
+      {/* Image Grid */}
+      <div className="mt-4 md:mt-0 w-full md:w-2/3 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {images.map((src, index) => (
-          <Image
+          <div
             key={index}
-            src={src}
-            alt="Feature image"
-            width={200}
-            height={300}
-            className="rounded-lg object-contain aspect-[3/2]"
-          />
+            className="h-[250px] w-full flex justify-center items-center"
+          >
+            <motion.div
+              whileHover={{ scale: 1.5 }} // Increases size on hover
+              transition={{ duration: 0.3, ease: "easeOut" }} // Smooth transition
+              className="rounded-lg overflow-hidden"
+            >
+              <Image
+                src={src}
+                alt="Feature image"
+                width={200}
+                height={250}
+                className="rounded-lg object-contain max-h-[250px] w-auto"
+              />
+            </motion.div>
+          </div>
         ))}
       </div>
     </motion.div>

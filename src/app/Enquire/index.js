@@ -98,7 +98,7 @@ const Enquire = () => {
     }
   };
   return (
-    <div className="bg-[#f5f0e9]">
+    <div className="bg-[#fff9f0]">
       <Navbar />
 
         <div className="container mx-auto py-2 md:py-6 lg:py-8">

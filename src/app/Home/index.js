@@ -14,7 +14,7 @@ const Home = () => {
   // const { width, height, orientation } = useWindowInfo();
   // console.log(width, height, orientation);
   return (
-    <div className="bg-[#f5f0e9]">
+    <div className="bg-[#fff9f0]">
       <Navbar />
       <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
         <video

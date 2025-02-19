@@ -15,7 +15,7 @@ import ProgressiveScroll from "../Coponents/ProgressiveScroll";
 const Amenities = () => {
   const [isOverlayOpn, setIsOverlayOpn] = useState(false);
   return (
-    <div className="bg-[#f5f0e9]">
+    <div className="bg-[#fff9f0]">
       <Navbar setIsOverlayOpn={setIsOverlayOpn} />
       {/* <div className="sm:h-[calc(100vh-80px)] h-[50vh] w-auto relative mx-auto sm:px-4 flex items-center box-border mt-6 buildingAnimation">
         <Image
@@ -34,9 +34,9 @@ const Amenities = () => {
             leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[28px] 
             word-spacing-[-0.22em]"
           >
-            At Vedam Homes, we believe that luxury living extends beyond the
-            walls of your home. That's why we offer a curated selection of
-            world-class amenities designed to enhance your lifestyle and provide
+            Vedam Homes is proud to be part of the vibrant Central Park Flower
+            Valley community. Our residents benefit from a thoughtfully curated
+            selection of world-class amenities, enhancing their lifestyle with
             unparalleled comfort and convenience.
           </p>
         </div>

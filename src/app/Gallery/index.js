@@ -8,9 +8,9 @@ import Slider from "../Coponents/Slider/slider";
 
 const Gallery = () => {
   return (
-    <div className="bg-[#F5F0E9]">
+    <div className="bg-[#fff9f0]">
       <Navbar />
-      {/* <div className="bg-[#F5F0E9]"> */}
+      {/* <div className="bg-[#fff9f0]"> */}
       <div className="flex justify-center items-center">
         <div className="px-4 md:px-6 lg:px-20 2xl:mx-auto 2xl:container  lg:py-16 md:py-12  py-9 w-auto">
           <div className="flex flex-col items-center justify-center">

@@ -25,7 +25,7 @@ const Home = () => {
   const [isOverlayOpn, setIsOverlayOpn] = useState(false);
 
   return (
-    <div className="bg-[#f5f0e9]" suppressHydrationWarning={true}>
+    <div className="bg-[#fff9f0]" suppressHydrationWarning={true}>
       <ToastContainer />
       <UserInputModal
         isOverlayOpn={isOverlayOpn}
@@ -45,11 +45,11 @@ const Home = () => {
         />
       </div>
 
-      <div className="md:py-12 py-8 pl-0 animationLeft">
+      <div className="md:py-12 py-8 pl-0">
         <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-start justify-between px-6">
           {/* Text Section */}
           <div className="md:w-1/2 md:px-6 text-center md:text-left self-start">
-            <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase mb-4">
+            <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Building
             </h2>
             <p className="font-sans text-[23px] text-[#634730] uppercase tracking-[0.12em] leading-[1.75rem] font-light mb-4">
@@ -121,10 +121,10 @@ const Home = () => {
         <div className="mx-auto flex flex-col md:flex-row items-center justify-between px-6">
           {/* Text Section */}
           <div className="md:w-1/2 md:px-12 text-center md:text-left mb-8 sm:mb-2">
-            <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase mb-4">
+            <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Amenities
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] uppercase font-light mb-8">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light mb-8">
               We understand that the location of your home is just as important
               as its design. That's why we carefully choose prime locations for
               our projects, offering residents convenient access to essential
@@ -159,7 +159,7 @@ const Home = () => {
 
       <div className="py-16 buildingAnimationLeft">
         <div className=" mx-auto px-6 flex flex-col md:flex-col items-center justify-center">
-          <h2 className="font-[Hues] text-[28px] md:text-3xl tracking-[0.11em] leading-[1.75rem] font-semibold text-[#634730] uppercase mb-4">
+          <h2 className="font-[Hues] text-[28px] md:text-3xl tracking-[0.2em] leading-[1.75rem] font-medium text-[#634730] uppercase mb-4">
             The Choice of the Discerning
           </h2>
           <div className="flex items-center flex-col px-4 text-center">
@@ -185,7 +185,7 @@ const Home = () => {
       {/* <div className="py-12 animationLeft">
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
           <div className="md:w-1/2 text-center md:text-left">
-            <h2 className="text-2xl md:text-3xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
+            <h2 className="text-2xl md:text-3xl font-medium text-[#7a6e66] uppercase tracking-wide mb-4">
               The Choice of the Discerning
             </h2>
             <p className="tracking-[0.25em] font-normal  text-[#7a6e66] leading-7 mb-8">

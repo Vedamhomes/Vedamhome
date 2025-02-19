@@ -22,7 +22,7 @@ const Navbar = (props) => {
   return (
     <Affix className="z-111111 h-auto" offsetTop={0} offsetBottom={0}>
       <div className="2xl:mx-auto">
-        <div className="bg-[#f5f0e9]  rounded shadow-[4px_4px_4px_rgba(0,0,0,0.25)] py-5 px-7 ">
+        <div className="bg-[#fff9f0]  rounded shadow-[4px_4px_4px_rgba(0,0,0,0.25)] py-5 px-7 ">
           <div className="z-11111 mx-auto flex justify-between items-center">
             {/* Logo and Company Name */}
             <Link href="/" className="relative flex items-center h-10 w-32">
@@ -38,19 +38,19 @@ const Navbar = (props) => {
             <div className="hidden md:flex items-center uppercase space-x-8">
               <Link
                 href="/Projects"
-                className="text-[#634730] hover:text-blue-500"
+                className="text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold "
               >
                 Projects
               </Link>
               <Link
                 href="/Amenities"
-                className="text-[#634730] hover:text-blue-500"
+                className="text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
               >
                 Amenities
               </Link>
               <Link
                 href="/WhatSetUsApart"
-                className="text-[#634730] hover:text-blue-500"
+                className="text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
               >
                 What Set Us Apart
               </Link>
@@ -60,7 +60,7 @@ const Navbar = (props) => {
                   setIsOverlayOpn(true);
                   setIsOpen(false);
                 }}
-                className="px-4 py-2 bg-[#987218] text-white rounded-md hover:bg-[#6a5b4d] cursor-grab"
+                className="px-4 py-2 bg-[#6a5b4d] text-white tracking-[0.15em] text-[12px] font-normal hover:bg-[#fff9f0] hover:text-[#634730] hover:border hover:border-[#634730] hover:font-normal cursor-grab"
               >
                 Enquire
               </div>
@@ -100,7 +100,7 @@ const Navbar = (props) => {
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/Projects"
-                    className="block px-4 py-2 text-[#634730] uppercase  hover:font-bold hover:bg-gray-100"
+                    className="block px-4 py-2 text-[#634730] tracking-[0.15em] uppercase  text-[12px] font-normal hover:font-bold"
                   >
                     Projects
                     <FontAwesomeIcon className="ml-8" icon={faBuilding} />
@@ -109,7 +109,7 @@ const Navbar = (props) => {
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/Amenities"
-                    className="block px-4 py-2 text-[#634730] hover:bg-gray-100 "
+                    className="block px-4 py-2 text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold "
                   >
                     Amenities
                     <FontAwesomeIcon className="ml-8" icon={faLaptopFile} />
@@ -118,7 +118,7 @@ const Navbar = (props) => {
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/WhatSetUsApart"
-                    className="block px-4 py-2 text-[#634730] hover:bg-gray-100"
+                    className="block px-4 py-2 text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
                   >
                     What Set Us Apart
                     <FontAwesomeIcon icon={faHandshake} className="ml-8" />
@@ -131,7 +131,7 @@ const Navbar = (props) => {
                       setIsOverlayOpn(true);
                       setIsOpen(false);
                     }}
-                    className="block px-4 py-2 text-[#634730] cursor-grab hover:bg-gray-100"
+                    className="block px-4 py-2 text-[#634730] cursor-grab text-[12px] font-normal hover:font-bold hover:bg-gray-100"
                   >
                     Enquire
                     <FontAwesomeIcon

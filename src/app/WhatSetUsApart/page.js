@@ -15,7 +15,7 @@ import { useState } from "react";
 const WhatSetUsApart = () => {
   const [isOverlayOpn, setIsOverlayOpn] = useState(false);
   return (
-    <div className="bg-[#F5F0E9]">
+    <div className="bg-[#fff9f0]">
       <Navbar setIsOverlayOpn={setIsOverlayOpn} />
 
       <div className="py-12 buildingAnimationLeft">
@@ -23,11 +23,10 @@ const WhatSetUsApart = () => {
           <div className="flex items-center flex-col px-4 text-center">
             <p
               className="font-sans uppercase text-center text-[#7a6e66] tracking-[0.2em] 
-            leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[28px] 
+            leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[20px] sm:text-[28px] 
             word-spacing-[-0.22em]"
             >
-              In the competitive real estate landscape, Vedam Homes
-              distinguishes itself not just by the structures we build, but by
+              Vedam Homes distinguishes itself not just by the structures we build, but by
               the enduring relationships we cultivate. Our foundation is built
               upon five core pillars:
             </p>
@@ -47,10 +46,10 @@ const WhatSetUsApart = () => {
 
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-0 lg:pt-0 xl:pt-0 md:pl-8 md:pr-12 pl-0 pr-0 md:text-left">
-          <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase">
+          <h2 className="font-[Hues] mt-4 sm:mt-0 text-[20px] font-light underline text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             Unwavering Credibility
           </h2>
-          <p className="font-sans mt-4 sm:mt-8 text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] uppercase font-light">
+          <p className="font-sans mt-4 sm:mt-8 text-[19px] md:text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
             TRUST IS THE CORNERSTONE OF OUR BUSINESS. WE EARN IT THROUGH
             TRANSPARENT COMMUNICATION, CONSISTENTLY DELIVERING EXCEPTIONAL
             QUALITY, AND ALWAYS HONORING OUR COMMITMENTS. FROM THE INITIAL
@@ -65,10 +64,10 @@ const WhatSetUsApart = () => {
       <div className="flex flex-col-reverse md:flex-row items-start justify-between gap-8 lg:px-16 md:px-6 px-6 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 self-start md:pr-12 pl-0 pr-0 md:text-left">
-          <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase">
+          <h2 className="font-[Hues] mt-4 sm:mt-0 text-[20px] underline font-light text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             COLLABORATIVE EXPERTISE
           </h2>
-          <p className="mt-4 sm:mt-8 font-sans text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] uppercase font-light">
+          <p className="mt-4 sm:mt-8 font-sans text-[19px] md:text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
             CREATING AN EXCEPTIONAL HOME REQUIRES A TEAM OF EXPERTS WORKING IN
             PERFECT SYNERGY. OUR ARCHITECTS, DESIGNERS, ENGINEERS, AND
             CRAFTSPEOPLE COLLABORATE SEAMLESSLY, ENSURING EVERY DETAIL IS
@@ -106,12 +105,12 @@ const WhatSetUsApart = () => {
 
           {/* Text Section */}
           <div className="text-color flex justify-center flex-col w-full md:w-1/2 md:pl-8 pl-0 pr-0 md:text-left self-start">
-            <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase">
+            <h2 className="font-[Hues] mt-4 sm:mt-0 text-[20px] underline font-light text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
               PERSONALIZED OWNERSHIP
             </h2>
             <p
               role="contentinfo"
-              className="font-sans text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] uppercase font-light mt-4 sm:mt-8 2xl:pr-24 xl:pr-0 sm:pr-12"
+              className="font-sans text-[19px] md:text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light mt-4 sm:mt-8 2xl:pr-24 xl:pr-0 sm:pr-12"
             >
               WE DON'T JUST BUILD HOUSES; WE CRAFT HOMES. THIS SENSE OF
               OWNERSHIP PERMEATES OUR ENTIRE TEAM. EACH MEMBER, FROM CONCEPT TO
@@ -130,10 +129,10 @@ const WhatSetUsApart = () => {
       <div className="flex flex-col-reverse md:flex-row mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-start gap-8 setUsApartAnimationRight">
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 md:text-left self-start">
-          <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase">
+          <h2 className="font-[Hues] mt-4 sm:mt-0 text-[20px] font-light underline text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             PASSIONATE VISION
           </h2>
-          <p className="font-sans mt-4 sm:mt-8 text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] uppercase font-light">
+          <p className="font-sans mt-4 sm:mt-8 text-[19px] md:text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
             WE BELIEVE A HOME SHOULD BE MORE THAN JUST A PLACE TO LIVE; IT
             SHOULD BE AN EXPRESSION OF YOUR UNIQUE STYLE, A PERSONAL SANCTUARY,
             AND A LEGACY FOR GENERATIONS. THIS BELIEF FUELS OUR PURSUIT OF
@@ -167,10 +166,10 @@ const WhatSetUsApart = () => {
 
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 md:text-left self-start">
-          <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase">
+          <h2 className="font-[Hues] mt-4 sm:mt-0 text-[20px] font-light underline text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             ETHICAL FOUNDATION
           </h2>
-          <p className="font-sans mt-4 sm:mt-8 text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] uppercase font-light">
+          <p className="font-sans mt-4 sm:mt-8 text-[19px] md:text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
             ETHICAL PRACTICES ARE NON-NEGOTIABLE AT VEDAM HOMES. WE UPHOLD THE
             HIGHEST STANDARDS OF PROFESSIONALISM, INTEGRITY, AND TRANSPARENCY IN
             ALL OUR DEALINGS. WE BUILD LONG-TERM RELATIONSHIPS WITH CLIENTS,
