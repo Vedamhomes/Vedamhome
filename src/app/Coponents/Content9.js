@@ -7,6 +7,7 @@ import clubhouse from '@/images/clubhouse.jpg';
 import securityImage from '@/images/cctv-security-camera.jpg';
 import indoor_fitness from '@/images/indoor_fitness.jpg';
 import AquaFrontTowers from '@/images/AquaFrontTowers.png';
+import mutipurose_hall from '@/images/mutipurose_hall.jpg';
 
 
 const data = [
@@ -50,7 +51,7 @@ const data = [
         title: "Multipurpose Hall",
         imageTitle:'Host grand celebrations and memorable events in our versatile multipurpose hall',
         description: "Host grand celebrations and memorable events in our versatile multipurpose hall, equipped to cater to your every need.  From weddings and receptions to corporate gatherings and birthday parties, our spacious hall can be transformed to suit your specific requirements.  Our dedicated event staff is on hand to assist with planning and execution, ensuring a seamless and unforgettable experience.",
-        image: "/images/amenities/multipurpose_hall.jpg",
+        image: mutipurose_hall,
     },
     {
         title: "Outdoor Sports Facilities",
