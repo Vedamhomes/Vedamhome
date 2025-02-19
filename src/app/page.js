@@ -46,17 +46,18 @@ const Home = () => {
       </div>
 
       <div className="md:py-12 py-8 pl-0 animationLeft">
-        <div className="mx-auto flex flex-col md:flex-row-reverse items-center justify-between px-6">
+        <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-start justify-between px-6">
           {/* Text Section */}
-          <div className="md:w-1/2 md:px-12 text-center md:text-left mb-8 sm:mb-2">
+          <div className="md:w-1/2 md:px-6 text-center md:text-left self-start">
             <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase mb-4">
               Building
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-base font-light mb-8">
+            <p className="font-sans text-[23px] text-[#634730] uppercase tracking-[0.12em] leading-[1.75rem] font-light mb-4">
               Vedam Homes crafts exceptional living spaces that embody
-              sophistication, comfort, and prestige. Our meticulously designed
-              residences offer an unparalleled lifestyle in prime locations,
-              setting a new standard for luxury living.
+              sophistication, comfort, and prestige. From thoughtfully designed
+              layouts to premium finishes, our meticulously crafted residences
+              offer an unparalleled lifestyle in prime locations, setting a new
+              standard for refined luxury living.{" "}
             </p>
             <Link href="/Projects">
               <button className="bg-[#987218] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
@@ -65,13 +66,14 @@ const Home = () => {
             </Link>
           </div>
 
-          <div className="md:w-1/2 mb-6 md:mb-0 md:pl-12">
+          {/* Image Section */}
+          <div className="md:w-1/2 md:pl-6 self-start">
             <Image
               src={buildingImage}
               alt="Image"
-              width={500} // Specify width (needed for optimization)
-              height={300} // Specify height (needed for optimization)
-              className="w-full h-auto object-cover rounded-lg"
+              width={500} // Needed for optimization
+              height={300} // Needed for optimization
+              className="w-full max-w-full h-auto object-cover rounded-lg aspect-[5/4]"
             />
           </div>
         </div>
@@ -122,7 +124,7 @@ const Home = () => {
             <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-2xl md:text-3xl font-semibold uppercase mb-4">
               Amenities
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] text-base font-light mb-8">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.11em] leading-[1.75rem] uppercase font-light mb-8">
               We understand that the location of your home is just as important
               as its design. That's why we carefully choose prime locations for
               our projects, offering residents convenient access to essential
@@ -141,7 +143,7 @@ const Home = () => {
               alt="Image"
               width={500} // Specify width (needed for optimization)
               height={300} // Specify height (needed for optimization)
-              className="w-full h-auto object-cover rounded-lg"
+              className="w-full h-auto object-cover rounded-lg aspect-[5/4]"
             />
           </div>
         </div>
@@ -162,7 +164,7 @@ const Home = () => {
           </h2>
           <div className="flex items-center flex-col px-4 text-center">
             <p
-              className="font-[Hues] uppercase text-center text-[#634730] tracking-[0.2em] 
+              className="font-sans uppercase text-center text-[#634730] tracking-[0.2em] 
             leading-[1.8] max-w-[1100px] font-thin text-[28px]
             word-spacing-[-0.22em]"
             >
@@ -186,7 +188,7 @@ const Home = () => {
             <h2 className="text-2xl md:text-3xl font-semibold text-[#7a6e66] uppercase tracking-wide mb-4">
               The Choice of the Discerning
             </h2>
-            <p className="tracking-[0.25em] font-normal text-base text-[#7a6e66] leading-7 mb-8">
+            <p className="tracking-[0.25em] font-normal  text-[#7a6e66] leading-7 mb-8">
               Explore our portfolio of exceptional projects and discover the
               Vedam Homes difference. Experience the epitome of luxury living,
               where every detail is meticulously crafted and every moment is
