@@ -41,7 +41,7 @@ const Footer = () => {
                 className="cursor-pointer w-3 h-3"
                 icon={faInstagram}
                 flip
-                style={{ color: "#d80e40" }}
+                style={{ color: "#634730" }}
               />
             </Link>
               <Link
@@ -53,7 +53,7 @@ const Footer = () => {
                 className="cursor-pointer w-3 h-3"
                 icon={faFacebook}
                 beat
-                style={{ color: "#3b5998" }}
+                style={{ color: "#634730" }}
               />
             </Link>
             <Link
@@ -65,7 +65,7 @@ const Footer = () => {
                 className="cursor-pointer w-3 h-3"
                 icon={faLinkedin}
                 beatFade
-                style={{ color: "#0077B5" }}
+                style={{ color: "#634730" }}
               />
             </Link>
             <Link
@@ -77,7 +77,7 @@ const Footer = () => {
                 className="cursor-pointer w-3 h-3"
                 icon={faYoutube}
                 fade
-                style={{ color: "#FF0000" }}
+                style={{ color: "#634730" }}
               />
             </Link>
           </div>
