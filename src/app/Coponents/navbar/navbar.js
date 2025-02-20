@@ -38,19 +38,19 @@ const Navbar = (props) => {
             <div className="hidden md:flex items-center uppercase space-x-8">
               <Link
                 href="/Projects"
-                className="text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold "
+                className="text-[#634730] hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold "
               >
                 Projects
               </Link>
               <Link
                 href="/Amenities"
-                className="text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
+                className="text-[#634730] hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
               >
                 Amenities
               </Link>
               <Link
                 href="/WhatSetUsApart"
-                className="text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
+                className="text-[#634730] hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
               >
                 What Set Us Apart
               </Link>
