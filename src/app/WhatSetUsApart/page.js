@@ -26,9 +26,9 @@ const WhatSetUsApart = () => {
             leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[20px] sm:text-[28px] 
             word-spacing-[-0.22em]"
             >
-              Vedam Homes distinguishes itself not just by the structures we build, but by
-              the enduring relationships we cultivate. Our foundation is built
-              upon five core pillars:
+              Vedam Homes distinguishes itself not just by the structures we
+              build, but by the enduring relationships we cultivate. Our
+              foundation is built upon five core pillars:
             </p>
           </div>
         </div>
@@ -182,6 +182,12 @@ const WhatSetUsApart = () => {
             PROCESS.
           </p>
         </div>
+      </div>
+
+      <div className="mt-10 font-[Hues] flex flex-row justify-center">
+        <button onClick={() => setIsOverlayOpn(true)} className="button-57 text-[16px] p-2 md:p-4 md:text-[20px] font-light bg-[#fff9f0] hover:bg-[#6a5b4d] text-[#634730] hover:text-[#ffff] tracking-[0.2em] leading-[1.75rem] uppercase" role="button">
+          <span className="text">Explore Bespoke residences</span>
+        </button>
       </div>
 
       <Footer />
