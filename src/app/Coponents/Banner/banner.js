@@ -20,7 +20,7 @@ const Banner = (props) => {
       <div className="xl:mx-auto xl:container">
         <div className="bg-[#fff9f0] flex flex-col-reverse md:flex-row items-center lg:space-x-6">
           {/* Left Section */}
-          <div className="w-full lg:w-1/2 lg:pl-12 h-[40vh] sm:h-[50vh] md:h-auto">
+          <div className="w-full flex lg:w-1/2 lg:pl-12 h-[40vh] sm:h-[50vh] md:h-auto">
             <div className="absolute top-2 right-2 lg:top-0 lg:left-0">
               <button
                 onClick={() => setIsBannerOpn(false)}
