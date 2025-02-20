@@ -6,6 +6,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "font-awesome/css/font-awesome.min.css";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -31,41 +32,61 @@ const Footer = () => {
         {/* Right Section - Legal & Site Credits */}
         <div className="text-[14px] font-[Hues] tracking-[0.05em] uppercase mt-4 md:w-1/3 w-full md:text-right">
           <div className="w-full flex items-end space-x-6 mb-4  md:justify-end">
-            <div>
+            <Link
+              href="https://www.instagram.com/vedam.homes?igsh=aXdmank5dm9rYjU0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
                 className="cursor-pointer w-3 h-3"
                 icon={faInstagram}
                 flip
                 style={{ color: "#d80e40" }}
               />
-            </div>
-            <div>
+            </Link>
+              <Link
+                href="https://www.facebook.com/profile.php?id=61561361094814"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
               <FontAwesomeIcon
                 className="cursor-pointer w-3 h-3"
                 icon={faFacebook}
                 beat
                 style={{ color: "#3b5998" }}
               />
-            </div>
-            <div>
+            </Link>
+            <Link
+              href="https://www.linkedin.com/company/vedam-homes-llp/posts/?feedView=all"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
                 className="cursor-pointer w-3 h-3"
                 icon={faLinkedin}
                 beatFade
                 style={{ color: "#0077B5" }}
               />
-            </div>
-            <div>
+            </Link>
+            <Link
+              href="https://www.youtube.com/@VedamHomes"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <FontAwesomeIcon
                 className="cursor-pointer w-3 h-3"
                 icon={faYoutube}
                 fade
                 style={{ color: "#FF0000" }}
               />
-            </div>
+            </Link>
           </div>
-          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase">© 2021, Vedam Homes LLP. Real Estate Builder</p>
-          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase">Licensed in India</p>
+          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase">
+            © 2021, Vedam Homes LLP. Real Estate Builder
+          </p>
+          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase">
+            Licensed in India
+          </p>
         </div>
       </div>
     </footer>

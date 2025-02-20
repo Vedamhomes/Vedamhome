@@ -44,15 +44,6 @@ import washroom8 from "@/images/Projects/Washroom/D 175 FRONT TOILET VIEW.jpeg";
 
 // Export Images as an Organized Object
 const IMAGE_DATA = {
-  ALL: [
-    kitchen1, kitchen2, kitchen3, kitchen4,
-    bedroom1, bedroom2, bedroom3, bedroom4, 
-    bedroom5, bedroom6, bedroom7,
-    drawing1, drawing2, drawing3, drawing4, drawing5, drawing6,
-    lobby1, lobby2, lobby3, lobby4, lobby5,
-    stilt_1_image, stilt_2_image, stilt_3_image,
-    washroom1, washroom2, washroom3, washroom4, washroom5, washroom6, washroom7, washroom8
-  ],
   KITCHEN: [kitchen1, kitchen2, kitchen3, kitchen4],
   BEDROOMS: [ bedroom1, bedroom2, bedroom3, bedroom4, bedroom5, bedroom6, bedroom7, ],
   DRAWINGS: [drawing1, drawing2, drawing3, drawing4, drawing5, drawing6],

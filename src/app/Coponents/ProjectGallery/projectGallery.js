@@ -4,15 +4,15 @@ import { motion } from "framer-motion";
 import IMAGE_DATA from "@/app/images";
 
 const Projectgallery = () => {
-  const [selectedCategory, setSelectedCategory] = useState("ALL");
+  const [selectedCategory, setSelectedCategory] = useState("BEDROOMS");
   const [filteredImages, setFilteredImages] = useState([]);
 
   useEffect(() => {
-    if (selectedCategory === "ALL") {
-      setFilteredImages(Object.values(IMAGE_DATA).flat());
-    } else {
       setFilteredImages(IMAGE_DATA[selectedCategory] || []);
-    }
+    // if (selectedCategory === "ALL") {
+    //   setFilteredImages(Object.values(IMAGE_DATA).flat());
+    // } else {
+    // }
   }, [selectedCategory]);
 
   return (
@@ -21,7 +21,7 @@ const Projectgallery = () => {
         {Object.keys(IMAGE_DATA).map((category, index) => (
           <button
             key={category}
-            className={`font-sans text-[16px] mb-8 text-[#634730] uppercase tracking-[0.12em] leading-[1.75rem] font-light transition-all duration-300 ${
+            className={`font-[hues] text-[16px] mb-8 text-[#634730] uppercase tracking-[0.12em] leading-[1.75rem] font-light transition-all duration-300 ${
               selectedCategory === category
                 ? "text-black font-bold underline"
                 : "text-gray-500"

@@ -130,8 +130,6 @@ const Projects = () => {
         </div>
       </div>
 
-      <ProjectSlider />
-
       <Projectgallery />
 
       {/* <FeatureCard /> */}
