@@ -28,25 +28,7 @@ const items = [
 
 const ProjectSlider = () => {
   return (
-    <div className="grid grid-cols-1 gap-4 ">
-      {/* <div className="text-color pt-9 lg:pt-12 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 text-end md:text-left">
-        <h1 className="focus:outline-none md:w-120 font-normal md:text-4xl text-3xl leading-tight text-[#7a6e66]">
-            Building
-        </h1>
-        <div className="f-f-r text-base lg:text-base pb-10 sm:pb-0 pt-6 sm:pt-10 xl:pt-6">
-          <h2 className="text-[#7a6e66] text-sm text-justify">
-            Our reputation is our most valuable asset. We've earned the trust of
-            our clients through years of transparent dealings, consistent
-            delivery of exceptional quality, and an unwavering commitment to
-            fulfilling our promises. We believe in open communication, honest
-            practices, and building relationships based on mutual respect and
-            integrity. This steadfast dedication to credibility permeates every
-            aspect of our business, from the initial consultation to the final
-            handover and beyond. With Vedam Homes, you can be confident that you
-            are partnering with a company that values integrity above all else.
-          </h2>
-        </div>
-      </div> */}
+    <div className="grid grid-cols-1 gap-4 border-2 ">
       <Carousel
         items={items}
         startIndex={0}

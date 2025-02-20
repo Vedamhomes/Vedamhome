@@ -15,7 +15,6 @@ const Enquire = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log("phoneNumber.length()", phoneNumber.length);
     if (phoneNumber.length < 13) {
       return;
     }

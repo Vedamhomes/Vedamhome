@@ -3,21 +3,16 @@
 import { useState } from "react";
 import "./style.css";
 import Navbar from "./Coponents/navbar/navbar";
-// import useWindowInfo from "./Coponents/Hooks/useWindowInfo";
 import Banner from "./Coponents/Banner/banner";
 import Footer from "./Coponents/footer/footer";
-// import VideoPlayer from 'react-video-js-player';
 import Image from "next/image";
 import Link from "next/link";
 import buildingImage from "@/images/1.jpeg";
 import amenitiesImage from "@/images/4.jpeg";
 import amenitiesImage1 from "@/images/3.jpeg";
-import gardenImage from "@/images/12.jpg";
-import mainRoom from "@/images/5.jpeg";
 import AquaFrontTowers from "@/images/AquaFrontTowers.png";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
-import Slider from "./Coponents/Slider/slider";
 import ProjectSlider from "./Coponents/ProjectSlider/projectSlider";
 
 const Home = () => {
@@ -78,36 +73,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="md:px-16 md:py-12 py-8 pl-0">
-        <div className="mx-auto flex flex-col-reverse sm:flex-col md:flex-row items-center justify-between">
-          <div className="w-full h-auto md:w-1/3 mb-6 md:mb-0">
-            <Image
-              src={buildingImage}
-              alt="Image"
-              className="w-full h-auto object-cover rounded-lg"
-            />
-          </div>
-
-          // {/* Text Section *
-          <div className="md:w-1/2 sm:pl-12 px-4 md:px-0 py-4 text-center md:text-left animationLeft">
-            <p className="text-xl font-normal text-[#7a6e66] flex justify-center uppercase tracking-wide mb-4">
-              Building
-            </p>
-            //{/* <p className="tracking-[0.25em] text-2xl font-normal uppercase text-[#7a6e66] leading-7 mb-8"> *
-              <p className="font-[Hues] uppercase text-center text-[#7a6e66] tracking-[0.2em] leading-[1.8] max-w-[1200px] font-normal text-[24px] -word-spacing-[0.15em]">Vedam Homes crafts exceptional living spaces that embody
-              sophistication, comfort, and prestige. Our meticulously designed
-              residences offer an unparalleled lifestyle in prime locations,
-              setting a new standard for luxury living.
-            </p>
-            <Link href="/Projects">
-              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
-                Explore
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div> */}
 
       <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border my-6">
         <Image
@@ -182,30 +147,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="py-12 animationLeft">
-        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
-          <div className="md:w-1/2 text-center md:text-left">
-            <h2 className="text-2xl md:text-3xl font-medium text-[#7a6e66] uppercase tracking-wide mb-4">
-              The Choice of the Discerning
-            </h2>
-            <p className="tracking-[0.25em] font-normal  text-[#7a6e66] leading-7 mb-8">
-              Explore our portfolio of exceptional projects and discover the
-              Vedam Homes difference. Experience the epitome of luxury living,
-              where every detail is meticulously crafted and every moment is
-              cherished.
-            </p>
-            <Link href="/Projects">
-              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
-                Explore
-              </button>
-            </Link>
-          </div>
-        </div>
-      </div> */}
-
       <ProjectSlider />
-
-      {/* <Slider /> */}
 
       <Footer />
       <Banner

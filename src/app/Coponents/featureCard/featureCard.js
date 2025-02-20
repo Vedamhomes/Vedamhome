@@ -62,7 +62,6 @@ const FeatureList = ({ title, description, images }) => {
   useEffect(() => {
     // Get the scroll percentage
     scrollYProgress.on("change", (latest) => {
-      console.log("Visibility:", latest);
       setInView(latest >= 0.25);
     });
 
