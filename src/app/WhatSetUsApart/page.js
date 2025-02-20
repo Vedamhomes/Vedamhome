@@ -185,7 +185,7 @@ const WhatSetUsApart = () => {
       </div>
 
       <div className="mt-10 font-[hues] flex flex-row justify-center">
-        <button onClick={() => setIsOverlayOpn(true)} className="button-57 text-[16px] p-2 md:p-4 md:text-[20px] font-light bg-[#6a5b4d] hover:bg-[#fff9f0] text-[#ffff] hover:text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase" role="button">
+        <button onClick={() => setIsOverlayOpn(true)} className="button-57 text-[16px] p-2 md:p-4 md:text-[20px] font-light bg-[#6a5b4d] hover:bg-[#fff9f0] text-[#ffff] hover:text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase transform transition-transform duration-300 hover:scale-105" role="button">
           <span className="text">Explore Our Bespoke residences</span>
         </button>
       </div>
