@@ -28,7 +28,7 @@ const Home = () => {
       />
       <Navbar setIsOverlayOpn={setIsOverlayOpn} />
 
-      <div className=" animation mx-auto sm:px-4 flex items-center box-border sm:mt-6">
+      <div className="animation px-3 py-4 sm:px-6  sm:py-5 flex items-center justify-center box-border mt-1 w-full h-[65vh] sm:h-[88vh]">
         <video
           playsInline
           muted
@@ -36,7 +36,7 @@ const Home = () => {
           autoPlay
           src="first_video.mp4"
           preload="metadata"
-          className="w-full max-w-6xl max-h-2xl rounded-lg shadow-lg ml-auto mr-auto lg:h-full"
+          className="w-full h-full object-cover shadow-lg border-solid border-[1px] border-[#634730]"
         />
       </div>
 
