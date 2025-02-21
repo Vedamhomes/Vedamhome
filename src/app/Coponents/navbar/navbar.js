@@ -60,7 +60,7 @@ const Navbar = (props) => {
                   setIsOverlayOpn(true);
                   setIsOpen(false);
                 }}
-                className="px-4 py-2 bg-[#6a5b4d] text-white tracking-[0.15em] text-[12px] font-normal hover:bg-[#fff9f0] hover:text-[#634730] hover:border hover:border-[#634730] hover:font-normal cursor-grab"
+                className="px-4 py-2  text-white hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal bg-[#6a5b4d] hover:bg-[#fff9f0]  hover:border hover:border-[#634730] hover:font-normal cursor-grab"
               >
                 Enquire
               </div>

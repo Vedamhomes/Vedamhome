@@ -61,7 +61,7 @@ const ProgressiveScroll = () => {
           </div>
 
           {/* Number Indicator */}
-          <div className="absolute right-0 md:left-1/2 transform -translate-x-1/2 w-12 h-12 bg-black text-white flex items-center justify-center rounded-full text-lg font-bold border-4 border-yellow-400">
+          <div className="absolute right-[-25px] md:left-1/2 transform -translate-x-1/2 w-12 h-12 bg-black text-white flex items-center justify-center rounded-full text-lg font-bold border-4 border-yellow-400">
             {index + 1}
           </div>
 

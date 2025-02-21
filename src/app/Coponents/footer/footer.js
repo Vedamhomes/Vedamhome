@@ -14,17 +14,17 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start text-left">
         {/* Left Section - Contact Details */}
         <div className="md:w-1/3 w-full mb-6 md:mb-0">
-          <p className="text-[14px] font-[Hues] tracking-[0.05em] uppercase font-semibold">
+          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase font-semibold">
             Vedam Homes
           </p>
-          <p className="text-[14px] font-[Hues] tracking-[0.05em] uppercase">
+          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase">
             Unit: 1225, 12th Floor, JMD Megapolis, Sector 48, Gurugram, Haryana,
             122018
           </p>
-          <p className="text-[14px] font-[Hues] tracking-[0.05em] uppercase">
+          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase">
             (+91) 9871534959 / 7838239239
           </p>
-          <p className="text-[14px] font-[Hues] tracking-[0.05em] uppercase">
+          <p className="text-[10px] font-[Hues] tracking-[0.05em] uppercase">
             Info@vedamhomes.com
           </p>
         </div>
