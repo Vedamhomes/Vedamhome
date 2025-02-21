@@ -50,14 +50,14 @@ const ProgressiveScroll = () => {
         >
           {/* Content Block */}
           <div
-            className={`p-6 scroll_deatil_container text-[#634730] rounded-xl shadow-lg w-full md:w-1/2 ${
+            className={`p-6 scroll_deatil_container text-[#634730] rounded-2xl shadow-lg w-full md:w-1/2 ${
               index % 2 === 0
                 ? "bg-[#eaeaea] md:mr-16"
                 : "bg-[#eaeaea] md:ml-16"
             }`}
           >
-            <h2 className="text-2xl font-[Hues] uppercase font-bold">{section.title}</h2>
-            <p className="text-sm font-[hues] uppercase mt-2">{section.description}</p>
+            <h2 className="text-2xl font-sans uppercase font-bold">{section.title}</h2>
+            <p className="text-sm font-sans uppercase mt-2">{section.description}</p>
           </div>
 
           {/* Number Indicator */}

@@ -110,33 +110,15 @@ const UserInputModal = (props) => {
     >
       <div className="inquire_container_form">
         <div className="inquire_container_form_heading">
-          <h2 className="text-[10px] uppercase text-[#634730] tracking-[0.2em] leading-[1.2rem]">
-            * Crafted Luxury Designed to feel like home
+          <h2 className="text-[13px] uppercase text-center text-[#634730] tracking-[0.2em] leading-[1.2rem]">
+            Crafted Luxury Designed to feel like home
           </h2>
         </div>
 
         <form ref={form} className="input_form" onSubmit={handleSubmit}>
-          {/* <div className="form_input_container">
-            <label className="form_input_label" htmlFor="property_location">Property Location</label>
-            <select
-              name="property_location"
-              id="property_location"
-              className="form_input_box"
-              required
-              title="* Property Location"
-            >
-              <option value="">Select Property Location</option>
-            //   <option data-ref="faridabad" data-belong="" value="faridabad">
-            //     Faridabad
-            //  </option> 
-              <option data-ref="gurugram" data-belong="" value="gurugram">
-                Gurugram
-              </option>
-            </select>
-          </div> */}
 
           <div className="form_input_container">
-            <label className="ml-2 font-[Hues] mt-4 sm:mt-0 text-[20px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="first_name">First Name</label>
+            <label className="ml-2 font-sans mt-4 sm:mt-0 text-[16px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="first_name">First Name</label>
             <input
               type="text"
               className="form_input_box"
@@ -148,7 +130,7 @@ const UserInputModal = (props) => {
           </div>
 
           <div className="form_input_container">
-            <label className="ml-2 font-[Hues] mt-4 sm:mt-0 text-[20px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="last_name">Last Name</label>
+            <label className="ml-2 font-sans mt-4 sm:mt-0 text-[16px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="last_name">Last Name</label>
             <input
               type="text"
               className="form_input_box"
@@ -160,7 +142,7 @@ const UserInputModal = (props) => {
           </div>
 
           <div className="form_input_container">
-            <label className="ml-2 font-[Hues] mt-4 sm:mt-0 text-[20px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="email_address">Email Address</label>
+            <label className="ml-2 font-sans mt-4 sm:mt-0 text-[16px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="email_address">Email Address</label>
             <input
               type="email"
               className="form_input_box form_input_box_email"
@@ -172,7 +154,7 @@ const UserInputModal = (props) => {
           </div>
 
           <div className="form_input_container">
-            <label className="ml-2 font-[Hues] mt-4 sm:mt-0 text-[20px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="phone_number">Phone Number</label>
+            <label className="ml-2 font-sans mt-4 sm:mt-0 text-[16px] font-normal text-[#634730] tracking-[0.1em] leading-[1.65rem] uppercase" htmlFor="phone_number">Phone Number</label>
             <input
               type="tel"
               className="form_input_box"

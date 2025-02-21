@@ -91,10 +91,10 @@ const FeatureList = ({ title, description, images }) => {
     >
       {/* Text Section */}
       <div className="md:w-1/3 flex flex-col justify-start">
-        <h2 className="font-[Hues] text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-bold uppercase">
+        <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-bold uppercase">
           {title}
         </h2>
-        <p className="font-[hues] text-[16px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-base font-light mb-8">
+        <p className="font-sans text-[16px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-base font-light mb-8">
           {description}
         </p>
       </div>

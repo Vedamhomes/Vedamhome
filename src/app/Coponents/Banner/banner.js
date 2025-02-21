@@ -36,7 +36,7 @@ const Banner = (props) => {
               transition={{ duration: 0.8, ease: "easeOut" }}
               className="flex justify-center items-center flex-col text-center px-4 sm:px-6"
             >
-              <h1 className="font-[Hues] font-thin text-[16px] mt-4 sm:mt-0 sm:text-[22px] tracking-[0.2em] uppercase text-[#634730]">
+              <h1 className="font-sans font-thin text-[16px] mt-4 sm:mt-0 sm:text-[22px] tracking-[0.2em] uppercase text-[#634730]">
                 Exciting News
               </h1>
 
@@ -44,7 +44,7 @@ const Banner = (props) => {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.8 }}
-                className="sm:mt-4 font-[hues] font-light text-[16px] sm:text-[24px] uppercase text-[#634730] tracking-[0.1em] leading-relaxed max-w-xs sm:max-w-lg border border-[#7a6e66] px-4 sm:px-6 py-3 sm:py-4 rounded-lg shadow-md bg-white/50 backdrop-blur-sm"
+                className="sm:mt-4 font-sans font-light text-[16px] sm:text-[24px] uppercase text-[#634730] tracking-[0.1em] leading-relaxed max-w-xs sm:max-w-lg border border-[#7a6e66] px-4 sm:px-6 py-3 sm:py-4 rounded-lg shadow-md bg-white/50 backdrop-blur-sm"
               >
                 Vedam Homes luxury floors are open for booking now.
               </motion.p>

@@ -36,7 +36,7 @@ const data = [
         image: flowervellyImage,
     },
     {
-        title: "Children's Play Area",
+        title: "Children Play Area",
         imageTitle:'Nurture your childrens imagination and joy in our thoughtfully designed play area',
         description: "Nurture your children's imagination and joy in our thoughtfully designed play area, a secure and stimulating environment for their development.  Featuring age-appropriate equipment and soft, safe surfaces, our play area encourages active play, creativity, and social interaction.  Let your little ones explore, discover, and create unforgettable childhood memories.",
         image: children_area,

@@ -117,7 +117,7 @@ const Projects = () => {
         <div className=" mx-auto px-6 flex flex-col md:flex-row items-center justify-center"> 
           <div className="flex items-center flex-col px-4 text-center">
             <p
-              className="font-[Hues] uppercase text-center text-[#634730] tracking-[0.2em] 
+              className="font-sans uppercase text-center text-[#634730] tracking-[0.2em] 
             leading-[1.8] max-w-[1100px] font-thin text-[28px]
             word-spacing-[-0.22em]"
             >
