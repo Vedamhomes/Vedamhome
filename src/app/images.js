@@ -42,47 +42,63 @@ import washroom6 from "@/images/Projects/Washroom/I - 103 REAR LEFT TOILET VIEW 
 import washroom7 from "@/images/Projects/Washroom/D-175 CENTRAL PARK TOILET REAR RIGHT  VIEW 2.jpg";
 import washroom8 from "@/images/Projects/Washroom/D 175 FRONT TOILET VIEW.jpeg";
 
-// Export Images as an Organized Object
-// const IMAGE_DATA = {
-//   'ELEVATION': [elevation1, elevation2, elevation3],
-//   'STILT': [stilt_1_image, stilt_2_image, stilt_3_image],
-//   'DINING LOBBY': [lobby1, lobby2, lobby3],
-//   'LIVING ROOM': [drawing1, drawing2, drawing3, drawing4, drawing5, drawing6],
-//   'KITCHEN': [kitchen1, kitchen2, kitchen3, kitchen4],
-//   'BEDROOM': [ bedroom1, bedroom2, bedroom3, bedroom4, bedroom5, bedroom6, bedroom7, ],
-//   'WASHROOM': [ washroom1, washroom2, washroom3, washroom4, washroom5, washroom6, washroom7, washroom8 ],
-// };
+export const carouselItem = [
+  { key: "kitchen", value: kitchen3, altText: "vedam homes kitchen" },
+  { key: "elevation", value: elevation1, altText: "vedam homes elevation" },
+  { key: "stilt", value: stilt_1_image, altText: "vedam homes stilt" },
+  { key: "lobby", value: lobby5, altText: "vedam homes lobby" },
+  { key: "drawing", value: drawing1, altText: "vedam homes drawing" },
+  { key: "bedroom", value: bedroom1, altText: "vedam homes bedroom" },
+  { key: "washroom", value: washroom1, altText: "vedam homes washroom" },
+];
 
 const IMAGE_DATA = {
-    ELEVATION: {
-        name: 'ELEVATION',
-        value: [elevation1, elevation2, elevation3],
-    },
-    STILT: {
-        name: 'STILT',
-        value: [stilt_1_image, stilt_2_image, stilt_3_image],
-    },
-    LOBBY: {
-        name: 'DINING LOBBY',
-        value: [lobby1, lobby2, lobby3],
-    },
-    DRAWING: {
-        name: 'LIVING ROOM',
-        value: [drawing1, drawing2, drawing3, drawing4, drawing5, drawing6],
-    },
-    KITCHEN: {
-        name: 'KITCHEN',
-        value: [kitchen1, kitchen2, kitchen3, kitchen4],
-    },
-    BEDROOM: {
-        name: 'BEDROOM',
-        value:  [ bedroom1, bedroom2, bedroom3, bedroom4, bedroom5, bedroom6, bedroom7, ],
-    },
-    WASHROOM: {
-        name: 'WASHROOM',
-        value: [ washroom1, washroom2, washroom3, washroom4, washroom5, washroom6, washroom7, washroom8 ],
-    },
-}
+  ELEVATION: {
+    name: "ELEVATION",
+    value: [elevation1, elevation2, elevation3],
+  },
+  STILT: {
+    name: "STILT",
+    value: [stilt_1_image, stilt_2_image, stilt_3_image],
+  },
+  LOBBY: {
+    name: "DINING LOBBY",
+    value: [lobby1, lobby2, lobby3, lobby4, lobby5],
+  },
+  DRAWING: {
+    name: "LIVING ROOM",
+    value: [drawing1, drawing2, drawing3, drawing4, drawing5, drawing6],
+  },
+  KITCHEN: {
+    name: "KITCHEN",
+    value: [kitchen1, kitchen2, kitchen3, kitchen4],
+  },
+  BEDROOM: {
+    name: "BEDROOM",
+    value: [
+      bedroom1,
+      bedroom2,
+      bedroom3,
+      bedroom4,
+      bedroom5,
+      bedroom6,
+      bedroom7,
+    ],
+  },
+  WASHROOM: {
+    name: "WASHROOM",
+    value: [
+      washroom1,
+      washroom2,
+      washroom3,
+      washroom4,
+      washroom5,
+      washroom6,
+      washroom7,
+      washroom8,
+    ],
+  },
+};
 
 export default IMAGE_DATA;
 
