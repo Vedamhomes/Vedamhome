@@ -3,14 +3,19 @@ import { Modal } from "antd";
 import Image from "next/image";
 import bannerImage1 from "../../../../public/main_page_1.jpg";
 import { motion } from "framer-motion";
+import { useCallback } from "react";
 
 const Banner = (props) => {
   const { isBannerOpn, setIsBannerOpn, setIsOverlayOpn } = props;
 
+  const handleCancel = useCallback(() =>{
+    setIsBannerOpn(false)
+  },[]);
+
   return (
     <Modal
       open={isBannerOpn}
-      onCancel={() => setIsBannerOpn(false)}
+      onCancel={handleCancel}
       footer={null}
       width={1000}
       // style={{ width: '90vw', maxWidth: '1000px' }}
@@ -23,7 +28,7 @@ const Banner = (props) => {
           <div className="w-full flex lg:w-1/2 lg:pl-12 h-[40vh] sm:h-[50vh] md:h-auto">
             <div className="absolute top-2 right-2 lg:top-0 lg:left-0">
               <button
-                onClick={() => setIsBannerOpn(false)}
+                onClick={handleCancel}
                 className="w-10 h-10 flex items-center justify-center text-white md:text-black text-xl focus:outline-none"
               >
                 &times;

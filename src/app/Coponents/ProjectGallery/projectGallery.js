@@ -1,15 +1,15 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import IMAGE_DATA from "@/app/images";
 
 const Projectgallery = () => {
   const [selectedCategory, setSelectedCategory] = useState("DRAWING");
-  const [filteredImages, setFilteredImages] = useState([]);
+    const filteredImages = useMemo(() => IMAGE_DATA[selectedCategory]?.value || [], [selectedCategory]);
 
-  useEffect(() => {
-    setFilteredImages(IMAGE_DATA[selectedCategory].value || []);
-  }, [selectedCategory]);
+    const handleCategoryChange = useCallback((category) => {
+      setSelectedCategory(category);
+    }, []);
 
   return (
     <div className="w-full px-4 md:px-12 py-16 mt-10">
@@ -22,7 +22,7 @@ const Projectgallery = () => {
                 ? "text-black font-bold underline"
                 : "text-gray-500"
             }`}
-            onClick={() => setSelectedCategory(key)}
+            onClick={() => handleCategoryChange(key)}
           >
             {name}
           </button>
