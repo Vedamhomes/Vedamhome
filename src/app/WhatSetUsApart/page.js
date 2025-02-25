@@ -46,17 +46,17 @@ const WhatSetUsApart = () => {
 
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-0 lg:pt-0 xl:pt-0 md:pl-8 md:pr-12 pl-0 pr-0 md:text-left">
-          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-light text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
+          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             Unwavering Credibility
           </h2>
-          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
-            TRUST IS THE CORNERSTONE OF OUR BUSINESS. WE EARN IT THROUGH
-            TRANSPARENT COMMUNICATION, CONSISTENTLY DELIVERING EXCEPTIONAL
-            QUALITY, AND ALWAYS HONORING OUR COMMITMENTS. FROM THE INITIAL
-            CONSULTATION TO THE FINAL HANDOVER AND BEYOND, WE PRIORITIZE HONESTY
-            AND MUTUAL RESPECT IN EVERY INTERACTION. AT VEDAM HOMES, YOU PARTNER
-            WITH A COMPANY WHERE INTEGRITY ISN'T JUST A WORD, IT'S OUR GUIDING
-            PRINCIPLE.
+          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+            Trust is the cornerstone of our business. We earn it through
+            transparent communication, consistently delivering exceptional
+            quality, and always honoring our commitments. From the initial
+            consultation to the final handover and beyond, we prioritize honesty
+            and mutual respect in every interaction. At Vedam Homes, you partner
+            with a company where integrity isn't just a word, it's our guiding
+            principle.
           </p>
         </div>
       </div>
@@ -64,19 +64,19 @@ const WhatSetUsApart = () => {
       <div className="flex flex-col-reverse md:flex-row items-start justify-between gap-8 lg:px-16 md:px-6 px-6 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 self-start md:pr-12 pl-0 pr-0 md:text-left">
-          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-light text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
+          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             COLLABORATIVE EXPERTISE
           </h2>
-          <p className="mt-4 sm:mt-6 font-sans text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
-            CREATING AN EXCEPTIONAL HOME REQUIRES A TEAM OF EXPERTS WORKING IN
-            PERFECT SYNERGY. OUR ARCHITECTS, DESIGNERS, ENGINEERS, AND
-            CRAFTSPEOPLE COLLABORATE SEAMLESSLY, ENSURING EVERY DETAIL IS
-            METICULOUSLY CONSIDERED AND EVERY CHALLENGE EXPERTLY ADDRESSED. THIS
-            COLLABORATIVE APPROACH RESULTS IN HOMES THAT ARE MASTERPIECES OF
-            DESIGN AND CRAFTSMANSHIP, DRIVEN BY OUR TEAM'S SHARED PASSION FOR
-            EXCELLENCE. FOR EXAMPLE, OUR ARCHITECTS WORK CLOSELY WITH CLIENTS TO
-            UNDERSTAND THEIR VISION, WHILE OUR ENGINEERS ENSURE STRUCTURAL
-            SOUNDNESS AND SUSTAINABILITY.
+          <p className="mt-4 sm:mt-6 font-sans text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+            Creating an exceptional home requires a team of experts working in
+            perfect synergy. Our architects, designers, engineers, and
+            craftspeople collaborate seamlessly, ensuring every detail is
+            meticulously considered and every challenge expertly addressed. This
+            collaborative approach results in homes that are masterpieces of
+            design and craftsmanship, driven by our team's shared passion for
+            excellence. For example, our architects work closely with clients to
+            understand their vision, while our engineers ensure structural
+            soundness and sustainability.
           </p>
         </div>
 
@@ -105,22 +105,22 @@ const WhatSetUsApart = () => {
 
           {/* Text Section */}
           <div className="text-color flex justify-center flex-col w-full md:w-1/2 md:pl-8 pl-0 pr-0 md:text-left self-start">
-            <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-light text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
+            <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
               PERSONALIZED OWNERSHIP
             </h2>
             <p
               role="contentinfo"
-              className="font-sans text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light mt-4 sm:mt-6 2xl:pr-24 xl:pr-0 sm:pr-12"
+              className="font-sans text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light mt-4 sm:mt-6 2xl:pr-24 xl:pr-0 sm:pr-12"
             >
-              WE DON'T JUST BUILD HOUSES; WE CRAFT HOMES. THIS SENSE OF
-              OWNERSHIP PERMEATES OUR ENTIRE TEAM. EACH MEMBER, FROM CONCEPT TO
-              FINISHING TOUCH, TAKES PRIDE IN THEIR CONTRIBUTION, TREATING EVERY
-              PROJECT AS THEIR OWN. THIS DEDICATION TRANSLATES INTO UNPARALLELED
-              CARE AND ATTENTION TO DETAIL, ENSURING EVERY VEDAM HOME IS CRAFTED
-              WITH PRECISION AND PASSION. IMAGINE THE METICULOUS HAND-FINISHING
-              OF CUSTOM CABINETRY OR THE CAREFUL SELECTION OF NATURAL STONE FOR
-              YOUR COUNTERTOPS – THIS IS THE LEVEL OF OWNERSHIP WE BRING TO
-              EVERY DETAIL.
+              We don't just build houses; we craft homes. This sense of
+              ownership permeates our entire team. Each member, from concept to
+              finishing touch, takes pride in their contribution, treating every
+              project as their own. This dedication translates into unparalleled
+              care and attention to detail, ensuring every Vedam home is crafted
+              with precision and passion. Imagine the meticulous hand-finishing
+              of custom cabinetry or the careful selection of natural stone for
+              your countertops – this is the level of ownership we bring to
+              every detail.
             </p>
           </div>
         </div>
@@ -129,18 +129,18 @@ const WhatSetUsApart = () => {
       <div className="flex flex-col-reverse md:flex-row mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-start gap-8 setUsApartAnimationRight">
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 md:text-left self-start">
-          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-light text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
+          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             PASSIONATE VISION
           </h2>
-          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
-            WE BELIEVE A HOME SHOULD BE MORE THAN JUST A PLACE TO LIVE; IT
-            SHOULD BE AN EXPRESSION OF YOUR UNIQUE STYLE, A PERSONAL SANCTUARY,
-            AND A LEGACY FOR GENERATIONS. THIS BELIEF FUELS OUR PURSUIT OF
-            INNOVATION, OUR SELECTION OF THE FINEST MATERIALS, AND OUR
-            ENGAGEMENT OF THE MOST SKILLED CRAFTSPEOPLE. IT'S THIS PASSION THAT
-            ALLOWS US TO CREATE TRULY EXCEPTIONAL HOMES. WHETHER IT'S
-            INCORPORATING THE LATEST SMART HOME TECHNOLOGY OR SOURCING RARE AND
-            BEAUTIFUL HARDWOODS, OUR PASSION DRIVES US TO EXCEED EXPECTATIONS.
+          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+            We believe a home should be more than just a place to live; it
+            should be an expression of your unique style, a personal sanctuary,
+            and a legacy for generations. This belief fuels our pursuit of
+            innovation, our selection of the finest materials, and our
+            engagement of the most skilled craftspeople. It's this passion that
+            allows us to create truly exceptional homes. Whether it's
+            incorporating the latest smart home technology or sourcing rare and
+            beautiful hardwoods, our passion drives us to exceed expectations.
           </p>
         </div>
 
@@ -166,20 +166,20 @@ const WhatSetUsApart = () => {
 
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 md:text-left self-start">
-          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-light text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
+          <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             ETHICAL FOUNDATION
           </h2>
-          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light">
-            ETHICAL PRACTICES ARE NON-NEGOTIABLE AT VEDAM HOMES. WE UPHOLD THE
-            HIGHEST STANDARDS OF PROFESSIONALISM, INTEGRITY, AND TRANSPARENCY IN
-            ALL OUR DEALINGS. WE BUILD LONG-TERM RELATIONSHIPS WITH CLIENTS,
-            PARTNERS, AND COMMUNITIES BASED ON TRUST AND MUTUAL RESPECT. THIS
-            COMMITMENT TO ETHICAL CONDUCT IS FUNDAMENTAL TO OUR REPUTATION AND
-            GUIDES EVERY DECISION WE MAKE. WITH VEDAM HOMES, YOU CAN BE
-            CONFIDENT YOU'RE PARTNERING WITH A COMPANY THAT VALUES HONESTY AND
-            FAIRNESS ABOVE ALL ELSE. WE BELIEVE IN OPEN COMMUNICATION EVERY STEP
-            OF THE WAY, ENSURING YOU'RE FULLY INFORMED AND CONFIDENT IN THE
-            PROCESS.
+          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+            Ethical practices are non-negotiable at Vedam Homes. We uphold the
+            highest standards of professionalism, integrity, and transparency in
+            all our dealings. We build long-term relationships with clients,
+            partners, and communities based on trust and mutual respect. This
+            commitment to ethical conduct is fundamental to our reputation and
+            guides every decision we make. With Vedam Homes, you can be
+            confident you're partnering with a company that values honesty and
+            fairness above all else. We believe in open communication every step
+            of the way, ensuring you're fully informed and confident in the
+            process.
           </p>
         </div>
       </div>

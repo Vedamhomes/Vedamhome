@@ -24,10 +24,10 @@ const Projects = () => {
             leading-[1.8] max-w-[1100px] font-thin text-[28px]
             word-spacing-[-0.22em]"
           >
+            Explore a world of exquisite homes, built with passion and precision.
             In the competitive real estate landscape, Vedam Homes distinguishes
             itself not just by the structures we build, but by the enduring
-            relationships we cultivate. Our foundation is built upon five core
-            pillars:
+            relationships we cultivate.
           </p>
         </div>
       </div>

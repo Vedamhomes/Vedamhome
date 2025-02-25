@@ -47,7 +47,7 @@ const Home = () => {
             <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Building
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] uppercase tracking-[0.12em] leading-[1.75rem] font-light mb-4">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
               Vedam Homes crafts exceptional living spaces that embody
               sophistication, comfort, and prestige. From thoughtfully designed
               layouts to premium finishes, our meticulously crafted residences
@@ -89,7 +89,7 @@ const Home = () => {
             <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Amenities
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase font-light mb-8">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light mb-8">
               We understand that the location of your home is just as important
               as its design. That's why we carefully choose prime locations for
               our projects, offering residents convenient access to essential
@@ -129,7 +129,7 @@ const Home = () => {
           </h2>
           <div className="flex items-center flex-col px-4 text-center">
             <p
-              className="font-sans uppercase text-center text-[#634730] tracking-[0.2em] 
+              className="font-sans text-center text-[#634730] tracking-[0.2em] 
             leading-[1.8] max-w-[1100px] font-thin text-[28px]
             word-spacing-[-0.22em]"
             >

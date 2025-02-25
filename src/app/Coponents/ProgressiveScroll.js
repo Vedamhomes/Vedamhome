@@ -57,7 +57,7 @@ const ProgressiveScroll = () => {
             }`}
           >
             <h2 className="text-2xl font-sans uppercase font-bold">{section.title}</h2>
-            <p className="text-sm font-sans uppercase mt-2">{section.description}</p>
+            <p className="text-sm font-sans mt-2">{section.description}</p>
           </div>
 
           {/* Number Indicator */}
