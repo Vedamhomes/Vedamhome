@@ -34,14 +34,14 @@ const WhatSetUsApart = () => {
         </div>
       </div>
 
-      <div className="mx-auto px-6 lg:mx-auto relative mt-4 md:px-12 md:flex items-start gap-4 setUsApartAnimationRight">
+      <div className="mx-auto px-6 lg:mx-auto relative my-4 md:px-12 md:flex items-start gap-4 setUsApartAnimationRight">
         {/* Image Section */}
         <Image
           src={unwavering_cred_image}
           alt="Sample"
           height={300}
           width={300}
-          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[65vh]"
         />
 
         {/* Text Section */}
@@ -49,7 +49,7 @@ const WhatSetUsApart = () => {
           <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             Unwavering Credibility
           </h2>
-          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+          <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
             Trust is the cornerstone of our business. We earn it through
             transparent communication, consistently delivering exceptional
             quality, and always honoring our commitments. From the initial
@@ -61,13 +61,13 @@ const WhatSetUsApart = () => {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row items-start justify-between gap-8 lg:px-16 md:px-6 px-6 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
+      <div className="flex flex-col-reverse md:flex-row items-start justify-between gap-8 lg:px-16 md:px-6 px-6 my-4 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
         {/* Text Section */}
         <div className="text-color flex justify-center flex-col w-full md:w-1/2 self-start md:pr-12 pl-0 pr-0 md:text-left">
           <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             COLLABORATIVE EXPERTISE
           </h2>
-          <p className="mt-4 sm:mt-6 font-sans text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+          <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
             Creating an exceptional home requires a team of experts working in
             perfect synergy. Our architects, designers, engineers, and
             craftspeople collaborate seamlessly, ensuring every detail is
@@ -86,11 +86,11 @@ const WhatSetUsApart = () => {
           height={300}
           width={300}
           alt="Sample"
-          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[85vh]"
+          className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[65vh]"
         />
       </div>
 
-      <div className="py-4 px-4 sm:py-14 md:py-20 2xl:px-0 lg:px-12 sm:px-4 2xl:mx-auto setUsApartAnimationRight">
+      <div className="py-4 px-4 sm:py-14 md:py-20 2xl:px-0 lg:px-12 sm:px-4 my-4 2xl:mx-auto setUsApartAnimationRight">
         <div className="md:flex gap-8 items-start justify-between w-full">
           {/* Image Section */}
           <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48 self-start">
@@ -110,7 +110,7 @@ const WhatSetUsApart = () => {
             </h2>
             <p
               role="contentinfo"
-              className="font-sans text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light mt-4 sm:mt-6 2xl:pr-24 xl:pr-0 sm:pr-12"
+              className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4 mt-4 sm:mt-6 2xl:pr-24 xl:pr-0 sm:pr-12"
             >
               We don't just build houses; we craft homes. This sense of
               ownership permeates our entire team. Each member, from concept to
@@ -132,7 +132,7 @@ const WhatSetUsApart = () => {
           <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             PASSIONATE VISION
           </h2>
-          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+          <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
             We believe a home should be more than just a place to live; it
             should be an expression of your unique style, a personal sanctuary,
             and a legacy for generations. This belief fuels our pursuit of
@@ -150,18 +150,18 @@ const WhatSetUsApart = () => {
           alt="Sample"
           height={300}
           width={300}
-          className="w-full md:w-2/4 object-fill setUsApartAnimationRight md:h-[85vh] self-start"
+          className="w-full md:w-2/4 object-fill setUsApartAnimationRight md:h-[65vh] self-start"
         />
       </div>
 
-      <div className="mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-start gap-8 setUsApartAnimationRight">
+      <div className="mx-auto px-6 lg:mx-auto relative my-12 xl:px-20 lg:px-16 md:px-12 md:flex items-start gap-8 setUsApartAnimationRight">
         {/* Image Section */}
         <Image
           src={uncompromising_ethic_image}
           alt="Sample"
           height={300}
           width={300}
-          className="w-full md:w-2/4 object-fill setUsApartAnimationRight md:h-[85vh] self-start"
+          className="w-full md:w-2/4 object-fill setUsApartAnimationRight md:h-[65vh] self-start"
         />
 
         {/* Text Section */}
@@ -169,7 +169,7 @@ const WhatSetUsApart = () => {
           <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             ETHICAL FOUNDATION
           </h2>
-          <p className="font-sans mt-4 sm:mt-6 text-[17px] md:text-[19px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light">
+          <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
             Ethical practices are non-negotiable at Vedam Homes. We uphold the
             highest standards of professionalism, integrity, and transparency in
             all our dealings. We build long-term relationships with clients,
@@ -184,7 +184,7 @@ const WhatSetUsApart = () => {
         </div>
       </div>
 
-      <div className="mt-10 font-sans flex flex-row justify-center px-10">
+      <div className="my-142 font-sans flex flex-row justify-center px-10">
         {/* <button onClick={() => setIsOverlayOpn(true)} className="button-57 mx-4 md:msx-0 text-[16px] p-2 md:p-4 md:text-[20px] font-light bg-[#6a5b4d] hover:bg-[#fff9f0] text-[#ffff] hover:text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase transform transition-transform duration-300 hover:scale-105" role="button">
           <span className="text">Explore Our Bespoke residences</span>
         </button> */}

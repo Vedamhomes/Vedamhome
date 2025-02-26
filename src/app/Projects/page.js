@@ -25,10 +25,7 @@ const Projects = () => {
             word-spacing-[-0.22em]"
           >
             Explore a world of exquisite homes, built with passion and precision.
-            In the competitive real estate landscape, Vedam Homes distinguishes
-            itself not just by the structures we build, but by the enduring
-            relationships we cultivate.
-          </p>
+                      </p>
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ import Link from "next/link";
 import buildingImage from "@/images/1.jpeg";
 import amenitiesImage from "@/images/4.jpeg";
 import amenitiesImage1 from "@/images/3.jpeg";
+import amenities_1 from "@/images/amenities_1.jpg";
 import AquaFrontTowers from "@/images/AquaFrontTowers.png";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
@@ -45,7 +46,7 @@ const Home = () => {
           {/* Text Section */}
           <div className="md:w-1/2 md:px-6 text-center md:text-left self-start">
             <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
-              Building
+              Projects
             </h2>
             <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
               Vedam Homes crafts exceptional living spaces that embody
@@ -89,7 +90,7 @@ const Home = () => {
             <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Amenities
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.2em] leading-[1.75rem] font-light mb-8">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-8">
               We understand that the location of your home is just as important
               as its design. That's why we carefully choose prime locations for
               our projects, offering residents convenient access to essential
@@ -104,11 +105,11 @@ const Home = () => {
 
           <div className="md:w-1/2 mb-6 md:mb-0">
             <Image
-              src={amenitiesImage1}
+              src={amenities_1}
               alt="Image"
               width={500} // Specify width (needed for optimization)
               height={300} // Specify height (needed for optimization)
-              className="w-full h-auto object-cover rounded-lg aspect-[5/4]"
+              className="w-full h-auto rounded-lg aspect-[5/4]"
             />
           </div>
         </div>
@@ -129,7 +130,7 @@ const Home = () => {
           </h2>
           <div className="flex items-center flex-col px-4 text-center">
             <p
-              className="font-sans text-center text-[#634730] tracking-[0.2em] 
+              className="font-sans text-center text-[#634730] tracking-[0.13em] 
             leading-[1.8] max-w-[1100px] font-thin text-[28px]
             word-spacing-[-0.22em]"
             >
