@@ -45,7 +45,7 @@ const Home = () => {
               night, sun, clouds, or stars.
             </p>
             <Link href="/Projects">
-              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] uppercase transition duration-300">
                 Explore
               </button>
             </Link>
@@ -71,7 +71,7 @@ const Home = () => {
               Haryana and Delhi NCR.
             </p>
             <Link href="/Amenities">
-              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition uppercase duration-300">
                 Explore
               </button>
             </Link>
@@ -104,7 +104,7 @@ const Home = () => {
               exceptional living spaces.
             </p>
             <Link href="/Projects">
-              <button className="bg-[#7a6e66] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+              <button className="bg-[#7a6e66] text-white py-3 px-6 uppercase rounded-lg hover:bg-[#6a5b4d] transition duration-300">
                 Explore
               </button>
             </Link>

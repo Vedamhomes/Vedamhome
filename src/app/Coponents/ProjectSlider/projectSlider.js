@@ -9,7 +9,7 @@ import { carouselItem } from "@/app/images";
 const itemData = carouselItem.map((item) => {
   const {key, value, altText} = item;
   return (
-    <Image height={400} width={400} title={key} src={value} alt={altText} />
+    <Image height={500} width={500} title={key} src={value} alt={altText} />
   )
 })
 

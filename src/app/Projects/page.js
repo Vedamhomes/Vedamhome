@@ -16,7 +16,7 @@ const Projects = () => {
 
    // ✅ Memoizing Static Content
   const projectText = useMemo(() => (
-    <div className="py-12 buildingAnimationLeft">
+    <div className="pt-12 buildingAnimationLeft">
       <div className="mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
         <div className="flex items-center flex-col px-4 text-center">
           <p

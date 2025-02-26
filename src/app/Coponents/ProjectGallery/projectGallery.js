@@ -12,7 +12,7 @@ const Projectgallery = () => {
     }, []);
 
   return (
-    <div className="w-full px-4 md:px-12 py-16 mt-10">
+    <div className="w-full px-4 md:px-12 py-12">
       <div className="flex justify-center flex-wrap space-x-6 border-b pb-4">
         {Object.entries(IMAGE_DATA).map(([key, { name }]) => (
           <button

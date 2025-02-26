@@ -7,6 +7,7 @@ import Image from "next/image";
 import syneregtic_team_image from "@/images/syneregtic_team.jpg";
 import unwavering_cred_image from "@/images/unwavering_cred.jpg";
 import deep_belief_image from "@/images/deep_belief.jpg";
+import clubhouse from "@/images/clubhouse.jpg";
 import uncompromising_ethic_image from "@/images/uncompromising_ethic.jpg";
 import neflovaimga from "@/images/neflovaimga.jpg";
 import UserInputModal from "../Coponents/UserInputModal/userInputModal";
@@ -93,9 +94,9 @@ const WhatSetUsApart = () => {
       <div className="py-4 px-4 sm:py-14 md:py-20 2xl:px-0 lg:px-12 sm:px-4 my-4 2xl:mx-auto setUsApartAnimationRight">
         <div className="md:flex gap-8 items-start justify-between w-full">
           {/* Image Section */}
-          <div className="xl:w-4/6 md:w-1/2 w-full xl:pl-48 self-start">
+          <div className="xl:w-4/6 w-full self-start">
             <Image
-              src={neflovaimga}
+              src={clubhouse}
               height={300}
               width={300}
               alt="Purple flowers on a book"
@@ -128,7 +129,7 @@ const WhatSetUsApart = () => {
 
       <div className="flex flex-col-reverse md:flex-row mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-start gap-8 setUsApartAnimationRight">
         {/* Text Section */}
-        <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 pl-0 pr-0 md:text-left self-start">
+        <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pr-12 pl-0 pr-0 md:text-left self-start">
           <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
             PASSIONATE VISION
           </h2>

@@ -7,9 +7,8 @@ import Banner from "./Coponents/Banner/banner";
 import Footer from "./Coponents/footer/footer";
 import Image from "next/image";
 import Link from "next/link";
-import buildingImage from "@/images/1.jpeg";
+import buildingImage from "@/images/7.jpeg";
 import amenitiesImage from "@/images/4.jpeg";
-import amenitiesImage1 from "@/images/3.jpeg";
 import amenities_1 from "@/images/amenities_1.jpg";
 import AquaFrontTowers from "@/images/AquaFrontTowers.png";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
@@ -48,7 +47,7 @@ const Home = () => {
             <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Projects
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[3rem] font-light mb-4">
               Vedam Homes crafts exceptional living spaces that embody
               sophistication, comfort, and prestige. From thoughtfully designed
               layouts to premium finishes, our meticulously crafted residences
@@ -56,7 +55,7 @@ const Home = () => {
               standard for refined luxury living.{" "}
             </p>
             <Link href="/Projects">
-              <button className="bg-[#987218] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+              <button className="bg-[#987218] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition uppercase duration-300">
                 Explore
               </button>
             </Link>
@@ -74,30 +73,30 @@ const Home = () => {
           </div>
         </div>
       </div>
-
+{/* 
       <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border my-6">
         <Image
           src={amenitiesImage}
           alt="Vedam homes amenities image"
           className="ml-auto mr-auto"
         />
-      </div>
+      </div> */}
 
       <div className="md:pr-16 md:py-12 py-8 pl-0 animationLeft">
-        <div className="mx-auto flex flex-col md:flex-row items-center justify-between px-6">
+        <div className="mx-auto flex flex-col md:flex-row items-start justify-between px-6">
           {/* Text Section */}
           <div className="md:w-1/2 md:px-12 text-center md:text-left mb-8 sm:mb-2">
             <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Amenities
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-8">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[3rem] font-light mb-8">
               We understand that the location of your home is just as important
               as its design. That's why we carefully choose prime locations for
               our projects, offering residents convenient access to essential
               amenities, vibrant communities, and a thriving urban landscape.
             </p>
             <Link href="/Amenities">
-              <button className="bg-[#987218] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+              <button className="bg-[#987218] text-white py-3 uppercase px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
                 Explore
               </button>
             </Link>
@@ -131,7 +130,7 @@ const Home = () => {
           <div className="flex items-center flex-col px-4 text-center">
             <p
               className="font-sans text-center text-[#634730] tracking-[0.13em] 
-            leading-[1.8] max-w-[1100px] font-thin text-[28px]
+            leading-[3rem] max-w-[1100px] font-thin text-[28px]
             word-spacing-[-0.22em]"
             >
               Explore our portfolio of exceptional projects and discover the
@@ -141,7 +140,7 @@ const Home = () => {
             </p>
           </div>
           <Link href="/Projects">
-            <button className="bg-[#987218] text-white md:mt-6 py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+            <button className="bg-[#987218] text-white md:mt-6 py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition uppercase duration-300">
               Explore
             </button>
           </Link>
