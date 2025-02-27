@@ -44,10 +44,10 @@ const Home = () => {
         <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-start justify-between px-6">
           {/* Text Section */}
           <div className="md:w-1/2 md:px-6 text-center md:text-left self-start">
-            <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
+            <h2 className="font-sans mt-[-5px] text-[21px] text-[#634730] tracking-[0.15em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Projects
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[3rem] font-light mb-4">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3rem] font-light mb-4">
               Vedam Homes crafts exceptional living spaces that embody
               sophistication, comfort, and prestige. From thoughtfully designed
               layouts to premium finishes, our meticulously crafted residences
@@ -86,10 +86,10 @@ const Home = () => {
         <div className="mx-auto flex flex-col md:flex-row items-start justify-between px-6">
           {/* Text Section */}
           <div className="md:w-1/2 md:px-12 text-center md:text-left mb-8 sm:mb-2">
-            <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.2em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
+            <h2 className="font-sans mt-[-5px] text-[21px] text-[#634730] tracking-[0.15em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
               Amenities
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[3rem] font-light mb-8">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3rem] font-light mb-8">
               We understand that the location of your home is just as important
               as its design. That's why we carefully choose prime locations for
               our projects, offering residents convenient access to essential
@@ -124,7 +124,7 @@ const Home = () => {
 
       <div className="py-16 buildingAnimationLeft">
         <div className=" mx-auto px-6 flex flex-col md:flex-col items-center justify-center">
-          <h2 className="font-sans text-[28px] md:text-3xl tracking-[0.2em] leading-[1.75rem] font-medium text-[#634730] uppercase mb-4">
+          <h2 className="font-sans text-[28px] md:text-3xl tracking-[0.15em] leading-[1.75rem] font-medium text-[#634730] uppercase mb-4">
             The Choice of the Discerning
           </h2>
           <div className="flex items-center flex-col px-4 text-center">

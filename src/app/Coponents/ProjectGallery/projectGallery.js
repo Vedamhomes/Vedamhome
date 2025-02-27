@@ -54,7 +54,7 @@ const Projectgallery = () => {
                 alt={`Gallery Image ${index + 1}`}
                 layout="fill"
                 objectFit="cover"
-                className="rounded-lg"
+                className="shadow-project-image"
                 loading="lazy"
               />
             </motion.div>

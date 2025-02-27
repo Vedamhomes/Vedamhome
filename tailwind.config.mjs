@@ -14,6 +14,7 @@ export default {
       boxShadow: {
         'custom-shadow': '0px 3px 8px rgba(0, 0, 0, 0.24)',
         'project-custom': 'rgba(0, 0, 0, 0.35) 0px 5px 15px',
+        'project-image': 'rgb(38, 57, 77) 0px 20px 30px -10px',
       },
     },
   },
