@@ -8,8 +8,10 @@ import Footer from "./Coponents/footer/footer";
 import Image from "next/image";
 import Link from "next/link";
 import buildingImage from "@/images/7.jpeg";
+import buildingImage1 from "@/images/Image.jpg";
 import amenitiesImage from "@/images/4.jpeg";
 import amenities_1 from "@/images/amenities_1.jpg";
+import project_section from "@/images/project_section.jpg";
 import AquaFrontTowers from "@/images/AquaFrontTowers.png";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
@@ -44,7 +46,7 @@ const Home = () => {
         <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-stretch px-6">
           {/* Text Section */}
           <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col items-start flex-1">
-            <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.15em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
+            <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
               Projects
             </h2>
             <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.2rem] font-light mb-4">
@@ -54,17 +56,17 @@ const Home = () => {
               offer an unparalleled lifestyle in prime locations, setting a new
               standard for refined luxury living.
             </p>
-            <Link href="/Projects">
-              <button className="bg-[#987218] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition uppercase duration-300">
-                Explore
-              </button>
-            </Link>
+              <Link href="/Projects">
+                <button className="bg-[#987218] text-white py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition uppercase duration-300">
+                  Explore
+                </button>
+              </Link>
           </div>
 
           {/* Image Section */}
           <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
             <Image
-              src={buildingImage}
+              src={buildingImage1}
               alt="Building"
               width={500}
               height={300}
@@ -80,43 +82,41 @@ const Home = () => {
           src={amenitiesImage}
           alt="Vedam homes amenities image"
           className="ml-auto mr-auto"
-        />
-      </div> */}
+          />
+          </div> */}
 
-<div className="md:pr-16 md:py-12 py-8 pl-0 animationLeft">
-  <div className="mx-auto flex flex-col md:flex-row items-stretch justify-between px-6 gap-8">
-    
-    {/* Text Section */}
-    <div className="md:w-1/2 md:px-12 text-center md:text-left flex flex-col justify-center flex-1">
-      <h2 className="font-sans text-[21px] text-[#634730] tracking-[0.15em] leading-[1.75rem] text-2xl md:text-3xl font-medium uppercase mb-4">
-        Amenities
-      </h2>
-      <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.1rem] font-light mb-8">
-        We understand that the location of your home is just as important as its design. 
-        That's why we carefully choose prime locations for our projects, offering residents 
-        convenient access to essential amenities, vibrant communities, and a thriving urban landscape.
-      </p>
-      <Link href="/Amenities">
-        <button className="bg-[#987218] text-white py-3 uppercase px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
-          Explore
-        </button>
-      </Link>
-    </div>
+      <div className="md:pr-16 md:py-12 py-8 pl-0 animationLeft">
+        <div className="mx-auto flex flex-col md:flex-row items-stretch justify-between px-6 gap-8">
+          {/* Text Section */}
+          <div className="md:w-1/2 md:px-12 text-center md:text-left flex flex-col justify-center flex-1">
+            <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] font-medium uppercase mb-4">
+              Amenities
+            </h2>
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.1rem] font-light mb-8">
+              We understand that the location of your home is just as important
+              as its design. That's why we carefully choose prime locations for
+              our projects, offering residents convenient access to essential
+              amenities, vibrant communities, and a thriving urban landscape.
+            </p>
+            <Link href="/Amenities">
+              <button className="bg-[#987218] text-white py-3 uppercase px-6 rounded-lg hover:bg-[#6a5b4d] transition duration-300">
+                Explore
+              </button>
+            </Link>
+          </div>
 
-    {/* Image Section */}
-    <div className="md:w-1/2 flex-1 flex items-center">
-      <Image
-        src={amenities_1}
-        alt="Amenities"
-        width={500}
-        height={300}
-        className="w-full h-full object-cover rounded-lg min-h-[300px]"
-      />
-    </div>
-
-  </div>
-</div>
-
+          {/* Image Section */}
+          <div className="md:w-1/2 flex-1 flex items-center">
+            <Image
+              src={amenities_1}
+              alt="Amenities"
+              width={500}
+              height={300}
+              className="w-full h-full object-cover rounded-lg min-h-[300px]"
+            />
+          </div>
+        </div>
+      </div>
 
       <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border my-6">
         <Image
@@ -128,7 +128,7 @@ const Home = () => {
 
       <div className="py-16 buildingAnimationLeft">
         <div className=" mx-auto px-6 flex flex-col md:flex-col items-center justify-center">
-          <h2 className="font-sans text-[28px] md:text-3xl tracking-[0.15em] leading-[1.75rem] font-medium text-[#634730] uppercase mb-4">
+          <h2 className="font-sans text-[28px] md:text-3xl tracking-[0.15em] leading-[1.55rem] font-medium text-[#634730] uppercase mb-4">
             The Choice of the Discerning
           </h2>
           <div className="flex items-center flex-col px-4 text-center">

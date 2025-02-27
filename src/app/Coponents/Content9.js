@@ -9,6 +9,39 @@ import indoor_fitness from '@/images/indoor_fitness.jpg';
 import AquaFrontTowers from '@/images/AquaFrontTowers.png';
 import mutipurose_hall from '@/images/mutipurose_hall.jpg';
 
+export const amenitySliderData = [
+    {
+      image: wiild_horse,
+      title: "Aroma Baths",
+      alt: "Relaxing aroma baths with candles and towels.",
+    },
+    {
+      image: outdoors_sport,
+      title: "Footspa",
+      alt: "A foot spa session with flowers and essential oils.",
+    },
+    {
+      image: neflovaimga,
+      title: "Naturopathy",
+      alt: "Natural herbs and healing techniques.",
+    },
+    {
+      image: flowervellyImage,
+      title: "Valley",
+      alt: "Natural herbs and healing techniques.",
+    },
+    {
+      image: children_area,
+      title: "Children",
+      alt: "Natural herbs and healing techniques.",
+    },
+    {
+      image: AquaFrontTowers,
+      title: "Tower",
+      alt: "Natural herbs and healing techniques.",
+    },
+  ];
+
 
 const data = [
     {
@@ -73,5 +106,32 @@ const data = [
     },
     // Add more amenities as needed...
 ];
+
+export const amenitySwiperData = [
+  { id: 1, title: "Jacuzzi", image: "https://www.centralpark.in/images/Jacuzzi.jpg", altText: "Jacuzzi with warm bubbling water" },
+  { id: 2, title: "Sun Bath", image: "https://www.centralpark.in/images/Sun-Bath.jpg", altText: "Relaxing sun bath area with lounge chairs" },
+  { id: 3, title: "Herbal Parks", image: "https://www.centralpark.in/images/Herbal-Parks.jpg", altText: "Green herbal park with medicinal plants" },
+  { id: 4, title: "Nature Walks", image: "https://www.centralpark.in/images/Nature-Walks.jpg", altText: "Peaceful pathway for nature walks" },
+  { id: 5, title: "Flora Fountain", image: "https://www.centralpark.in/images/Flora-Fountain.jpg", altText: "Beautiful floral fountain with colorful flowers" },
+  { id: 6, title: "Detoxification Diet Sessions", image: "https://www.centralpark.in/images/Detoxification-Diet-Sessions.jpg", altText: "Healthy detox diet session with fresh juices" },
+  { id: 7, title: "Salad Bar", image: "https://www.centralpark.in/images/Salad-Bar.jpg", altText: "Fresh and healthy salad bar with organic vegetables" },
+  { id: 8, title: "Organic Cafe", image: "https://www.centralpark.in/images/Organic-Cafe.jpg", altText: "Cozy organic cafe with natural ambiance" },
+  { id: 9, title: "Basketball Court", image: "https://www.centralpark.in/images/Basketball-Court.jpg", altText: "Professional outdoor basketball court" },
+  { id: 10, title: "Cricket Practice Nets", image: "https://www.centralpark.in/images/Basketball-Court.jpg", altText: "Dedicated cricket practice nets for training" },
+  { id: 11, title: "Golf Putting & Chipping Greens", image: "https://www.centralpark.in/images/Golf-Putting-Chipping-Greens.jpg", altText: "Green golf putting and chipping area" },
+  { id: 12, title: "Indoor Badminton", image: "https://www.centralpark.in/images/indoor-badminton.jpg", altText: "Indoor badminton court with wooden flooring" },
+  { id: 13, title: "Lawn Tennis", image: "https://www.centralpark.in/images/lawn-tennis.jpg", altText: "Lawn tennis court with net and seating area" },
+  { id: 14, title: "Mini-Football Zone", image: "https://www.centralpark.in/images/mini-football-zone.jpg", altText: "Mini football zone for casual matches" },
+  { id: 15, title: "Volleyball", image: "https://www.centralpark.in/images/Volleyball.jpg", altText: "Beach-style volleyball court" },
+  { id: 16, title: "Aroma Baths", image: "https://www.centralpark.in/images/Aroma-Baths.jpg", altText: "Aroma therapy baths for relaxation" },
+  { id: 17, title: "Footspa", image: "https://www.centralpark.in/images/Foot-Spa.jpg", altText: "Luxurious foot spa with warm water treatment" },
+  { id: 18, title: "Naturopathy", image: "https://www.centralpark.in/images/Naturopathy.jpg", altText: "Naturopathy wellness center" },
+  { id: 19, title: "Head Massage", image: "https://www.centralpark.in/images/Head-Massage.jpg", altText: "Relaxing head massage therapy" },
+  { id: 20, title: "Reflexology", image: "https://www.centralpark.in/images/Head-Massage.jpg", altText: "Foot reflexology therapy for relaxation" },
+  { id: 21, title: "Body Massage", image: "https://www.centralpark.in/images/Body-Massage.jpg", altText: "Full body massage therapy" },
+  { id: 22, title: "Steam", image: "https://www.centralpark.in/images/Body-Massage.jpg", altText: "Steam room for detoxification" },
+  { id: 23, title: "Sauna", image: "https://www.centralpark.in/images/Sauna.jpg", altText: "Traditional sauna room with wooden interiors" },
+];
+
 
 export default data;

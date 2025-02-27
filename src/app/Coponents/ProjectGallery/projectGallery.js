@@ -17,7 +17,7 @@ const Projectgallery = () => {
         {Object.entries(IMAGE_DATA).map(([key, { name }]) => (
           <button
             key={key}
-            className={`font-sans text-[16px] mb-8 text-[#634730] uppercase tracking-[0.12em] leading-[1.75rem] font-light transition-all duration-300 ${
+            className={`font-sans text-[18px] mb-8 text-[#634730] uppercase tracking-[0.12em] leading-[1.55rem] font-light transition-all duration-300 ${
               selectedCategory === key
                 ? "text-black font-bold underline"
                 : "text-gray-500"
