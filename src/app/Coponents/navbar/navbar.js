@@ -55,7 +55,6 @@ const Navbar = (props) => {
                 What Set Us Apart
               </Link>
               <div
-                // href="/Enquire"
                 onClick={() => {
                   setIsOverlayOpn(true);
                   setIsOpen(false);
@@ -126,7 +125,6 @@ const Navbar = (props) => {
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <div
-                    // href="/Enquire"
                     onClick={() => {
                       setIsOverlayOpn(true);
                       setIsOpen(false);

@@ -15,7 +15,7 @@ const UserInputModal = (props) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('phoneNumber.length()', phoneNumber.length)
+    // console.log('phoneNumber.length()', phoneNumber.length)
     if(phoneNumber.length < 13){
       return ;
     }
@@ -44,7 +44,7 @@ const UserInputModal = (props) => {
             setIsOverlayOpn(false)
         },
         (error) => {
-          console.log('error',error)
+          // console.log('error',error)
           toast.warn('🦄 We encountered an error. Please try again in a few moments.', {
             position: "top-right",
             autoClose: 5000,
@@ -71,7 +71,7 @@ const UserInputModal = (props) => {
   };
   const handleChange = (event) => {
     const value = event.target.value;
-    console.log('value', value);
+    // console.log('value', value);
     
     let formattedValue = value;
     

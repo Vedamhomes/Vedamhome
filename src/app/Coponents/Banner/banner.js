@@ -8,9 +8,9 @@ import { useCallback } from "react";
 const Banner = (props) => {
   const { isBannerOpn, setIsBannerOpn, setIsOverlayOpn } = props;
 
-  const handleCancel = useCallback(() =>{
-    setIsBannerOpn(false)
-  },[]);
+  const handleCancel = useCallback(() => {
+    setIsBannerOpn(false);
+  }, []);
 
   return (
     <Modal
@@ -18,9 +18,9 @@ const Banner = (props) => {
       onCancel={handleCancel}
       footer={null}
       width={1000}
-      // style={{ width: '90vw', maxWidth: '1000px' }}
       closable={false}
       className="banner_modal"
+      aria-label="Banner Modal" // 🔹 Add this to fix the issue
     >
       <div className="xl:mx-auto xl:container">
         <div className="bg-[#fff9f0] flex flex-col-reverse md:flex-row items-center lg:space-x-6">
