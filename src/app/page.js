@@ -46,7 +46,7 @@ const Home = () => {
       <div className="md:py-12 py-8 pl-0">
         <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-stretch px-6">
           {/* Text Section */}
-          <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col items-start flex-1">
+          <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
             <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
               Projects
             </h2>
@@ -76,15 +76,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-
-      {/* 
-      <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border my-6">
-        <Image
-          src={amenitiesImage}
-          alt="Vedam homes amenities image"
-          className="ml-auto mr-auto"
-          />
-          </div> */}
 
       <div className="md:pr-16 md:py-12 py-8 pl-0 animationLeft">
         <div className="mx-auto flex flex-col md:flex-row items-stretch justify-between px-6 gap-8">
