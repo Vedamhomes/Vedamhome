@@ -17,7 +17,7 @@ const Projects = () => {
   // ✅ Memoizing Static Content
   const projectText = useMemo(
     () => (
-      <div className="py-8 mx-auto px-6 flex flex-col md:flex-col items-center justify-center">
+      <div className="py-8 mx-auto px-6 flex flex-col md:flex-col text-center md:text-left justify-center">
         <h2 className="font-sans text-[26px] tracking-[0.13em] leading-[1.55rem] font-medium text-[#634730] uppercase mb-4">
           Exquisite Architecture
         </h2>
@@ -38,7 +38,7 @@ const Projects = () => {
   );
   const projectSecondText = useMemo(
     () => (
-      <div className="py-4 mx-auto px-6 flex flex-col md:flex-col items-center justify-center">
+      <div className="py-4 mx-auto px-6 flex flex-col md:flex-col text-center md:text-left justify-center">
         <h2 className="font-sans text-[26px] tracking-[0.13em] leading-[1.55rem] font-medium text-[#634730] uppercase mb-4">
           Architectural Masterpiece
         </h2>
