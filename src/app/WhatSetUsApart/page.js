@@ -177,7 +177,7 @@ const WhatSetUsApart = () => {
             </div>
 
             {/* Text Content Section */}
-            <div className="p-6 rounded-2xl">
+            <div className="py-6 rounded-2xl text-center ">
               <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
                 Investment Potential
               </h2>
