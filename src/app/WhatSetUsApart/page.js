@@ -10,6 +10,7 @@ import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import LuxuryandComfort from "@/images/LuxuryandComfort.jpg";
 import Investment from "@/images/Investment.jpg";
 import security from "@/images/security.jpg";
+import uncompromising_ethic from "@/images/uncompromising_ethic.jpg";
 
 const WhatSetUsApart = () => {
   const [isOverlayOpn, setIsOverlayOpn] = useState(false);
@@ -26,7 +27,7 @@ const WhatSetUsApart = () => {
           className="w-full h-full object-cover  "
         />
 
-        <div className="absolute top-[30%] sm:top-[32%] md:top-[35%] left-0 sm:left-[5%] md:left-[12%] lg:left-[22%] text_span  text-center font-sans text-[80px] text-black tracking-[0.15em] leading-[1.55rem] font-medium uppercase">
+        <div className="absolute top-[30%] sm:top-[32%] md:top-[35%] left-0 sm:left-[5%] md:left-[12%] lg:left-[22%] text_span  text-center font-sans text-[75px] text-black tracking-[0.15em] leading-[1.55rem] font-medium uppercase">
           <span>Luxury Redefined</span>
         </div>
       </div>
@@ -108,33 +109,6 @@ const WhatSetUsApart = () => {
         </div>
 
         <div className="md:py-12 py-8 pl-0">
-          <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-stretch px-6">
-            {/* Text Section */}
-            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
-              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
-                Investment Opportunity
-              </h2>
-              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.2rem] font-light mb-4">
-                Owning a home in Central Park Flower Valley represents not only
-                a luxurious lifestyle but also a savvy investment choice. With
-                the region's promising growth trajectory, buyers can expect
-                considerable property value appreciation over time.
-              </p>
-            </div>
-
-            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image
-                src={Investment}
-                alt="Building"
-                width={500}
-                height={300}
-                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className="md:py-12 py-8 pl-0">
           <div className="mx-auto flex flex-col md:flex-row gap-4 items-stretch px-6">
             <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
               <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
@@ -153,7 +127,7 @@ const WhatSetUsApart = () => {
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
               <Image
-                src={Investment}
+                src={uncompromising_ethic}
                 alt="Building"
                 width={500}
                 height={300}

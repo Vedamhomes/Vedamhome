@@ -10,9 +10,8 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className={`bg-[#fff9f0] z-20 text-[#634730] pt-10 pb-6 px-6 relative`}>
-      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start text-left">
-        {/* Left Section - Contact Details */}
+    <footer className={`bg-[#fff9f0] z-20 text-[#634730] pt-10 pb-6 px-4 relative`}>
+      <div className="mx-auto flex flex-col md:flex-row justify-between items-start text-left">
         <div className="md:w-1/3 w-full mb-6 md:mb-0 mt-4">
           <p className="text-[10px] font-sans tracking-[0.05em] uppercase font-semibold">
             Vedam Homes
