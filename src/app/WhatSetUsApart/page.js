@@ -30,7 +30,7 @@ const WhatSetUsApart = () => {
           className="w-full h-full object-cover  "
         />
 
-        <div className="absolute top-[30%] sm:top-[40%] md:top-[50%] left-0 sm:left-[5%] md:left-[10%] lg:left-[20%] text_span  text-center font-sans text-[80px] text-black tracking-[0.15em] leading-[1.55rem] font-medium uppercase">
+        <div className="absolute top-[30%] sm:top-[32%] md:top-[35%] left-0 sm:left-[5%] md:left-[12%] lg:left-[22%] text_span  text-center font-sans text-[80px] text-black tracking-[0.15em] leading-[1.55rem] font-medium uppercase">
           <span>Luxury Redefined</span>
         </div>
       </div>

@@ -29,7 +29,7 @@ const Amenities = () => {
         </div>
       </div>
 
-      {/* <ProgressiveScroll /> */}
+      <ProgressiveScroll />
 
       <Amenityslider />
 

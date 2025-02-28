@@ -50,7 +50,7 @@ const Amenityslider = () => {
         navigation={{ clickable: true }}
         onSwiper={(swiper) => (swiperRef.current = swiper)}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
-        loop={true}
+        loop={false}
         breakpoints={{
           340: { slidesPerView: 1, slidesPerGroup: 1 },
           640: { slidesPerView: 2, slidesPerGroup: 2 },
@@ -59,7 +59,7 @@ const Amenityslider = () => {
       >
         {amenitySwiperData.map((img, index) => {
           return (
-          <SwiperSlide key={index} className="slide flex flex-col items-center">
+          <SwiperSlide key={index+1} className="slide flex flex-col items-center">
             <Image
               height={240}
               width={400}
@@ -67,7 +67,7 @@ const Amenityslider = () => {
               alt={img.altText}
               className="w-full max-w-[500px] h-[240px] object-cover brightness-115 saturate-100  rounded-lg"
             />
-            <div className="font-sans text-left tracking-[0.10em] leading-[3.1rem] font-light slide-text text-[#939194] text-[14px] mt-2">
+            <div className="font-sans text-left tracking-[0.10em] leading-[3.1rem] uppercase font-thin slide-text text-[#7a6e66] text-[14px] mt-2">
               {img.title}
             </div>
           </SwiperSlide>

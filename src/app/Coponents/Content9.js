@@ -127,7 +127,7 @@ export const amenitySwiperData = [
   { id: 17, title: "Footspa", image: "https://www.centralpark.in/images/Foot-Spa.jpg", altText: "Luxurious foot spa with warm water treatment" },
   { id: 18, title: "Naturopathy", image: "https://www.centralpark.in/images/Naturopathy.jpg", altText: "Naturopathy wellness center" },
   { id: 19, title: "Head Massage", image: "https://www.centralpark.in/images/Head-Massage.jpg", altText: "Relaxing head massage therapy" },
-  { id: 20, title: "Reflexology", image: "https://www.centralpark.in/images/Head-Massage.jpg", altText: "Foot reflexology therapy for relaxation" },
+  { id: 20, title: "Reflexology", image: "https://www.centralpark.in/images/Reflexology.jpg", altText: "Foot reflexology therapy for relaxation" },
   { id: 21, title: "Body Massage", image: "https://www.centralpark.in/images/Body-Massage.jpg", altText: "Full body massage therapy" },
   { id: 22, title: "Steam", image: "https://www.centralpark.in/images/Body-Massage.jpg", altText: "Steam room for detoxification" },
   { id: 23, title: "Sauna", image: "https://www.centralpark.in/images/Sauna.jpg", altText: "Traditional sauna room with wooden interiors" },

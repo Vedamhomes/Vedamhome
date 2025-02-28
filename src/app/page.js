@@ -104,7 +104,7 @@ const Home = () => {
               alt="Amenities"
               width={500}
               height={300}
-              className="w-full h-full object-cover rounded-lg min-h-[300px]"
+              className="w-full h-full object-inherit rounded-lg min-h-[300px]"
             />
           </div>
         </div>
