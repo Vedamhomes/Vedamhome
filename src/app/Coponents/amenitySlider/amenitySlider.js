@@ -10,25 +10,11 @@ import "./amenitySlider.css";
 import { useRef } from "react";
 
 const Amenityslider = () => {
-  // const imageData = amenitySliderData.map((item, index) => {
-  //     return (
-  //     <div key={index} className="relative">
-  //       <Image
-  //         src={item.image.src}
-  //         alt={item.alt}
-  //         width={400}
-  //         height={400}
-  //         className="rounded-lg"
-  //       />
-  //       <p className="text-center mt-2 text-gray-600">{item.title}</p>
-  //     </div>
-  //   )})
-
   const swiperRef = useRef(null);
 
   return (
     <div className="slider-container my-8 pt-10">
-      <div className="flex flex-row items-center justify-between gap-4 w-full my-6">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-4 w-full my-6">
         <h2 className="font-sans text-[26px] md:text-[32px] tracking-[0.1em] md:tracking-[0.15em] leading-[1.75rem] font-medium text-[#634730] uppercase mb-8">
           Experience the global lifestyle
         </h2>
