@@ -64,7 +64,6 @@ const Home = () => {
               </Link>
           </div>
 
-          {/* Image Section */}
           <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
             <Image
               src={buildingImage1}

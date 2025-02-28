@@ -4,16 +4,12 @@ import "./style.css";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
 import Image from "next/image";
-import syneregtic_team_image from "@/images/syneregtic_team.jpg";
-import unwavering_cred_image from "@/images/unwavering_cred.jpg";
-import deep_belief_image from "@/images/deep_belief.jpg";
-import clubhouse from "@/images/clubhouse.jpg";
-import uncompromising_ethic_image from "@/images/uncompromising_ethic.jpg";
-import neflovaimga from "@/images/neflovaimga.jpg";
-import AquaFrontTowers from "@/images/DRAWING_DINNING_1.jpg";
 import amenity_main_image from "@/images/amenity_main_image.jpg";
-import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import { useState } from "react";
+import UserInputModal from "../Coponents/UserInputModal/userInputModal";
+import LuxuryandComfort from "@/images/LuxuryandComfort.jpg";
+import Investment from "@/images/Investment.jpg";
+import security from "@/images/security.jpg";
 
 const WhatSetUsApart = () => {
   const [isOverlayOpn, setIsOverlayOpn] = useState(false);
@@ -36,9 +32,6 @@ const WhatSetUsApart = () => {
       </div>
 
       <div className="bg-[#fff9f0] relative bounce_bottom top-[80dvh]">
-        {/* White Circle at the Top Center */}
-        {/* <div className="absolute top-0  left-1/2 w-20 h-20 bg-[#aa7628] rounded-full "></div> */}
-
         <div className=" py-12 buildingAnimationLeft">
           <div className=" mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
             <div className="flex items-center flex-col px-4 text-center">
@@ -60,148 +53,156 @@ const WhatSetUsApart = () => {
           </div>
         </div>
 
-        <div className=" mx-auto px-6 lg:mx-auto relative my-4 md:px-12 md:flex items-start gap-4 setUsApartAnimationRight">
-          {/* Image Section */}
-          <Image
-            src={unwavering_cred_image}
-            alt="Sample"
-            height={300}
-            width={300}
-            className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[65vh]"
-          />
-
-          {/* Text Section */}
-          <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-0 lg:pt-0 xl:pt-0 md:pl-8 md:pr-12 pl-0 pr-0 md:text-left">
-            <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
-              Luxury and Comfort
-            </h2>
-            <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
-              The spacious design not only promotes relaxation but also but also
-              facilitates entertaining guests, making it perfect perfect for
-              both intimate gatherings and larger celebrations
-            </p>
-          </div>
-        </div>
-
-        <div className="flex  flex-col-reverse md:flex-row items-start justify-between gap-8 lg:px-16 md:px-6 px-6 my-4 md:py-12 sm:py-8 py-4 setUsApartAnimationLeft">
-          {/* Text Section */}
-          <div className="text-color flex justify-center flex-col w-full md:w-1/2 self-start md:pr-12 pl-0 pr-0 md:text-left">
-            <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
-              {/* Investment Opportunity */}
-              Security and Privacy
-            </h2>
-            <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
-              At Vedam Homes, we prioritize your safety and peace of mind. Our
-              Ultra Luxury Homes in Central Park Flower Valley are fortified
-              with state-of-the-art security measures. With 24/7 security
-              personnel and advanced surveillance systems, residents can enjoy a
-              worry-free living experience. Additionally, our gated community
-              provides a serene environment, ensuring that your home is not just
-              a space but a sanctuary. Here, you can relish the luxury of
-              privacy while being part of a vibrant community.
-            </p>
-          </div>
-
-          {/* Image Section */}
-          <Image
-            src={syneregtic_team_image}
-            height={300}
-            width={300}
-            alt="Sample"
-            className="w-full mt-4 sm:mt-6 md:mt-0 object-fill md:w-2/4 md:-ml-4 lg:-ml-4 xl:ml-0 setUsApartAnimationRight md:h-[65vh]"
-          />
-        </div>
-
-        <div className="py-4  px-4 sm:py-14 md:py-20 2xl:px-0 lg:px-12 sm:px-4 my-4 2xl:mx-auto setUsApartAnimationRight">
-          <div className="md:flex gap-8 items-start justify-between w-full">
-            {/* Image Section */}
-            <div className="xl:w-4/6 w-full self-start">
-              <Image
-                src={clubhouse}
-                height={300}
-                width={300}
-                alt="Purple flowers on a book"
-                className="w-full"
-              />
+        <div className="md:py-12 py-8 pl-0">
+          <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-stretch px-6">
+            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                Luxury and Comfort
+              </h2>
+              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.2rem] font-light mb-4">
+                The spacious design not only promotes relaxation but also but
+                also facilitates entertaining guests, making it perfect perfect
+                for both intimate gatherings and larger celebrations
+              </p>
             </div>
 
+            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
+              <Image
+                src={LuxuryandComfort}
+                alt="Building"
+                width={500}
+                height={300}
+                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="md:py-12 py-8 pl-0">
+          <div className="mx-auto flex flex-col md:flex-row gap-4 items-stretch px-6">
+            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                Security and Privacy
+              </h2>
+              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2rem] font-light mb-4">
+                At Vedam Homes, we prioritize your safety and peace of mind. Our
+                Ultra Luxury Homes in Central Park Flower Valley are fortified
+                with state-of-the-art security measures. With 24/7 security
+                personnel and advanced surveillance systems, residents can enjoy
+                a worry-free living experience. Additionally, our gated
+                community provides a serene environment, ensuring that your home
+                is not just a space but a sanctuary.
+              </p>
+            </div>
+
+            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
+              <Image
+                src={security}
+                alt="Building"
+                width={500}
+                height={300}
+                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="md:py-12 py-8 pl-0">
+          <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-stretch px-6">
             {/* Text Section */}
-            <div className="text-color flex justify-center flex-col w-full md:w-1/2 md:pl-8 pl-0 pr-0 md:text-left self-start">
-              <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
-                {/* Smart Investment */}
+            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
                 Investment Opportunity
               </h2>
-              <p
-                role="contentinfo"
-                className="font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4 mt-4 sm:mt-6 2xl:pr-24 xl:pr-0 sm:pr-12"
-              >
+              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.2rem] font-light mb-4">
                 Owning a home in Central Park Flower Valley represents not only
                 a luxurious lifestyle but also a savvy investment choice. With
                 the region's promising growth trajectory, buyers can expect
                 considerable property value appreciation over time.
               </p>
             </div>
+
+            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
+              <Image
+                src={Investment}
+                alt="Building"
+                width={500}
+                height={300}
+                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
+              />
+            </div>
           </div>
         </div>
 
-        <div className="flex  flex-col-reverse md:flex-row mx-auto px-6 lg:mx-auto relative mt-4 xl:px-20 lg:px-16 md:px-12 md:flex items-start gap-8 setUsApartAnimationRight">
-          {/* Text Section */}
-          <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pr-12 pl-0 pr-0 md:text-left self-start">
-            <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
-              Smart Investment
-            </h2>
-            <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
-              Investing at Central Park Flower Valley allows homeowners to enjoy
-              premium living while capitalizing on its increasing market demand.
-              This dual benefit makes it an attractive attractive choice for
-              discerning buyers.
-            </p>
-          </div>
+        <div className="md:py-12 py-8 pl-0">
+          <div className="mx-auto flex flex-col md:flex-row gap-4 items-stretch px-6">
+            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                Commitment to Excellence
+              </h2>
+              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2.1rem] font-light mb-4">
+                Our team of experts is dedicated to providing exceptional
+                service throughout the home buying process. We focus on
+                understanding your unique needs and preferences to guide you
+                toward the perfect luxury home. From initial consultation to
+                final handover, we ensure a seamless and enjoyable experience
+                for our clients. Our commitment to excellence guarantees that
+                every step of your journey is smooth and satisfying.
+              </p>
+            </div>
 
-          {/* Image Section */}
-          <Image
-            src={deep_belief_image}
-            alt="Sample"
-            height={300}
-            width={300}
-            className="w-full md:w-2/4 object-fill setUsApartAnimationRight md:h-[65vh] self-start"
-          />
-        </div>
-
-        <div className="mx-auto  px-6 lg:mx-auto relative my-12 xl:px-20 lg:px-16 md:px-12 md:flex items-start gap-8 setUsApartAnimationRight">
-          {/* Image Section */}
-          <Image
-            src={uncompromising_ethic_image}
-            alt="Sample"
-            height={300}
-            width={300}
-            className="w-full md:w-2/4 object-fill setUsApartAnimationRight md:h-[65vh] self-start"
-          />
-
-          {/* Text Section */}
-          <div className="text-color flex justify-center flex-col w-full md:w-1/2 pt-4 lg:pt-2 xl:pt-10 md:pl-8 md:pr-12 md:text-left self-start">
-            <h2 className="font-sans mt-4 sm:mt-0 text-[20px] font-medium text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase">
-              ETHICAL FOUNDATION
-            </h2>
-            <p className="mt-4 sm:mt-6 font-sans text-[23px] text-[#634730] tracking-[0.12em] leading-[1.75rem] font-light mb-4">
-              Ethical practices are non-negotiable at Vedam Homes. We uphold the
-              highest standards of professionalism, integrity, and transparency
-              in all our dealings. We build long-term relationships with
-              clients, partners, and communities based on trust and mutual
-              respect. This commitment to ethical conduct is fundamental to our
-              reputation and guides every decision we make. With Vedam Homes,
-              you can be confident you're partnering with a company that values
-              honesty and fairness above all else. We believe in open
-              communication every step of the way, ensuring you're fully
-              informed and confident in the process.
-            </p>
+            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
+              <Image
+                src={Investment}
+                alt="Building"
+                width={500}
+                height={300}
+                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
+              />
+            </div>
           </div>
         </div>
 
-        <div className="my-142  font-sans flex flex-row justify-center px-10">
-          {/* <button onClick={() => setIsOverlayOpn(true)} className="button-57 mx-4 md:msx-0 text-[16px] p-2 md:p-4 md:text-[20px] font-light bg-[#6a5b4d] hover:bg-[#fff9f0] text-[#ffff] hover:text-[#634730] tracking-[0.2em] leading-[1.75rem] uppercase transform transition-transform duration-300 hover:scale-105" role="button">
-          <span className="text">Explore Our Bespoke residences</span>
-        </button> */}
+        <div className="text-black p-8">
+          <div className="grid md:grid-cols-2 gap-6 items-center">
+            {/* Image Section */}
+            <div className="rounded-2xl overflow-hidden">
+              <Image
+                src={Investment}
+                alt="Luxury home at sunset"
+                width={600}
+                height={400}
+                className="w-full h-auto rounded-2xl object-cover"
+              />
+            </div>
+
+            {/* Text Content Section */}
+            <div className="p-6 rounded-2xl">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                Investment Potential
+              </h2>
+              <p className="font-sans text-[22px] text-[#634730] tracking-[0.10em] leading-[2rem] font-light mb-4">
+                Vedam Homes represent more than just luxurious living they are a
+                strategic investment opportunity. With a proven history of
+                appreciation and strong demand, these properties ensure a
+                profitable future for homeowners and investors alike.
+              </p>
+              <div>
+                <h3 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                  Smart Investment
+                </h3>
+                <p className="font-sans text-[22px] text-[#634730] tracking-[0.10em] leading-[2rem] font-light">
+                  Investing in Vedam Homes not only secures a beautiful
+                  residence but also positions you in a thriving market. The
+                  potential for growth in property value is significant, making
+                  it an ideal choice for discerning buyers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="my-4 font-sans flex flex-row justify-center px-10">
           <button
             type="submit"
             onClick={() => setIsOverlayOpn(true)}
