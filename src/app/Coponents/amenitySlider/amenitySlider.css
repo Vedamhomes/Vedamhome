@@ -1,0 +1,45 @@
+.slider-container {
+    text-align: center;
+    position: relative;
+    max-width: 90%;
+    margin: auto;
+  }
+  
+  .slider-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .swiper {
+    position: relative;
+  }
+  
+  .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slide-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  /* Custom Navigation Arrows */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #a68a64;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .swiper-button-prev {
+    left: -40px;
+  }
+  
+  .swiper-button-next {
+    right: -40px;
+  }
+  

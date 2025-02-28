@@ -11,6 +11,7 @@ import buildingImage from "@/images/7.jpeg";
 import buildingImage1 from "@/images/Image.jpg";
 import amenitiesImage from "@/images/4.jpeg";
 import amenities_1 from "@/images/amenities_1.jpg";
+import home_page_4 from "@/images/home_page_4.jpeg";
 import project_section from "@/images/project_section.jpg";
 import AquaFrontTowers from "@/images/AquaFrontTowers.png";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
@@ -118,9 +119,9 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="container animationRight mx-auto md:px-8 px-4 flex items-center box-border my-6">
+      <div className="mx-auto md:px-8 px-4 flex items-center box-border my-6">
         <Image
-          src={AquaFrontTowers}
+          src={home_page_4}
           alt="Vedam homes amenities image"
           className="ml-auto mr-auto"
         />

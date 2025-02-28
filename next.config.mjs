@@ -1,19 +1,12 @@
 /** @type {import('next').NextConfig} */
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "maribellevue.wpengine.com",
-      },
-      {
-        protocol: "https",
-        hostname: "i.ibb.co",
-      },
-      {
-        protocol: "https",
-        hostname: "gw.alipayobjects.com",
-      },
+    domains: [
+      "maribellevue.wpengine.com",
+      "i.ibb.co",
+      "gw.alipayobjects.com",
+      "www.centralpark.in", // Ensure "www.centralpark.in" is used instead of "centralpark.in"
     ],
   },
 };

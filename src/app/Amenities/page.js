@@ -6,6 +6,7 @@ import "./style.css";
 import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import { useState } from "react";
 import ProgressiveScroll from "../Coponents/ProgressiveScroll";
+import Amenityslider from "../Coponents/amenitySlider/amenitySlider";
 
 const Amenities = () => {
   const [isOverlayOpn, setIsOverlayOpn] = useState(false);
@@ -28,7 +29,9 @@ const Amenities = () => {
         </div>
       </div>
 
-      <ProgressiveScroll />
+      {/* <ProgressiveScroll /> */}
+
+      <Amenityslider />
 
       <Footer />
       <UserInputModal
