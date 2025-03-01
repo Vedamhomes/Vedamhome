@@ -3,8 +3,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import IMAGE_DATA from "@/app/images";
 
+
 const Projectgallery = () => {
-  const [selectedCategory, setSelectedCategory] = useState("DRAWING");
+  const [selectedCategory, setSelectedCategory] = useState("ELEVATION");
     const filteredImages = useMemo(() => IMAGE_DATA[selectedCategory]?.value || [], [selectedCategory]);
 
     const handleCategoryChange = useCallback((category) => {

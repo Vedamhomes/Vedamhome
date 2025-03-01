@@ -37,6 +37,12 @@ const Navbar = (props) => {
             {/* Desktop Menu */}
             <div className="hidden md:flex items-center uppercase space-x-8">
               <Link
+                href="/WhatSetUsApart"
+                className="text-[#634730] hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
+              >
+                What Set Us Apart
+              </Link>
+              <Link
                 href="/Projects"
                 className="text-[#634730] hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold "
               >
@@ -47,12 +53,6 @@ const Navbar = (props) => {
                 className="text-[#634730] hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
               >
                 Amenities
-              </Link>
-              <Link
-                href="/WhatSetUsApart"
-                className="text-[#634730] hover:text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
-              >
-                What Set Us Apart
               </Link>
               <div
                 onClick={() => {
@@ -83,19 +83,34 @@ const Navbar = (props) => {
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth={2}
-                  d={
-                    isOpen ? "" : "M4 6h16M4 12h16M4 18h16"
-                  }
+                  d={isOpen ? "" : "M4 6h16M4 12h16M4 18h16"}
                 />
               </svg>
             </div>
           </div>
 
-
           {/*  New Mobile menu */}
           {isOpen && (
-            <Drawer open={isOpen} size='default' maskClosable width={300} closeIcon={true} closable={true} onClose={() => setIsOpen(false)}  className={`close_icon ${isOpen ? "showMenuNav" : "hideMenuNav"}`}>
+            <Drawer
+              open={isOpen}
+              size="default"
+              maskClosable
+              width={300}
+              closeIcon={true}
+              closable={true}
+              onClose={() => setIsOpen(false)}
+              className={`close_icon ${isOpen ? "showMenuNav" : "hideMenuNav"}`}
+            >
               <ul className="flex flex-col items-center justify-between ">
+                <li className="border-b border-gray-400 my-8 uppercase">
+                  <Link
+                    href="/WhatSetUsApart"
+                    className="block px-4 py-2 text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
+                  >
+                    What Set Us Apart
+                    <FontAwesomeIcon icon={faHandshake} className="ml-8" />
+                  </Link>
+                </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
                   <Link
                     href="/Projects"
@@ -115,15 +130,6 @@ const Navbar = (props) => {
                   </Link>
                 </li>
                 <li className="border-b border-gray-400 my-8 uppercase">
-                  <Link
-                    href="/WhatSetUsApart"
-                    className="block px-4 py-2 text-[#634730] tracking-[0.15em] text-[12px] font-normal hover:font-bold"
-                  >
-                    What Set Us Apart
-                    <FontAwesomeIcon icon={faHandshake} className="ml-8" />
-                  </Link>
-                </li>
-                <li className="border-b border-gray-400 my-8 uppercase">
                   <div
                     onClick={() => {
                       setIsOverlayOpn(true);
@@ -139,7 +145,7 @@ const Navbar = (props) => {
                   </div>
                 </li>
               </ul>
-            </Drawer >
+            </Drawer>
           )}
         </div>
       </div>

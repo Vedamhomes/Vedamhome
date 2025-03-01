@@ -11,6 +11,7 @@ import LuxuryandComfort from "@/images/LuxuryandComfort.jpg";
 import Investment from "@/images/Investment.jpg";
 import security from "@/images/security.jpg";
 import uncompromising_ethic from "@/images/uncompromising_ethic.jpg";
+import drawing1 from "@/images/Projects/Drawing/D 175 DRAWING AND DINNING VIEW 1 OPT 1.jpg";
 
 const WhatSetUsApart = () => {
   const [isOverlayOpn, setIsOverlayOpn] = useState(false);
@@ -22,12 +23,12 @@ const WhatSetUsApart = () => {
 
       <div className="fixed top-0 left-0 w-full h-full">
         <Image
-          src={amenity_main_image}
+          src={drawing1}
           alt="Vedam homes amenities image"
           className="w-full h-full object-cover  "
         />
 
-        <div className="absolute top-[30%] sm:top-[32%] md:top-[35%] left-0 sm:left-[5%] md:left-[12%] lg:left-[22%] text_span  text-center font-sans text-[75px] text-black tracking-[0.15em] leading-[1.55rem] font-medium uppercase">
+        <div className="absolute top-[30%] sm:top-[32%] md:top-[35%] left-0 sm:left-[5%] md:left-[16%] lg:left-[24%] xl:left-[28%] text_span  text-center font-sans text-[75px] text-black tracking-[0.15em] leading-[1.55rem] font-medium uppercase">
           <span>Luxury Redefined</span>
         </div>
       </div>
@@ -41,15 +42,81 @@ const WhatSetUsApart = () => {
             leading-[1.8] w-[90%] max-w-[1100px] font-extralight text-[20px] sm:text-[22px] 
             word-spacing-[-0.22em]"
               >
-                Choosing Vedam Homes means investing in a lifestyle of
-                unparalleled luxury and comfort. Our homes are designed to blend
-                exquisite aesthetics with practical living, ensuring that every
-                aspect caters to your needs. From stunning architectural
-                features to thoughtfully curated interior finishes, we
-                prioritize excellence in every detail. Our commitment to quality
-                ensures that your home is not just a place to live, but a
-                sanctuary that reflects your taste and enhances your daily life.
+                Choosing Vedam Homes means investing in unparalleled luxury and
+                comfort. Our homes blend exquisite aesthetics with practical
+                living, ensuring every aspect caters to your needs. We
+                prioritize excellence in every detail, from stunning
+                architectural features to thoughtfully curated interiors. Your
+                home will be a sanctuary that reflects your taste and enhances
+                your life.
               </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="text-black p-8">
+          <div className="grid md:grid-cols-2 gap-6 items-center">
+            {/* Image Section */}
+            <div className="rounded-2xl overflow-hidden">
+              <Image
+                src={LuxuryandComfort}
+                alt="Luxury home at sunset"
+                width={600}
+                height={400}
+                className="w-full h-auto rounded-2xl object-cover"
+              />
+            </div>
+
+            {/* Text Content Section */}
+            <div className=" rounded-2xl text-center ">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                Exquisite Design
+              </h2>
+              <p className="font-sans text-[22px] text-[#634730] tracking-[0.10em] leading-[2rem] font-light mb-8">
+                Experience architectural artistry where every detail evokes
+                wonder and inspiration. Our homes are masterpieces designed to
+                elevate living.
+              </p>
+              <div>
+                <h3 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                  Functional Spaces
+                </h3>
+                <p className="font-sans text-[22px] text-[#634730] tracking-[0.10em] leading-[2rem] font-light">
+                  Experience the seamless flow and effortless functionality of
+                  thoughtfully designed living spaces. Vedam Homes are both
+                  beautiful and practical. Our layouts optimize space, enhance
+                  natural light, and create harmony for everyday life.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="md:py-12 py-8 pl-0">
+          <div className="mx-auto flex flex-col md:flex-row gap-4 items-stretch px-6">
+            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                Spacious Living Areas
+              </h2>
+              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2.1rem] font-light mb-4">
+                Our homes feature expansive living areas that enhance comfort
+                and style, ensuring a luxurious lifestyle. With high ceilings
+                and large windows, these spaces create an open, airy atmosphere
+                that welcomes natural light throughout the day.<br></br>
+                The spacious design not only promotes relaxation but also but
+                also facilitates entertaining guests, making it perfect perfect
+                for both intimate gatherings and larger celebrations.
+              </p>
+            </div>
+
+            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
+              <Image
+                src={uncompromising_ethic}
+                alt="Building"
+                width={500}
+                height={300}
+                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
+              />
             </div>
           </div>
         </div>
@@ -58,12 +125,13 @@ const WhatSetUsApart = () => {
           <div className="mx-auto flex flex-col md:flex-row-reverse gap-4 items-stretch px-6">
             <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
               <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
-                Luxury and Comfort
+                Unmatched Location
               </h2>
               <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.2rem] font-light mb-4">
-                The spacious design not only promotes relaxation but also but
-                also facilitates entertaining guests, making it perfect perfect
-                for both intimate gatherings and larger celebrations
+                Vedam Homes is located at Central Park Flower Valley, South of
+                Gurugram, providing easy access to top educational institutions,
+                shopping centers, and dining experiences, ensuring the perfect
+                blend of tranquility and convenience.
               </p>
             </div>
 
@@ -108,35 +176,6 @@ const WhatSetUsApart = () => {
           </div>
         </div>
 
-        <div className="md:py-12 py-8 pl-0">
-          <div className="mx-auto flex flex-col md:flex-row gap-4 items-stretch px-6">
-            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
-              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
-                Commitment to Excellence
-              </h2>
-              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2.1rem] font-light mb-4">
-                Our team of experts is dedicated to providing exceptional
-                service throughout the home buying process. We focus on
-                understanding your unique needs and preferences to guide you
-                toward the perfect luxury home. From initial consultation to
-                final handover, we ensure a seamless and enjoyable experience
-                for our clients. Our commitment to excellence guarantees that
-                every step of your journey is smooth and satisfying.
-              </p>
-            </div>
-
-            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image
-                src={uncompromising_ethic}
-                alt="Building"
-                width={500}
-                height={300}
-                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
-              />
-            </div>
-          </div>
-        </div>
-
         <div className="text-black p-8">
           <div className="grid md:grid-cols-2 gap-6 items-center">
             {/* Image Section */}
@@ -172,6 +211,36 @@ const WhatSetUsApart = () => {
                   it an ideal choice for discerning buyers.
                 </p>
               </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="md:py-12 py-8 pl-0">
+          <div className="mx-auto flex flex-col md:flex-row gap-4 items-stretch px-6">
+            <div className="md:w-1/2 md:px-6 text-center md:text-left flex flex-col justify-center flex-1">
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+                Commitment to Excellence
+              </h2>
+              <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2.1rem] font-light mb-4">
+                Our team of experts is dedicated to providing exceptional
+                service throughout the home buying process. We focus on
+                understanding your unique needs and preferences to guide you
+                toward the perfect luxury home. <br></br> From initial
+                consultation to final handover, we ensure a seamless and
+                enjoyable experience for our clients. Our commitment to
+                excellence guarantees that every step of your journey is smooth
+                and satisfying.
+              </p>
+            </div>
+
+            <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
+              <Image
+                src={uncompromising_ethic}
+                alt="Building"
+                width={500}
+                height={300}
+                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
+              />
             </div>
           </div>
         </div>
