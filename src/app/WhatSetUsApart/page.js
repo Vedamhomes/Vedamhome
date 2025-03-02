@@ -171,7 +171,7 @@ const WhatSetUsApart = () => {
                 alt="Building"
                 width={500}
                 height={300}
-                className="w-full h-full object-cover rounded-lg min-h-[300px] aspect-[4/3] max-h-[75vh]"
+                className="w-full h-full object-fill rounded-lg min-h-[300px] max-h-[75vh]"
               />
             </div>
           </div>
