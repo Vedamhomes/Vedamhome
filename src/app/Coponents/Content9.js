@@ -1,11 +1,11 @@
-import wiild_horse from '@/images/wiild_horse.jpg';
+import wiild_horse from '@/images/horse_riding.jpeg';
 import outdoors_sport from '@/images/outdoors_sport.jpg';
 import neflovaimga from '@/images/neflovaimga.jpg';
 import flowervellyImage from '@/images/flowervelly-image.jpg';
-import children_area from '@/images/children_area.jpg';
-import clubhouse from '@/images/clubhouse.jpg';
+import children_area from '@/images/children_area_1.jpg';
+import clubhouse from '@/images/Iconic Tower_Cards_Room_4k.jpg';
 import securityImage from '@/images/cctv-security-camera.jpg';
-import indoor_fitness from '@/images/indoor_fitness.jpg';
+import indoor_fitness from '@/images/Iconic Tower_Gym_4k_new.jpg';
 import AquaFrontTowers from '@/images/AquaFrontTowers.png';
 import mutipurose_hall from '@/images/mutipurose_hall.jpg';
 
