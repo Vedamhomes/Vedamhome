@@ -110,9 +110,9 @@ const UserInputModal = (props) => {
     >
       <div className="inquire_container_form">
         <div className="inquire_container_form_heading">
-          <h2 className="text-[13px] uppercase text-center text-[#634730] tracking-[0.2em] leading-[1.2rem]">
-            Crafted Luxury Designed to feel like home
-          </h2>
+          <p className="text-[15px] uppercase text-center font-medium text-[#634730] tracking-[0.2em] leading-[1.2rem]">
+            Contact us: (+91) 9871534959 
+          </p>
         </div>
 
         <form ref={form} className="input_form" onSubmit={handleSubmit}>

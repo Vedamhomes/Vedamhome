@@ -10,7 +10,7 @@ import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import LuxuryandComfort from "@/images/LuxuryandComfort.jpg";
 import Investment from "@/images/Investment.jpg";
 import location_1 from "@/images/location_1.jpg";
-import security_new from "@/images/security_1.jpeg";
+import security from "@/images/security.jpg";
 import uncompromising_ethic from "@/images/uncompromising_ethic.jpg";
 import drawing1 from "@/images/Projects/Drawing/D 175 DRAWING AND DINNING VIEW 1 OPT 1.jpg";
 
@@ -167,7 +167,7 @@ const WhatSetUsApart = () => {
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
               <Image
-                src={security_new}
+                src={security}
                 alt="Building"
                 width={500}
                 height={300}
