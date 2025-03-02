@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 import { amenitySwiperData } from "../Content9";
-import { Carousel } from "react-responsive-3d-carousel";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";

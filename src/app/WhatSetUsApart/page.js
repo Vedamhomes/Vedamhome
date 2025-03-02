@@ -4,7 +4,6 @@ import "./style.css";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
 import Image from "next/image";
-import amenity_main_image from "@/images/amenity_main_image.jpg";
 import { useState } from "react";
 import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import spaciousLiving from "@/images/LuxuryandComfort.jpg";

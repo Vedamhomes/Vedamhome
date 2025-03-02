@@ -9,7 +9,6 @@ import { faBuilding, faHandshake } from "@fortawesome/free-regular-svg-icons";
 import {
   faLaptopFile,
   faPersonChalkboard,
-  faVault,
 } from "@fortawesome/free-solid-svg-icons";
 import VedamLogo from "@/images/vedam-homes-logo-2.png";
 import Image from "next/image";

@@ -36,7 +36,6 @@ const ProgressiveScroll = () => {
         />
       </div>
 
-      {/* Timeline Sections */}
       {data.map((section, index) => (
         <motion.div
           key={index}
@@ -48,7 +47,6 @@ const ProgressiveScroll = () => {
           transition={{ duration: 0.6 }}
           viewport={{ once: false, amount: 0.3 }}
         >
-          {/* Content Block */}
           <div
             className={`p-6 scroll_deatil_container text-[#634730] rounded-2xl shadow-lg w-full md:w-1/2 ${
               index % 2 === 0
@@ -59,13 +57,9 @@ const ProgressiveScroll = () => {
             <h2 className="text-2xl font-sans uppercase font-bold">{section.title}</h2>
             <p className="text-sm font-sans mt-2">{section.description}</p>
           </div>
-
-          {/* Number Indicator */}
           <div className="absolute right-[-25px] md:left-1/2 transform -translate-x-1/2 w-12 h-12 bg-black text-white flex items-center justify-center rounded-full text-lg font-bold border-4 border-yellow-400">
             {index + 1}
           </div>
-
-          {/* Image Block */}
           <div className="mt-6 md:mt-0 w-full md:w-1/2 flex justify-center">
             <Image
               src={section.image}

@@ -7,13 +7,8 @@ import Banner from "./Coponents/Banner/banner";
 import Footer from "./Coponents/footer/footer";
 import Image from "next/image";
 import Link from "next/link";
-import buildingImage from "@/images/7.jpeg";
 import buildingImage1 from "@/images/Image.jpg";
-import amenitiesImage from "@/images/4.jpeg";
-import amenities_1 from "@/images/amenities_1.jpg";
 import home_page_4 from "@/images/home_page_4.jpeg";
-import project_section from "@/images/project_section.jpg";
-import AquaFrontTowers from "@/images/AquaFrontTowers.png";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
 import ProjectSlider from "./Coponents/ProjectSlider/projectSlider";
@@ -170,14 +165,6 @@ const Home = () => {
         </div>
       </div>
 
-      {/* <div className="mx-auto md:px-8 px-4 flex items-center box-border my-6">
-        <Image
-          src={home_page_4}
-          alt="Vedam homes amenities image"
-          className="ml-auto mr-auto"
-        />
-      </div> */}
-
       <div className="py-16 buildingAnimationLeft">
         <div className=" mx-auto px-6 flex flex-col md:flex-col items-center justify-center">
           <h2 className="font-sans text-[28px] md:text-3xl tracking-[0.15em] leading-[1.55rem] font-medium text-[#634730] uppercase mb-4">
@@ -195,11 +182,6 @@ const Home = () => {
               cherished.
             </p>
           </div>
-          {/* <Link href="/Projects">
-            <button className="bg-[#987218] text-white md:mt-6 py-3 px-6 rounded-lg hover:bg-[#6a5b4d] transition uppercase duration-300">
-              Explore
-            </button>
-          </Link> */}
         </div>
       </div>
 
