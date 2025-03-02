@@ -9,7 +9,8 @@ import { useState } from "react";
 import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import LuxuryandComfort from "@/images/LuxuryandComfort.jpg";
 import Investment from "@/images/Investment.jpg";
-import security from "@/images/security.jpg";
+import location_1 from "@/images/location_1.jpg";
+import security_new from "@/images/security_1.jpeg";
 import uncompromising_ethic from "@/images/uncompromising_ethic.jpg";
 import drawing1 from "@/images/Projects/Drawing/D 175 DRAWING AND DINNING VIEW 1 OPT 1.jpg";
 
@@ -137,7 +138,7 @@ const WhatSetUsApart = () => {
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
               <Image
-                src={LuxuryandComfort}
+                src={location_1}
                 alt="Building"
                 width={500}
                 height={300}
@@ -166,7 +167,7 @@ const WhatSetUsApart = () => {
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
               <Image
-                src={security}
+                src={security_new}
                 alt="Building"
                 width={500}
                 height={300}
@@ -222,14 +223,18 @@ const WhatSetUsApart = () => {
                 Commitment to Excellence
               </h2>
               <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2.1rem] font-light mb-4">
-                Our team of experts is dedicated to providing exceptional
-                service throughout the home buying process. We focus on
-                understanding your unique needs and preferences to guide you
-                toward the perfect luxury home. <br></br> From initial
-                consultation to final handover, we ensure a seamless and
-                enjoyable experience for our clients. Our commitment to
-                excellence guarantees that every step of your journey is smooth
-                and satisfying.
+                <div className="py-4">
+                  Our team of experts is dedicated to providing exceptional
+                  service throughout the home buying process. We focus on
+                  understanding your unique needs and preferences to guide you
+                  toward the perfect luxury home.
+                </div>
+                <div className="pt-2">
+                  From initial consultation to final handover, we ensure a
+                  seamless and enjoyable experience for our clients. Our
+                  commitment to excellence guarantees that every step of your
+                  journey is smooth and satisfying.
+                </div>
               </p>
             </div>
 

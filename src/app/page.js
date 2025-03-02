@@ -111,7 +111,7 @@ const Home = () => {
             <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
               Projects
             </h2>
-            <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[3.2rem] font-light mb-4">
+            <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] lg:leading-[2.8rem] xl:leading-[3.2rem] font-light mb-4">
               Vedam Homes crafts exceptional living spaces that embodies
               sophistication, comfort, and prestige. From thoughtfully designed
               layouts to premium finishes, the striking aesthetic is further
