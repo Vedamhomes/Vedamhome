@@ -7,7 +7,8 @@ import Image from "next/image";
 import amenity_main_image from "@/images/amenity_main_image.jpg";
 import { useState } from "react";
 import UserInputModal from "../Coponents/UserInputModal/userInputModal";
-import LuxuryandComfort from "@/images/LuxuryandComfort.jpg";
+import spaciousLiving from "@/images/LuxuryandComfort.jpg";
+import LuxuryandComfort from "@/images/Projects/Lobby/I 103 DINNING  VIEW 1.jpg";
 import Investment from "@/images/Investment.jpg";
 import location_1 from "@/images/location_1.jpg";
 import security from "@/images/security.jpg";
@@ -100,19 +101,23 @@ const WhatSetUsApart = () => {
                 Spacious Living Areas
               </h2>
               <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2.1rem] font-light mb-4">
-                Our homes feature expansive living areas that enhance comfort
-                and style, ensuring a luxurious lifestyle. With high ceilings
-                and large windows, these spaces create an open, airy atmosphere
-                that welcomes natural light throughout the day.<br></br>
-                The spacious design not only promotes relaxation but also but
-                also facilitates entertaining guests, making it perfect perfect
-                for both intimate gatherings and larger celebrations.
+                <div className="mb-8">
+                  Our homes feature expansive living areas that enhance comfort
+                  and style, ensuring a luxurious lifestyle. With high ceilings
+                  and large windows, these spaces create an open, airy
+                  atmosphere that welcomes natural light throughout the day.
+                </div>
+                <div>
+                  The spacious design not only promotes relaxation but also but
+                  also facilitates entertaining guests, making it perfect
+                  perfect for both intimate gatherings and larger celebrations.
+                </div>
               </p>
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
               <Image
-                src={uncompromising_ethic}
+                src={spaciousLiving}
                 alt="Building"
                 width={500}
                 height={300}
@@ -155,13 +160,18 @@ const WhatSetUsApart = () => {
                 Security and Privacy
               </h2>
               <p className="font-sans text-[23px] text-[#634730] tracking-[0.10em] leading-[2rem] font-light mb-4">
-                At Vedam Homes, we prioritize your safety and peace of mind. Our
-                Ultra Luxury Homes in Central Park Flower Valley are fortified
-                with state-of-the-art security measures. With 24/7 security
-                personnel and advanced surveillance systems, residents can enjoy
-                a worry-free living experience. Additionally, our gated
-                community provides a serene environment, ensuring that your home
-                is not just a space but a sanctuary.
+                <div className="mb-8">
+                  At Vedam Homes, we prioritize your safety and peace of mind.
+                  Our Ultra Luxury Homes in Central Park Flower Valley are
+                  fortified with state-of-the-art security measures.
+                </div>
+                <div>
+                  With 24/7 security personnel and advanced surveillance
+                  systems, residents can enjoy a worry-free living experience.
+                  Additionally, our gated community provides a serene
+                  environment, ensuring that your home is not just a space but a
+                  sanctuary.
+                </div>
               </p>
             </div>
 
@@ -201,7 +211,7 @@ const WhatSetUsApart = () => {
                 appreciation and strong demand, these properties ensure a
                 profitable future for homeowners and investors alike.
               </p>
-              <div>
+              <div className="mt-8">
                 <h3 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
                   Smart Investment
                 </h3>
