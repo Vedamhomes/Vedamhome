@@ -34,7 +34,7 @@ const Projectgallery = () => {
         {filteredImages.map((item, index) => (
           <motion.div
             key={index}
-            className="relative overflow-hidden rounded-lg shadow-lg h-[300px]"
+            className="relative overflow-hidden rounded-lg shadow-lg h-[400px]"
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.3 }}
             initial={{ opacity: 0, y: 50 }} // Initially hidden

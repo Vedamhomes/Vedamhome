@@ -36,7 +36,12 @@ const WhatSetUsApart = () => {
 
       <div className="bg-[#fff9f0] relative bounce_bottom top-[80dvh]">
         <div className=" py-12 buildingAnimationLeft">
-          <div className=" mx-auto px-6 flex flex-col md:flex-row items-center justify-center">
+          <div className=" mx-auto px-6 flex flex-col items-center justify-center">
+            <div> 
+              <h2 className="font-sans text-[24px] text-[#634730] tracking-[0.15em] leading-[1.55rem] text-2xl font-medium uppercase mb-4">
+              Why Vedam Homes ?
+              </h2>
+            </div>
             <div className="flex items-center flex-col px-4 text-center">
               <p
                 className="font-sans uppercase text-center text-[#7a6e66] tracking-[0.2em] 
