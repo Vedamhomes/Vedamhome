@@ -3,14 +3,16 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import IMAGE_DATA from "@/app/images";
 
-
 const Projectgallery = () => {
   const [selectedCategory, setSelectedCategory] = useState("ELEVATION");
-    const filteredImages = useMemo(() => IMAGE_DATA[selectedCategory]?.value || [], [selectedCategory]);
+  const filteredImages = useMemo(
+    () => IMAGE_DATA[selectedCategory]?.value || [],
+    [selectedCategory]
+  );
 
-    const handleCategoryChange = useCallback((category) => {
-      setSelectedCategory(category);
-    }, []);
+  const handleCategoryChange = useCallback((category) => {
+    setSelectedCategory(category);
+  }, []);
 
   return (
     <div className="w-full px-4 md:px-12 py-12">
@@ -51,12 +53,13 @@ const Projectgallery = () => {
               viewport={{ once: true, amount: 0.3 }}
             >
               <Image
+                loading="lazy"
+                unoptimized={false}
                 src={item}
                 alt={`Gallery Image ${index + 1}`}
                 layout="fill"
                 objectFit="cover"
                 className="shadow-project-image"
-                loading="lazy"
               />
             </motion.div>
           </motion.div>

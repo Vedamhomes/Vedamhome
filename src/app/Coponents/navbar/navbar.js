@@ -25,7 +25,7 @@ const Navbar = (props) => {
           <div className="z-11111 mx-auto flex justify-between items-center">
             {/* Logo and Company Name */}
             <Link href="/" className="relative flex items-center h-10 w-32">
-              <Image
+              <Image loading="lazy" unoptimized={false}
                 className="h-10 w-32 object-scale-down"
                 src={VedamLogo}
                 fill

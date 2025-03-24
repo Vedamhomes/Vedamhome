@@ -61,7 +61,7 @@ const ProgressiveScroll = () => {
             {index + 1}
           </div>
           <div className="mt-6 md:mt-0 w-full md:w-1/2 flex justify-center">
-            <Image
+            <Image loading="lazy" unoptimized={false}
               src={section.image}
               alt={section.title}
               title={section.imageTitle}

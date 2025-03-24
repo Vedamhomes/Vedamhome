@@ -23,7 +23,7 @@ const WhatSetUsApart = () => {
       </div>
 
       <div className="fixed top-0 left-0 w-full h-full">
-        <Image
+        <Image loading="lazy" unoptimized={false}
           src={drawing1}
           alt="Vedam homes amenities image"
           className="w-full h-full object-cover  "
@@ -64,7 +64,7 @@ const WhatSetUsApart = () => {
           <div className="grid md:grid-cols-2 gap-6 items-center">
             {/* Image Section */}
             <div className="rounded-2xl overflow-hidden">
-              <Image
+              <Image loading="lazy" unoptimized={false}
                 src={LuxuryandComfort}
                 alt="Luxury home at sunset"
                 width={600}
@@ -120,7 +120,7 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image
+              <Image loading="lazy" unoptimized={false}
                 src={spaciousLiving}
                 alt="Building"
                 width={500}
@@ -146,7 +146,7 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image
+              <Image loading="lazy" unoptimized={false}
                 src={location_1}
                 alt="Building"
                 width={500}
@@ -180,7 +180,7 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image
+              <Image loading="lazy" unoptimized={false}
                 src={security}
                 alt="Building"
                 width={500}
@@ -195,7 +195,7 @@ const WhatSetUsApart = () => {
           <div className="grid md:grid-cols-2 gap-6 items-center">
             {/* Image Section */}
             <div className="rounded-2xl overflow-hidden">
-              <Image
+              <Image loading="lazy" unoptimized={false}
                 src={Investment}
                 alt="Luxury home at sunset"
                 width={600}
@@ -253,7 +253,7 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image
+              <Image loading="lazy" unoptimized={false}
                 src={uncompromising_ethic}
                 alt="Building"
                 width={500}

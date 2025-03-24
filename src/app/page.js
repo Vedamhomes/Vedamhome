@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Suspense, useMemo, useState } from "react";
 import "./style.css";
 import Navbar from "./Coponents/navbar/navbar";
 import Banner from "./Coponents/Banner/banner";
@@ -12,6 +12,7 @@ import home_page_4 from "@/images/home_page_4.jpeg";
 import UserInputModal from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
 import ProjectSlider from "./Coponents/ProjectSlider/projectSlider";
+import VideoSkeleton from "./Coponents/Videoskeleton";
 
 const Home = () => {
   const [isBannerOpn, setIsBannerOpn] = useState(true);
@@ -49,17 +50,23 @@ const Home = () => {
       />
       <Navbar setIsOverlayOpn={setIsOverlayOpn} />
 
-      <div className="animation px-3 py-4 sm:px-6  sm:py-5 flex items-center justify-center box-border mt-1 w-full h-[65vh] sm:h-[88vh]">
-        <video
-          playsInline
-          muted
-          loop
-          autoPlay
-          src="first_video.mp4"
-          preload="metadata"
-          className="w-full h-full object-cover shadow-lg border-solid border-[1px] border-[#634730]"
-        />
-      </div>
+      <Suspense fallback={<VideoSkeleton />}>
+        <div className="animation px-3 py-4 sm:px-6  sm:py-5 flex items-center justify-center box-border mt-1 w-full h-[65vh] sm:h-[88vh]">
+          <video
+            controls
+            preload="none"
+            playsInline
+            muted
+            loop
+            autoPlay
+            aria-label="Video player"
+            className="w-full h-full object-cover shadow-lg border-solid border-[1px] border-[#634730]"
+          >
+            <source src="first_video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </Suspense>
 
       {mainFirstText}
 
@@ -89,6 +96,8 @@ const Home = () => {
 
           <div className="md:w-1/2 flex-1 flex items-center">
             <Image
+              loading="lazy"
+              unoptimized={false}
               src={home_page_4}
               alt="Amenities"
               width={500}
@@ -123,6 +132,8 @@ const Home = () => {
 
           <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
             <Image
+              loading="lazy"
+              unoptimized={false}
               src={buildingImage1}
               alt="Building"
               width={500}
@@ -155,6 +166,8 @@ const Home = () => {
 
           <div className="md:w-1/2 flex-1 flex items-center">
             <Image
+              loading="lazy"
+              unoptimized={false}
               src={home_page_4}
               alt="Amenities"
               width={500}

@@ -59,7 +59,7 @@ const Amenityslider = () => {
         {amenitySwiperData.map((img, index) => {
           return (
           <SwiperSlide key={index+1} className="slide flex flex-col items-center">
-            <Image
+            <Image loading="lazy" unoptimized={false}
               height={240}
               width={400}
               src={img.image}

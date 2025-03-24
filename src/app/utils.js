@@ -19,7 +19,7 @@ const getChildrenToRender = (item, i) => {
   // If children is a string and matches an image URL, render as an image
   if (typeof children === "string" && isImg.test(children)) {
     children = (
-      <Image src={children} alt="img" width={300} height={200} unoptimized />
+      <Image loading="lazy" unoptimized={false} src={children} alt="img" width={300} height={200} unoptimized />
     );
   }
 
