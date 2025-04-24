@@ -21,7 +21,7 @@ import drawing6 from "@/images/Projects/Drawing/D 175 DRAWING AND DINNING VIEW 2
 
 import elevation1 from "@/images/Projects/Elevation/3D FINAL VIEW.jpg";
 import elevation2 from "@/images/Projects/Elevation/FINAL 3D VIEW.jpg";
-import elevation3 from "@/images/Projects/Elevation/FINAL 3D VIEW.jpg";
+import elevation4 from "@/images/Projects/Elevation/elevation_new_11.jpg";
 
 import lobby1 from "@/images/Projects/Lobby/D 175 DINNING VIEW 1 OPT 2.jpg";
 import lobby2 from "@/images/Projects/Lobby/D 175 DINNING VIEW 2 OPT 2.jpg";
@@ -55,7 +55,7 @@ export const carouselItem = [
 const IMAGE_DATA = {
   ELEVATION: {
     name: "ELEVATION",
-    value: [elevation1, elevation2, elevation3],
+    value: [elevation1, elevation2, elevation4],
   },
   STILT: {
     name: "STILT",
@@ -71,7 +71,7 @@ const IMAGE_DATA = {
   },
   KITCHEN: {
     name: "KITCHEN",
-    value: [kitchen1, kitchen2, kitchen3, kitchen4],
+    value: [kitchen1, kitchen3, kitchen4],
   },
   BEDROOM: {
     name: "BEDROOM",

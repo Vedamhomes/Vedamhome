@@ -112,8 +112,8 @@ const WhatSetUsApart = () => {
                   atmosphere that welcomes natural light throughout the day.
                 </div>
                 <div>
-                  The spacious design not only promotes relaxation but also but
-                  also facilitates entertaining guests, making it perfect
+                  The spacious design not only promotes relaxation but
+                  also facilitates entertaining guests, making it 
                   perfect for both intimate gatherings and larger celebrations.
                 </div>
               </p>
@@ -172,7 +172,7 @@ const WhatSetUsApart = () => {
                 <div>
                   With 24/7 security personnel and advanced surveillance
                   systems, residents can enjoy a worry-free living experience.
-                  Additionally, our gated community provides a serene
+                  Additionally, the gated community provides a serene
                   environment, ensuring that your home is not just a space but a
                   sanctuary.
                 </div>
