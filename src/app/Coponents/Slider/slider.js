@@ -41,7 +41,7 @@ const Slider = () => {
         >
           <SwiperSlide key={0}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={DRAWING_DINNING_1}
                 alt='Building 1'
                 // height={1000}
@@ -52,7 +52,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide key={1}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={DRAWING_DINNING_2}
                 alt='Building 2'
                 // height={1000}
@@ -63,7 +63,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide key={2}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={FRONT_BEDROOM_3}
                 alt='Building 2'
                 // height={1000}
@@ -74,7 +74,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide key={3}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={FRONT_BEDROOM_4}
                 alt='Building 2'
                 // height={1000}
@@ -85,7 +85,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide key={4}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={FRONT_BEDROOM_5}
                 alt='Building 2'
                 // height={1000}
@@ -96,7 +96,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide key={5}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={KITCHEN_6}
                 alt='Building 2'
                 // height={1000}
@@ -107,7 +107,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide key={6}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={KITCHEN_7}
                 alt='Building 2'
                 // height={1000}
@@ -118,7 +118,7 @@ const Slider = () => {
           </SwiperSlide>
           <SwiperSlide key={7}>
             <div className="flex h-full w-full items-center justify-center">
-              <Image loading="lazy" unoptimized={false}
+              <Image loading="lazy" 
                 src={KITCHEN_8}
                 alt='Building 2'
                 // height={1000}

@@ -3,7 +3,7 @@
 import "./style.css";
 import Navbar from "../Coponents/navbar/navbar";
 import Footer from "../Coponents/footer/footer";
-import Image from "next/image";
+import { Image } from 'antd';
 import { useState } from "react";
 import UserInputModal from "../Coponents/UserInputModal/userInputModal";
 import spaciousLiving from "@/images/LuxuryandComfort.jpg";
@@ -23,8 +23,8 @@ const WhatSetUsApart = () => {
       </div>
 
       <div className="fixed top-0 left-0 w-full h-full">
-        <Image loading="lazy" unoptimized={false}
-          src={drawing1}
+        <Image loading="lazy" 
+          src={drawing1.src}
           alt="Vedam homes amenities image"
           className="w-full h-full object-cover  "
         />
@@ -64,8 +64,8 @@ const WhatSetUsApart = () => {
           <div className="grid md:grid-cols-2 gap-6 items-center">
             {/* Image Section */}
             <div className="rounded-2xl overflow-hidden">
-              <Image loading="lazy" unoptimized={false}
-                src={LuxuryandComfort}
+              <Image loading="lazy" 
+                src={LuxuryandComfort.src}
                 alt="Luxury home at sunset"
                 width={600}
                 height={400}
@@ -120,8 +120,8 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image loading="lazy" unoptimized={false}
-                src={spaciousLiving}
+              <Image loading="lazy" 
+                src={spaciousLiving.src}
                 alt="Building"
                 width={500}
                 height={300}
@@ -146,8 +146,8 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image loading="lazy" unoptimized={false}
-                src={location_1}
+              <Image loading="lazy" 
+                src={location_1.src}
                 alt="Building"
                 width={500}
                 height={300}
@@ -180,8 +180,8 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image loading="lazy" unoptimized={false}
-                src={security}
+              <Image loading="lazy" 
+                src={security.src}
                 alt="Building"
                 width={500}
                 height={300}
@@ -195,8 +195,8 @@ const WhatSetUsApart = () => {
           <div className="grid md:grid-cols-2 gap-6 items-center">
             {/* Image Section */}
             <div className="rounded-2xl overflow-hidden">
-              <Image loading="lazy" unoptimized={false}
-                src={Investment}
+              <Image loading="lazy" 
+                src={Investment.src}
                 alt="Luxury home at sunset"
                 width={600}
                 height={400}
@@ -253,8 +253,8 @@ const WhatSetUsApart = () => {
             </div>
 
             <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
-              <Image loading="lazy" unoptimized={false}
-                src={uncompromising_ethic}
+              <Image loading="lazy" 
+                src={uncompromising_ethic.src}
                 alt="Building"
                 width={500}
                 height={300}

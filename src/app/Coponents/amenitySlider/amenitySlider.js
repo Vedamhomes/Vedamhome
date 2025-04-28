@@ -1,12 +1,13 @@
 "use client";
-import Image from "next/image";
+import React, { useRef }  from 'react';
+import { Image } from 'antd';
 import { amenitySwiperData } from "../Content9";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Autoplay, Navigation } from "swiper/modules";
 import "./amenitySlider.css";
-import { useRef } from "react";
+
 
 const Amenityslider = () => {
   const swiperRef = useRef(null);
@@ -59,7 +60,7 @@ const Amenityslider = () => {
         {amenitySwiperData.map((img, index) => {
           return (
           <SwiperSlide key={index+1} className="slide flex flex-col items-center">
-            <Image loading="lazy" unoptimized={false}
+            <Image loading="lazy" 
               height={240}
               width={400}
               src={img.image}

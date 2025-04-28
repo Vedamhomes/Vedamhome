@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import { Image } from 'antd';
 import { motion } from "framer-motion";
 import { useWindowScroll } from "react-use";
 
@@ -61,8 +61,8 @@ const ProgressiveScroll = () => {
             {index + 1}
           </div>
           <div className="mt-6 md:mt-0 w-full md:w-1/2 flex justify-center">
-            <Image loading="lazy" unoptimized={false}
-              src={section.image}
+            <Image loading="lazy" 
+              src={section.image.src}
               alt={section.title}
               title={section.imageTitle}
               width={400}

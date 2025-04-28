@@ -10,7 +10,7 @@ import { motion } from "framer-motion";
 const itemData = carouselItem.map((item) => {
   const {key, value, altText} = item;
   return (
-    <Image loading="lazy" unoptimized={false} height={500} width={500} title={key} src={value} alt={altText} />
+    <Image loading="lazy"  height={500} width={500} title={key} src={value} alt={altText} />
   )
 })
 
@@ -31,7 +31,7 @@ const ProjectSlider = () => {
           transition={{ duration: 0.3 }}
           className="relative w-full h-80"
         >
-          <Image loading="lazy" unoptimized={false}
+          <Image loading="lazy" 
             src={item.value}
             alt={item.altText}
             title={item.key} 

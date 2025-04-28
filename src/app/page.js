@@ -5,7 +5,7 @@ import "./style.css";
 import Navbar from "./Coponents/navbar/navbar";
 import Banner from "./Coponents/Banner/banner";
 import Footer from "./Coponents/footer/footer";
-import Image from "next/image";
+import { Image } from "antd";
 import Link from "next/link";
 import buildingImage1 from "@/images/Image.jpg";
 import home_page_4 from "@/images/home_page_4.jpeg";
@@ -97,8 +97,7 @@ const Home = () => {
           <div className="md:w-1/2 flex-1 flex items-center">
             <Image
               loading="lazy"
-              unoptimized={false}
-              src={home_page_4}
+              src={home_page_4.src}
               alt="Amenities"
               width={500}
               height={300}
@@ -133,8 +132,7 @@ const Home = () => {
           <div className="md:w-1/2 md:pl-6 flex-1 flex items-center">
             <Image
               loading="lazy"
-              unoptimized={false}
-              src={buildingImage1}
+              src={buildingImage1.src}
               alt="Building"
               width={500}
               height={300}
@@ -167,8 +165,7 @@ const Home = () => {
           <div className="md:w-1/2 flex-1 flex items-center">
             <Image
               loading="lazy"
-              unoptimized={false}
-              src={home_page_4}
+              src={home_page_4.src}
               alt="Amenities"
               width={500}
               height={300}

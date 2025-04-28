@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-import Image from "next/image";
+import { Image } from 'antd';
 import { motion } from "framer-motion";
 import IMAGE_DATA from "@/app/images";
 
@@ -54,8 +54,8 @@ const Projectgallery = () => {
             >
               <Image
                 loading="lazy"
-                unoptimized={false}
-                src={item}
+                
+                src={item.src}
                 alt={`Gallery Image ${index + 1}`}
                 layout="fill"
                 objectFit="cover"

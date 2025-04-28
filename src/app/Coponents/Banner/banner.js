@@ -58,7 +58,7 @@ const Banner = (props) => {
 
           {/* Right Section */}
           <div className="w-full lg:w-1/2 h-[38vh] sm:h-[45vh]  md:h-auto">
-            <Image loading="lazy" unoptimized={false}
+            <Image loading="lazy" 
               src={bannerImage1}
               alt="bag"
               width={500} // Specify width (needed for optimization)
