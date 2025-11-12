@@ -9,7 +9,7 @@ import { Image } from "antd";
 import Link from "next/link";
 import buildingImage1 from "@/images/Image.jpg";
 import home_page_4 from "@/images/home_page_4.jpeg";
-import UserInputModal from "./Coponents/UserInputModal/userInputModal";
+import UserInputModals from "./Coponents/UserInputModal/userInputModal";
 import { ToastContainer } from "react-toastify";
 import ProjectSlider from "./Coponents/ProjectSlider/projectSlider";
 import VideoSkeleton from "./Coponents/Videoskeleton";

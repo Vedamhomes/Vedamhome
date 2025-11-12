@@ -17,7 +17,7 @@ const itemData = carouselItem.map((item) => {
 const ProjectSlider = () => {
   const [visibleIndex, setVisibleIndex] = useState(2);
   const handleSlideChange = (currentIndex) => {
-    // console.log(currentIndex);
+    console.log(currentIndexs);
     setVisibleIndex(currentIndex)
   };
   // console.log('visibleIndex', visibleIndex)

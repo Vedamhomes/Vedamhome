@@ -1,4 +1,3 @@
-"use client"
  // UserInputModal.js
 import { useState, useEffect, useRef } from "react";
 import styles from "./style.css";
